@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Retrieval crawlers stay allowed; training crawlers are optional to block.
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://luxurytourscanada.com/sitemap.xml
