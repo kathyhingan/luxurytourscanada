@@ -35,6 +35,13 @@ var NOTIFY   = 'kathyhingan@gmail.com'; // notification to Kathy's personal emai
 function doPost(e) {
   try {
     var p = e.parameter || {};
+    // Server-side phone normalization, defense in depth. Sheets treats a
+    // leading + as a formula and drops the value. site.js already converts
+    // it client-side; this covers testAppend and any direct POST. Must run
+    // before the row array is built.
+    if (p.phone && String(p.phone).indexOf('+') === 0) {
+      p.phone = '00' + String(p.phone).slice(1);
+    }
     var now = new Date();
     var tz  = Session.getScriptTimeZone();
 
@@ -117,8 +124,10 @@ grep -rl "LTC_APPS_SCRIPT_DEPLOY_TOKEN" .   # should list 18 index.html files
 ```
 
 Find and replace `LTC_APPS_SCRIPT_DEPLOY_TOKEN` inside the URL with the real
-deployment key (the part between `/macros/s/` and `/exec`). One occurrence per
-page, in the form action. Then redeploy nothing: the site is static.
+deployment key (the part between `/macros/s/` and `/exec`). Today that is ONE
+occurrence, the form action in index.html (home is the only page with a form;
+the MICE brief form is a later capture surface and will add its own action).
+Check with the grep above and expect exactly the files that carry a form.
 
 ## 5. Verify end to end (the only proof)
 

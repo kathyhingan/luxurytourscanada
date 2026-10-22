@@ -20,10 +20,17 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   });
 
-  /* Stamp the form: page slug and timestamp travel with every submission */
+  /* Stamp the form: page slug and timestamp travel with every submission.
+     Phone normalization, the LTP pattern: a leading + makes Google Sheets
+     treat the value as a formula and drop it, so a leading + becomes 00
+     and the number saves as plain text. */
   var form = document.getElementById('journeyForm');
   if(form){
     form.addEventListener('submit', function(){
+      var ph = document.getElementById('fieldPhone');
+      if(ph && ph.value.indexOf('+') === 0){
+        ph.value = '00' + ph.value.slice(1);
+      }
       var ts = document.getElementById('formTimestamp');
       var pg = document.getElementById('formPage');
       if(ts) ts.value = new Date().toISOString();

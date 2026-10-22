@@ -65,3 +65,32 @@ nothing built or changed on the site. Packet gate items stay open.
    snapshot, crons) -> 6. quality gate (Google Maps 4.2 rule) on the first partner pass.
 
 MOFU and BOFU stay parked: no live capture surface exists until items 1 to 4 land.
+
+## Addendum 2026-10-22 (am-ltc-bot verification pass)
+
+Corrections to the gap list above, verified live today:
+
+- Gap 2 CLOSED: the repo is now a git repository, commit 9fbd04b 2026-10-21
+  16:42, working tree clean. The commit carries the infra files below.
+- Gap 6 MOSTLY CLOSED: sitemap.xml, robots.txt, favicon.svg and
+  apple-touch-icon.png exist, and images/ holds stand-in SVG art for every
+  page (the commit message says stand-in art, so real photography remains a
+  Kathy item, per the no-stock-photos rule). Still missing: CNAME, 404.html,
+  images/logo.png.
+- Gap 7 CLOSED 2026-10-22: phone normalization landed. assets/site.js
+  converts a leading + to 00 on submit (client side, the LTP pattern, tested:
+  +1 604 555 0142 becomes 001 604 555 0142), and docs/form-backend.md now
+  normalizes server-side too, before the row is built, so testAppend and any
+  direct POST cannot write a formula into the sheet.
+- form-backend.md corrections: the endpoint token appears in exactly ONE page
+  (index.html, home is the only page with a form today), not 18 as the doc
+  said; the doc now says so.
+- Packet item 1 preparation: docs/story-intake-2026-10-22.md gives Kathy a
+  fill-in format for the six destination stories (page, current angle, three
+  prompts each, 80 to 150 words) and the slotting mechanic.
+- Re-verified today: python3 docs/build_all.py builds all 17 generated pages
+  plus home with zero drift against the commit; zero em dashes repo-wide;
+  luxurytourscanada.com still has no DNS (dig returns nothing for A or
+  www CNAME); no packet files landed anywhere under Documents since Oct 21.
+
+Build order unchanged, still blocked on packet items 1 to 3.
