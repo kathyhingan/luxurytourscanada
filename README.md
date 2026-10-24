@@ -40,6 +40,8 @@ Rebuild after editing content: `python3 docs/build_all.py` then
 
 1. Push to a GitHub repo + Pages (CNAME file is in the repo), then point DNS:
    apex A records 185.199.108.153/154/155/156 and www CNAME kathyhingan.github.io.
+   Full click-by-click runbook with the live DNS state:
+   docs/dns-cutover-2026-10-24.md.
 2. Add the `Leads Canada` tab (19 headers) to the shared tracker, deploy the
    STANDALONE Apps Script from docs/form-backend.md, then replace
    LTC_APPS_SCRIPT_DEPLOY_TOKEN in index.html (the one form action).
