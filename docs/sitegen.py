@@ -12,7 +12,7 @@ import json, os, html
 
 SITE = "https://luxurytourscanada.com"
 BRAND = "Luxury Tours Canada"
-FORM_ACTION = "https://script.google.com/macros/s/LTC_APPS_SCRIPT_DEPLOY_TOKEN/exec"
+FORM_ACTION = "https://script.google.com/macros/s/AKfycbwRYj-L08AOiqzyHD7jX8lJhyFTPxzXseriRz0046zeA5ySPXPGwLdQ_vShRWoGwCzf/exec"
 
 
 def esc(s):
