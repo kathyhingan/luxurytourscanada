@@ -3,7 +3,8 @@
 Sister brand to Arkipelago (luxurytoursphilippines.com), built to the same stack:
 static HTML pages, forms posting to a Google Apps Script web app that writes a
 lead sheet and emails Kathy's personal Gmail. Domain luxurytourscanada.com is
-NOT yet purchased: every canonical, og:url and schema URL already uses it.
+PURCHASED (2026-10-23): every canonical, og:url and schema URL already uses it.
+Leads land in the shared Arkipelago tracker sheet, tab `Leads Canada`.
 
 ## Status: draft v1 for Kathy review. Not deployed, not pushed.
 
@@ -37,9 +38,11 @@ Rebuild after editing content: `python3 docs/build_all.py` then
 
 ## Open items (Kathy)
 
-1. Buy luxurytourscanada.com, then push to a GitHub repo + Pages (CNAME).
-2. Create the LTC Leads sheet and deploy the Apps Script, then replace
-   LTC_APPS_SCRIPT_DEPLOY_TOKEN across the 18 pages (docs/form-backend.md).
+1. Push to a GitHub repo + Pages (CNAME file is in the repo), then point DNS:
+   apex A records 185.199.108.153/154/155/156 and www CNAME kathyhingan.github.io.
+2. Add the `Leads Canada` tab (19 headers) to the shared tracker, deploy the
+   STANDALONE Apps Script from docs/form-backend.md, then replace
+   LTC_APPS_SCRIPT_DEPLOY_TOKEN in index.html (the one form action).
 3. Photography: replace the 153 stand-ins per docs/image-manifest.md. WebP +
    JPEG fallback, hero 250 KB max, others 150 KB max.
 4. Analytics: create NEW GA4 and Clarity IDs, paste into the head block

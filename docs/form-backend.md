@@ -1,35 +1,59 @@
 # Form backend: Luxury Tours Canada lead capture
 
-Replicates the LTP stack exactly: the site form posts to a Google Apps Script
-web app, the script appends the row to a Google Sheet, and it emails a
-notification to Kathy's personal Gmail, tagged by page and segment. Nothing here
-reuses the Arkipelago sheet, script, or deployment. Do not point the LTC form at
-the LTP `/exec` URL.
+Kathy's decision (2026-10-23): LTC leads land in the SAME Google Sheet as the
+Arkipelago lead tracker, on their own tab. One place to look, one tool to open.
 
-## 1. Create the sheet (Kathy, 2 minutes)
+```
+Sheet:  13w_Tvph-NJQseB_MeBFRhCuMAr3JA4fLStnSXmDCQTo   (the Arkipelago lead tracker)
+Tab:    Leads Canada                                   (new tab, LTC only)
+Notify: kathyhingan@gmail.com                          (personal email alert per lead)
+```
 
-1. Sheets: new spreadsheet, name it `LTC Leads`.
-2. Rename `Sheet1` to `Leads`.
-3. Row 1 headers, exactly these 17 columns in this order:
+Two guardrails that make the shared sheet safe:
+
+1. **New tab, never the Leads tab.** The LTP digest and cadence scripts read the
+   `Leads` tab only (fill-colour buckets and Gmail, per the schema inventory).
+   LTC rows land in `Leads Canada`, so LTP bucket logic, the five-colour scheme,
+   and the daily digests are untouched, and LTC spam stays in its own tab.
+2. **New STANDALONE Apps Script project, never the LTP script.** The LTP capture
+   script is live production infra and never gets edited or redeployed. Create
+   this one at script.google.com > New project (standalone). It opens the shared
+   sheet by ID and deploys its own `/exec` URL.
+
+## 1. Create the tab (Kathy, 3 minutes)
+
+1. Open the Arkipelago lead tracker (the one whose `Leads` tab takes LTP leads).
+2. Add a tab named exactly `Leads Canada`.
+3. Row 1 headers, exactly these 19 columns in this order. The script writes the
+   first 17; the last 2 are your manual cadence columns, blank by default, the
+   same two the LTP tab carries (schema inventory recommends 19 so the manual
+   workflow feels identical from day one). Columns can be appended later
+   without touching Code.gs because appendRow writes from the left.
 
 ```
 Received | Form Timestamp | Name | Email | Journey Type | Phone | Dates |
 Group Size | Message | Page | Source | Quiz Who | Quiz Draw | Quiz Pace |
-Quiz Dest | Quiz Luxury | Quiz Archetype
+Quiz Dest | Quiz Luxury | Quiz Archetype | Last touch | Next scheduled call
 ```
 
-4. Copy the spreadsheet ID from the URL (the long string between `/d/` and `/edit`).
+4. Freeze row 1, fill the header row rgb(0.953, 0.953, 0.953), matching the LTP
+   Leads tab. No data validations, no conditional formats: the LTP model carries
+   lead status as manual row fills only.
 
 ## 2. Paste the script (Kathy)
 
-Sheets > Extensions > Apps Script > delete the stub > paste `Code.gs` below >
-replace `SHEET_ID` with the ID from step 1 > Save.
+script.google.com > New project (standalone, NOT opened from the sheet) > paste
+`Code.gs` below > Save. The sheet ID below is already the shared tracker: no
+editing needed.
 
 ```javascript
-// Luxury Tours Canada lead capture. Writes to the LTC Leads sheet and
-// emails kathyhingan@gmail.com. Do not reuse any Arkipelago script or sheet.
+// Luxury Tours Canada lead capture. Standalone script: appends to the
+// "Leads Canada" tab of the shared Arkipelago lead tracker and emails
+// kathyhingan@gmail.com. Does not touch the LTP script, the Leads tab,
+// or any LTP automation.
 
-var SHEET_ID = 'PASTE_THE_LTC_LEADS_SHEET_ID_HERE';
+var SHEET_ID = '13w_Tvph-NJQseB_MeBFRhCuMAr3JA4fLStnSXmDCQTo';
+var TAB_NAME = 'Leads Canada';
 var NOTIFY   = 'kathyhingan@gmail.com'; // notification to Kathy's personal email
 
 function doPost(e) {
@@ -45,6 +69,8 @@ function doPost(e) {
     var now = new Date();
     var tz  = Session.getScriptTimeZone();
 
+    // First 17 columns of "Leads Canada". Last touch and Next scheduled
+    // call are Kathy's manual columns and are left blank by the script.
     var row = [
       Utilities.formatDate(now, tz, 'yyyy-MM-dd HH:mm:ss'), // Received (sheet time)
       p.timestamp     || '',                                // Form Timestamp (client ISO)
@@ -65,8 +91,9 @@ function doPost(e) {
       p.quiz_archetype|| ''
     ];
 
-    var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Leads');
-    if (!sheet) throw new Error('No Leads tab on the LTC Leads sheet');
+    var ss = SpreadsheetApp.openById(SHEET_ID);
+    var sheet = ss.getSheetByName(TAB_NAME);
+    if (!sheet) throw new Error('No "' + TAB_NAME + '" tab on the shared tracker. Create it first (19 headers, script fills 17).');
     sheet.appendRow(row);
 
     var subject = 'LTC Lead: ' + (p.name || 'unnamed') +
@@ -99,7 +126,7 @@ function doGet() {
     .setMimeType(ContentService.MimeType.JSON);
 }
 
-// Run once from the editor to prove the sheet write works before wiring the site.
+// Run once from the editor to prove the tab write works before wiring the site.
 function testAppend() {
   doPost({ parameter: {
     name: 'TEST LTC', email: 'test@example.com', journey_type: 'Private Journey',
@@ -112,45 +139,56 @@ function testAppend() {
 
 ## 3. Deploy (Kathy)
 
-Deploy > New deployment > type: Web app > Execute as: Me > Who has access:
-Anyone > Deploy > approve the mail permission when asked > copy the `/exec` URL.
+In the NEW project only: Deploy > New deployment > type: Web app > Execute as:
+Me > Who has access: Anyone > Deploy > approve the mail and sheets permissions
+when asked > copy the `/exec` URL.
 
 ## 4. Wire the site
 
-Replace the token in every page and doc:
+Replace the token in every page that carries a form:
 
 ```
-grep -rl "LTC_APPS_SCRIPT_DEPLOY_TOKEN" .   # should list 18 index.html files
+grep -rl "LTC_APPS_SCRIPT_DEPLOY_TOKEN" .
 ```
 
 Find and replace `LTC_APPS_SCRIPT_DEPLOY_TOKEN` inside the URL with the real
 deployment key (the part between `/macros/s/` and `/exec`). Today that is ONE
 occurrence, the form action in index.html (home is the only page with a form;
 the MICE brief form is a later capture surface and will add its own action).
-Check with the grep above and expect exactly the files that carry a form.
+The site is static, so no rebuild is needed after.
 
 ## 5. Verify end to end (the only proof)
 
 The form shows its success message whether or not a row lands, so the readback
 is the proof, not the toast:
 
-1. Run `testAppend` from the editor. Check the Leads tab gets the row and
-   kathyhingan@gmail.com gets the email. Delete the test row afterwards.
+1. Run `testAppend` from the editor. Check the `Leads Canada` tab gets the row
+   and kathyhingan@gmail.com gets the email. Confirm the `Leads` tab did NOT
+   change. Delete the test row afterwards.
 2. Open the live homepage, fill the real form with real values, submit.
-3. Read the Leads tab back: the row must carry the exact values, the page tag,
-   and the journey type. Check the Gmail notification arrived.
-4. If the row does not land: the payload keys and the deployed script's
-   `e.parameter` list must agree. Any new field means editing Code.gs AND
-   redeploying as a New version (Manage deployments > pencil > New version;
-   the URL stays the same).
+3. Read the `Leads Canada` tab back: the row must carry the exact values, the
+   page tag, and the journey type, with Last touch and Next scheduled call
+   left blank for you. Check the Gmail notification arrived.
+4. If a row does not land: the payload keys and the deployed script's
+   `e.parameter` list must agree. Any new field means editing this script AND
+   redeploying as a New version (Manage deployments > pencil > New version),
+   confirming the `/exec` URL did not change, and re-checking the site.
 
 ## Notes
 
 - The form posts through a hidden iframe (`target="formSink"`), the same
   pattern the LTP stack uses, so the POST survives the Apps Script redirect
   without CORS work.
-- Submissions are tagged by `page` (set per page in the hidden `page` input)
-  and by segment (`journey_type` plus the hidden quiz fields kept for shape
-  parity with the LTP lead sheet). Each page's conversion stays measurable.
+- Submissions are tagged by `page` (per-page hidden input) and by segment
+  (`journey_type` plus the hidden quiz fields kept for shape parity with the
+  LTP lead contract). Each page's conversion stays measurable.
+- Column shape vs LTP: the live Leads tab carries 23 columns; the 7 absent here
+  (Segment, Children, Pets, Company, Budget, Last touch, Next scheduled call)
+  are either manual-enrichment columns the LTC home form does not collect, or
+  the two manual cadence columns now restored as headers 18 and 19. Full
+  cross-check in docs/lead-sheet-schema-2026-10-23.md.
 - Analytics IDs are still `[GA ID TBD]` / `[CLARITY ID TBD]` in every head.
   Insert NEW IDs when created; never reuse the Arkipelago IDs.
+- Domain: luxurytourscanada.com is PURCHASED. All canonical, og:url, and schema
+  URLs already point at it. CNAME file is in the repo for GitHub Pages,
+  matching the Arkipelago hosting pattern.

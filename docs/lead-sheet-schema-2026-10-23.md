@@ -29,7 +29,13 @@ Budget | Page | Last touch | Next scheduled call
   Explorer Map, Partner DB Raw (2026-10-15). Only the Leads tab is in scope
   for the LTC v1 capture stack.
 
-## Planned LTC Leads sheet (docs/form-backend.md): 17 columns
+UPDATE 2026-10-23, Kathy's decision: the LTC leads go into the SAME
+spreadsheet (13w_Tvph), new tab `Leads Canada`, and the Last touch and Next
+scheduled call manual columns come back as headers 18 and 19 (the 19-column
+recommendation below). The new-spreadsheet plan in the instantiation
+checklist is superseded; the column analysis below still holds.
+
+## Planned LTC tab `Leads Canada` (docs/form-backend.md): 17 script columns, 19 headers
 
 ```
 Received | Form Timestamp | Name | Email | Journey Type | Phone | Dates |
@@ -69,8 +75,7 @@ later without touching Code.gs because appendRow writes from the left.
 
 ## Instantiation checklist (gated on packet item 3, unchanged build order)
 
-1. New spreadsheet named `LTC Leads` in the account Kathy names, tab renamed
-   `Leads`.
+1. Tab `Leads Canada` added to the shared tracker 13w_Tvph (NOT the Leads tab).
 2. Row 1 headers: the 17 planned columns (or 19 per the decision above), in
    the form-backend.md order.
 3. Freeze row 1, fill the header row rgb(0.953, 0.953, 0.953). No
