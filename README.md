@@ -6,7 +6,15 @@ lead sheet and emails Kathy's personal Gmail. Domain luxurytourscanada.com is
 PURCHASED (2026-10-23): every canonical, og:url and schema URL already uses it.
 Leads land in the shared Arkipelago tracker sheet, tab `Leads Canada`.
 
-## Status: draft v1 for Kathy review. Not deployed, not pushed.
+## Status: LIVE since 2026-10-24 (published on Kathy's explicit order).
+
+Repo: github.com/kathyhingan/luxurytourscanada (public, free-plan Pages),
+GitHub Pages builds from main (last verified "built" at 24e0f7d on
+2026-10-25), custom domain attached from the CNAME file. The site is NOT
+reachable until the Namecheap DNS cutover: docs/dns-cutover-2026-10-24.md.
+Capture is proven end to end (2026-10-24): real submit on the local build
+landed exact values on the `Leads Canada` tab, fetch probe ok:true, Gmail
+alert path ran, LTP `Leads` tab untouched.
 
 ## Structure
 
@@ -38,13 +46,16 @@ Rebuild after editing content: `python3 docs/build_all.py` then
 
 ## Open items (Kathy)
 
-1. Push to a GitHub repo + Pages (CNAME file is in the repo), then point DNS:
-   apex A records 185.199.108.153/154/155/156 and www CNAME kathyhingan.github.io.
-   Full click-by-click runbook with the live DNS state:
-   docs/dns-cutover-2026-10-24.md.
-2. Add the `Leads Canada` tab (19 headers) to the shared tracker, deploy the
-   STANDALONE Apps Script from docs/form-backend.md, then replace
-   LTC_APPS_SCRIPT_DEPLOY_TOKEN in index.html (the one form action).
+1. Namecheap DNS cutover (Kathy, about 5 minutes): Domain List > Manage >
+   Advanced DNS. DELETE the parking A record (162.255.119.27), ADD four apex
+   A records @ = 185.199.108.153 / 109.153 / 110.153 / 111.153, ADD CNAME
+   www = kathyhingan.github.io. Full click-by-click runbook with the live
+   DNS state (re-verified parked 2026-10-25): docs/dns-cutover-2026-10-24.md.
+   DONE parts: repo pushed + Pages enabled + CNAME attached (2026-10-24).
+2. DONE 2026-10-24: `Leads Canada` tab live with the 19 headers, standalone
+   Apps Script deployed by Kathy, token swapped in index.html and
+   docs/sitegen.py (commit 24e0f7d), E2E readback proof on the exact
+   submitted values.
 3. Photography: replace the 153 stand-ins per docs/image-manifest.md. WebP +
    JPEG fallback, hero 250 KB max, others 150 KB max.
 4. Analytics: create NEW GA4 and Clarity IDs, paste into the head block
@@ -55,7 +66,9 @@ Rebuild after editing content: `python3 docs/build_all.py` then
    Add husband-bylined road pieces once his name is confirmed for publication.
 7. Coordinates in TouristAttraction schema are standard published values;
    re-verify each before launch (listed in docs/sitegen.py node_attraction calls).
-8. Publish dates on the two posts are the build date; reset at publish.
+8. DONE 2026-10-25: post dates reset to the publish date (2026-10-24) in
+   content_journal.py and the two journal sitemap lastmod entries bumped.
+   Rides the next push; not live until then.
 
 ## Brand rules enforced on every page
 

@@ -4,7 +4,7 @@ Posts are written from the planning and operations angle, so the byline rule
 road author's name is still to be confirmed.
 """
 
-PUBDATE = "2026-10-21"
+PUBDATE = "2026-10-24"
 
 # ---------------------------------------------------------------- hub
 
@@ -85,7 +85,7 @@ TOFINO_POST = dict(
     crumb=[("Home", "/"), ("Journal", "/journal/"), ("Tofino Storm Season", "/journal/tofino-storm-season-guide/")],
     og_image="/images/journal-tofino-hero.svg",
     og_type="article",
-    date_line="Last updated 21 October 2026",
+    date_line="Last updated 24 October 2026",
     hero=dict(
         eyebrow="BC coast, storm season",
         h1="Tofino in Storm Season: A Private Guide to the Quiet Coast",
@@ -198,7 +198,7 @@ JASPER_POST = dict(
     crumb=[("Home", "/"), ("Journal", "/journal/"), ("Jasper and Banff", "/journal/jasper-what-the-banff-coaches-miss/")],
     og_image="/images/journal-jasper-hero.svg",
     og_type="article",
-    date_line="Last updated 21 October 2026",
+    date_line="Last updated 24 October 2026",
     hero=dict(
         eyebrow="Canadian Rockies",
         h1="Private Luxury Tours in Jasper: What the Banff Coaches Never Show You",
