@@ -142,9 +142,19 @@ page, and delete the stand-in. Never ship these to production.
 | /images/journal-tofino.svg | 600x400 | Pacific storm seen from a Tofino window during storm-watching season | journal-tofino.webp |
 | /images/journal-jasper.svg | 600x400 | Maligne Lake in Jasper at dawn before the tour buses arrive | journal-jasper.webp |
 | /images/home-cta.svg | 1600x900 | Sunrise over a quiet Canadian lake on a private luxury tour | home-cta.webp |
+| /images/journal-icefields-hero.svg | 1600x900 | The Icefields Parkway in summer with a glacier above the valley | journal-icefields-hero.webp |
+| /images/journal-icefields-lead.svg | 1400x800 | Morning light on Bow Lake on the Icefields Parkway in July | journal-icefields-lead.webp |
+| /images/journal-icefields-pair-1.svg | 600x400 | Athabasca Falls in early summer on the Icefields Parkway | journal-icefields-pair-1.webp |
+| /images/journal-icefields-pair-2.svg | 600x400 | Peyto Lake from the Bow Summit viewpoint in July | journal-icefields-pair-2.webp |
+| /images/journal-icefields-quote.svg | 1600x900 | The Columbia Icefield seen from the parkway on a clear summer morning | journal-icefields-quote.webp |
+| /images/journal-icefields-landscape.svg | 1400x800 | Summer evening light on the Sunwapta River along Highway 93 | journal-icefields-landscape.webp |
+| /images/journal-icefields-closing.svg | 1400x800 | The road south from Jasper with early light on the peaks | journal-icefields-closing.webp |
+| /images/journal-icefields-cta.svg | 1600x900 | Summer on the Icefields Parkway, glacier and valley in one frame | journal-icefields-cta.webp |
 | /images/journal-hero.svg | 1600x900 | Journal of private Canada travel guides: a mountain road and a notebook at first light | journal-hero.webp |
 | /images/journal-tofino-card.svg | 600x400 | Pacific storm seen from a lodge window on the Tofino coast | journal-tofino-card.webp |
 | /images/journal-jasper-card.svg | 600x400 | Maligne Lake at dawn in Jasper before the day visitors arrive | journal-jasper-card.webp |
+| /images/journal-icefields-card.svg | 600x400 | The Icefields Parkway in summer with a glacier ahead | journal-icefields-card.webp |
+| /images/journal-saltspring-card.svg | 600x400 | Market stalls under the trees in Centennial Park, Ganges, on Salt Spring Island | journal-saltspring-card.webp |
 | /images/journal-jasper-hero.svg | 1600x900 | Luxury Jasper tour: Maligne Lake and the Canadian Rockies under a dark sky | journal-jasper-hero.webp |
 | /images/journal-jasper-lead.svg | 1400x800 | Maligne Lake at the quiet hour on a private luxury Jasper tour | journal-jasper-lead.webp |
 | /images/journal-jasper-pair-1.svg | 600x400 | Dark sky evening with a guide in the Jasper Dark Sky Preserve | journal-jasper-pair-1.webp |
@@ -153,6 +163,14 @@ page, and delete the stand-in. Never ship these to production.
 | /images/journal-jasper-landscape.svg | 1400x800 | The Icefields Parkway in autumn with golden larches and a glacier ahead | journal-jasper-landscape.webp |
 | /images/journal-jasper-closing.svg | 1400x800 | Lodge window in Jasper at dusk with mountains behind | journal-jasper-closing.webp |
 | /images/journal-jasper-cta.svg | 1600x900 | Evening light on the Canadian Rockies near Jasper | journal-jasper-cta.webp |
+| /images/journal-saltspring-hero.svg | 1600x900 | The Salt Spring Island Saturday Market in Centennial Park, Ganges, in July | journal-saltspring-hero.webp |
+| /images/journal-saltspring-lead.svg | 1400x800 | Market stalls under the trees in Centennial Park on a summer Saturday | journal-saltspring-lead.webp |
+| /images/journal-saltspring-pair-1.svg | 600x400 | A produce stall at the Salt Spring market with island vegetables | journal-saltspring-pair-1.webp |
+| /images/journal-saltspring-pair-2.svg | 600x400 | Ganges harbour seen from the park after a morning at the market | journal-saltspring-pair-2.webp |
+| /images/journal-saltspring-quote.svg | 1600x900 | Morning shoppers in Centennial Park with the market at full swing | journal-saltspring-quote.webp |
+| /images/journal-saltspring-landscape.svg | 1400x800 | The road south from Ganges with arbutus trees and the sea beyond | journal-saltspring-landscape.webp |
+| /images/journal-saltspring-closing.svg | 1400x800 | Ganges village in the late afternoon after the market crowds thin | journal-saltspring-closing.webp |
+| /images/journal-saltspring-cta.svg | 1600x900 | A summer Saturday on Salt Spring Island, market morning and a slow afternoon | journal-saltspring-cta.webp |
 | /images/journal-tofino-hero.svg | 1600x900 | Tofino storm watching: the Pacific breaking on the outer coast in winter | journal-tofino-hero.webp |
 | /images/journal-tofino-lead.svg | 1400x800 | Winter swell breaking on the rocks near Tofino during storm watching season | journal-tofino-lead.webp |
 | /images/journal-tofino-pair-1.svg | 600x400 | Rainforest trail on Meares Island near Tofino in winter | journal-tofino-pair-1.webp |

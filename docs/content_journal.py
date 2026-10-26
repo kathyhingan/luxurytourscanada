@@ -39,6 +39,14 @@ HUB = dict(
           <figure class="shot shot-card"><img src="/images/journal-jasper-card.svg" width="600" height="400" alt="Maligne Lake at dawn in Jasper before the day visitors arrive" loading="lazy"></figure>
           <div class="body"><div class="lab">Guide, Canadian Rockies</div><h3 class="card-title">Private Luxury Tours in Jasper: What the Banff Coaches Never Show You</h3><p>Dark skies, empty switchbacks, and why Jasper leads every Rockies journey we design.</p><a class="more" href="/journal/jasper-what-the-banff-coaches-miss/">Read the post</a></div>
         </article>
+        <article class="card">
+          <figure class="shot shot-card"><img src="/images/journal-icefields-card.svg" width="600" height="400" alt="The Icefields Parkway in summer with a glacier ahead" loading="lazy"></figure>
+          <div class="body"><div class="lab">Guide, Canadian Rockies</div><h3 class="card-title">Icefields Parkway Summer Drive: A Private Guide</h3><p>The stops that earn the time, the hours that avoid the crowds, and the honest 2026 status.</p><a class="more" href="/journal/icefields-parkway-summer-drive/">Read the guide</a></div>
+        </article>
+        <article class="card">
+          <figure class="shot shot-card"><img src="/images/journal-saltspring-card.svg" width="600" height="400" alt="Market stalls under the trees in Centennial Park, Ganges, on Salt Spring Island" loading="lazy"></figure>
+          <div class="body"><div class="lab">Guide, Gulf Islands</div><h3 class="card-title">Salt Spring Island Saturday Market: A Summer Guide</h3><p>Season dates, the make, bake, or grow rule, and how to build a Saturday around it.</p><a class="more" href="/journal/salt-spring-saturday-market-guide/">Read the guide</a></div>
+        </article>
       </div>
     </div>
   </section>
@@ -69,7 +77,7 @@ HUB = dict(
     <div class="wrap">
       <div class="callout">
         <div class="lab">Coming next</div>
-        <p>A September guide to the Rockies for the golden larches, an honest look at the Ontario lakeshore as a wine journey, and a piece on travelling Canada with a toddler that does not pretend the drives are short.</p>
+        <p>A Clayoquot Sound guide to private boat days on the BC coast, a Lake Louise sunrise guide, an honest look at the Ontario lakeshore as a wine journey, and a piece on travelling Canada with a toddler that does not pretend the drives are short.</p>
       </div>
     </div>
   </section>
@@ -301,4 +309,234 @@ JASPER_POST = dict(
         "journal/jasper-what-the-banff-coaches-miss/", "/images/journal-jasper-hero.svg", PUBDATE, "Kathy Hingan")],
 )
 
-ALL = [HUB, TOFINO_POST, JASPER_POST]
+# ---------------------------------------------------------------- Icefields Parkway summer (Nov 2026 draft, gated on Kathy approval)
+
+ICEFIELDS_PUBDATE = "2026-11-07"  # planned publish; bump to the real date on approval
+
+ICEFIELDS_POST = dict(
+    path="journal/icefields-parkway-summer-drive/",
+    title="Icefields Parkway Summer Drive: A Private Guide",
+    desc="The Icefields Parkway summer drive, honestly: the stops that earn the time, the hours that avoid the crowds, and what is open after the 2024 wildfire.",
+    crumb=[("Home", "/"), ("Journal", "/journal/"), ("Icefields Parkway Summer Drive", "/journal/icefields-parkway-summer-drive/")],
+    og_image="/images/journal-icefields-hero.svg",
+    og_type="article",
+    date_line="Publishing November 2026",
+    hero=dict(
+        eyebrow="Canadian Rockies, summer",
+        h1="The Icefields Parkway Summer Drive: A Private Guide",
+        sub="By Kathy Hingan, Luxury Tours Canada. Publishing November 2026. Nine minutes to read.",
+        img="/images/journal-icefields-hero.svg",
+        alt="The Icefields Parkway in summer with a glacier above the valley",
+        cta="Begin Your Journey",
+    ),
+    body="""
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <p>The parkway does something to time. You leave Lake Louise after breakfast, and twenty minutes later the Trans-Canada is behind you, the road narrows to two lanes of curves, and the day has already changed shape: glaciated peaks on both sides, the Bow River running turquoise beside you, and 232 kilometres of it ahead.</p>
+        <p>Summer is when the parkway is at its fullest, and also when it is at its best. Mid-June to early September is peak season on this road, which means long daylight, wildflowers on the meadows, and pull-offs that fill by mid-morning. The drive rewards one thing above everything else, and that is an early start. Everything in this guide is written from that premise.</p>
+        <figure class="shot shot-wide">
+          <img src="/images/journal-icefields-lead.svg" width="1400" height="800" alt="Morning light on Bow Lake on the Icefields Parkway in July" loading="lazy">
+          <figcaption>Bow Lake at eight in the morning, before the pull-off fills.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier">
+    <div class="wrap">
+      <div class="prose">
+        <h2>Where does a private Icefields Parkway summer drive stop?</h2>
+        <p>The classic stops earn their time: Athabasca Falls, Sunwapta Falls, the Goats and Glaciers viewpoint, the Columbia Icefield, Bow Lake, Crowfoot Glacier, and the short climb to the Peyto Lake viewpoint. What a private day changes is the order and the hour. We run the road in the direction that keeps the low sun behind you, reach the waterfalls and the viewpoint before the tour coaches, and hold the Icefield for late morning, when the first wave has cleared.</p>
+        <p>The road itself carries almost nothing: one fuel stop at Saskatchewan River Crossing, open with the season from early May to mid-October, and not much else between Lake Louise and Jasper. You start with a full tank, carry water, and treat the wildlife rules as absolute: bears on the roadside are watched from the car, at distance, with the engine running.</p>
+      </div>
+      <div class="grid g-2">
+        <figure class="shot shot-card"><img src="/images/journal-icefields-pair-1.svg" width="600" height="400" alt="Athabasca Falls in early summer on the Icefields Parkway" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/journal-icefields-pair-2.svg" width="600" height="400" alt="Peyto Lake from the Bow Summit viewpoint in July" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" aria-label="Pull quote">
+    <img src="/images/journal-icefields-quote.svg" width="1600" height="900" alt="The Columbia Icefield seen from the parkway on a clear summer morning" loading="lazy">
+    <div class="veil"></div>
+    <div class="inner">
+      <blockquote>The parkway is not a transfer between two places. Run well, it is the reason the journey exists.</blockquote>
+    </div>
+  </section>
+
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <h2>When to go, and what the summer actually looks like</h2>
+        <p>The full summer window runs from late June to early September, with July and August the most reliable months: every viewpoint open, every service running, and daylight that runs past ten in the evening around the solstice. June is quieter but holds snow at the high viewpoints into the month. September brings thinner crowds and cooler mornings, and it is the month we would choose for the drive itself.</p>
+        <p>Two practical notes. Services on the road run with the season, so a June plan and a September plan need the fuel and food stops confirmed in advance. And the altitude is real: Lake Louise sits at about 1,600 metres, so the first day at height is designed short and gentle, exactly as on every Rockies journey we build.</p>
+        <p class="small">One operational note worth having: road status on the parkway changes with weather in every season. We check Alberta 511 the morning of the drive, and every itinerary carries a fallback day written in advance.</p>
+      </div>
+      <figure class="shot shot-wide">
+        <img src="/images/journal-icefields-landscape.svg" width="1400" height="800" alt="Summer evening light on the Sunwapta River along Highway 93" loading="lazy">
+        <figcaption>Evening on the Sunwapta River, with the long light of a summer night.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band-glacier">
+    <div class="wrap">
+      <div class="callout">
+        <div class="lab">For independent travellers</div>
+        <p>The parkway rewards the traveller who wants the road itself: an early start, four or five real stops, and no schedule to defend. The ice rides and the skywalk at the Columbia Icefield run on a season of their own, typically May to mid-October, and they are worth the hours.</p>
+      </div>
+      <div class="callout">
+        <div class="lab">For retirees and families</div>
+        <p>No departure before half past eight, the road driven in short legs between the stops that have washrooms and level paths, and wildlife viewed from the car. Children over eight get the most from a full parkway day; younger children do better with the drive split across two days.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <h2>What a private guide changes about the summer drive</h2>
+        <p>Timing, direction, and honesty about what is open. Timing gets you Peyto Lake before the mid-morning wave and the Falls while the light is still on the lip. Direction keeps the sun behind you at the viewpoints that face south. And honesty matters this year more than most: the parkway and its landmarks sit outside the area burned in the 2024 Jasper wildfire, and the road is fully open, but recovery around Jasper is still a live picture, so every journey we quote is built on the current Parks Canada status rather than last year's notes.</p>
+        <p>That is the difference between driving the road and being shown it.</p>
+        <figure class="shot shot-wide">
+          <img src="/images/journal-icefields-closing.svg" width="1400" height="800" alt="The road south from Jasper with early light on the peaks" loading="lazy">
+          <figcaption>The end of a parkway day, with the peaks still lit.</figcaption>
+        </figure>
+        <p>Read more about the <a href="/destinations/banff-yoho-private-tour/">Icefields Parkway and Yoho</a> private journey, a <a href="/destinations/jasper-private-tour/">Jasper private tour</a>, or our field notes on <a href="/journal/jasper-what-the-banff-coaches-miss/">what the Banff coaches never show you</a>.</p>
+      </div>
+    </div>
+  </section>
+""",
+    cta_band=("/images/journal-icefields-cta.svg", "Summer on the Icefields Parkway, glacier and valley in one frame",
+              "Begin Your Journey", "Tell us when you are going, and we will tell you what the road will be like.", "Begin Your Journey"),
+    faq=[
+        ("Is the Icefields Parkway fully open in 2026?",
+         "<p>Yes. The road is open year round, and the parkway and its landmarks sit outside the 2024 Jasper wildfire burn area. What is seasonal is everything on it: the fuel stop and food services run from early May to mid-October, and winter travel carries tire or chain rules from November to March. In storm weather we confirm the road with Alberta 511 before setting out.</p>"),
+        ("How long should a summer day on the parkway take?",
+         "<p>The full drive needs a day in each direction, done properly. We build it as two days with a night in Jasper, reach the waterfalls and viewpoints in the quiet hours, and treat the road itself as the experience rather than the transfer between Lake Louise and Jasper.</p>"),
+        ("What is still closed after the 2024 wildfire?",
+         "<p>The parkway itself is fully open, and so are the landmarks along it. Around Jasper, Maligne Canyon and the Cavell Road with its two trails are closed for the 2026 season, while trails such as the Valley of the Five Lakes have reopened. Status changes as recovery continues, so every journey is quoted on the current Parks Canada position, stated plainly before you travel.</p>"),
+    ],
+    extra_nodes=lambda sg: [sg.node_article(
+        "Icefields Parkway Summer Drive: A Private Guide",
+        "An honest private guide to the Icefields Parkway summer drive: the stops that earn the time, the hours that avoid the crowds, and the current status after the 2024 Jasper wildfire.",
+        "journal/icefields-parkway-summer-drive/", "/images/journal-icefields-hero.svg", ICEFIELDS_PUBDATE, "Kathy Hingan")],
+)
+
+# ---------------------------------------------------------------- Salt Spring Saturday Market (Nov 2026 draft, gated on Kathy approval)
+
+SALTSPRING_PUBDATE = "2026-11-14"  # planned publish; bump to the real date on approval
+
+SALTSPRING_POST = dict(
+    path="journal/salt-spring-saturday-market-guide/",
+    title="Salt Spring Island Saturday Market: A Summer Guide",
+    desc="The Salt Spring Island Saturday Market explained: season dates and hours, the make, bake, or grow rule, and how a private day builds around it.",
+    crumb=[("Home", "/"), ("Journal", "/journal/"), ("Salt Spring Saturday Market", "/journal/salt-spring-saturday-market-guide/")],
+    og_image="/images/journal-saltspring-hero.svg",
+    og_type="article",
+    date_line="Publishing November 2026",
+    hero=dict(
+        eyebrow="Gulf Islands, summer",
+        h1="The Salt Spring Island Saturday Market: A Summer Guide",
+        sub="By Kathy Hingan, Luxury Tours Canada. Publishing November 2026. Eight minutes to read.",
+        img="/images/journal-saltspring-hero.svg",
+        alt="The Salt Spring Island Saturday Market in Centennial Park, Ganges, in July",
+        cta="Begin Your Journey",
+    ),
+    body="""
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <p>The Saturday market is the island's clock. By nine in the morning the park in the middle of Ganges is full: tables of vegetables still wet from the ground, bread in paper bags, cheese, honey, woodwork, paintings that came straight from the studio. Everything on the tables was made, baked, or grown by the person standing behind it, and that rule is the reason the market has run since the 1970s.</p>
+        <p>Summer is the market at full strength. The season runs every Saturday from early April to the end of October, and from the last Saturday of June to the Labour Day weekend the stalls stay up an hour longer, until four. This guide is about making a market Saturday the anchor of an island day, because that is what the island itself does.</p>
+        <figure class="shot shot-wide">
+          <img src="/images/journal-saltspring-lead.svg" width="1400" height="800" alt="Market stalls under the trees in Centennial Park on a summer Saturday" loading="lazy">
+          <figcaption>Centennial Park in July, stalls up and the morning still cool.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier">
+    <div class="wrap">
+      <div class="prose">
+        <h2>What makes the Salt Spring Island Saturday Market different?</h2>
+        <p>The rule is the difference. Most markets allow resellers; this one does not. The make, bake, or grow standard means the jam, the glaze on the pottery, and the salad greens all come from the same hands you are buying from, and a question about any of it gets answered by the maker. For a visitor it is the fastest hour of local contact the island gives.</p>
+        <p>The practical details matter. The market sits in Centennial Park in the village of Ganges, with parking tight on summer Saturdays, so we build the morning to arrive before nine and walk in from the harbour. Dogs stay out of the park by bylaw, which surprises visitors, and a daycare for them runs through the summer months. Bring a bag, and eat breakfast first: the baking goes early.</p>
+      </div>
+      <div class="grid g-2">
+        <figure class="shot shot-card"><img src="/images/journal-saltspring-pair-1.svg" width="600" height="400" alt="A produce stall at the Salt Spring market with island vegetables" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/journal-saltspring-pair-2.svg" width="600" height="400" alt="Ganges harbour seen from the park after a morning at the market" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" aria-label="Pull quote">
+    <img src="/images/journal-saltspring-quote.svg" width="1600" height="900" alt="Morning shoppers in Centennial Park with the market at full swing" loading="lazy">
+    <div class="veil"></div>
+    <div class="inner">
+      <blockquote>Everything sold in the park was made, baked, or grown by the hand that sells it.</blockquote>
+    </div>
+  </section>
+
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <h2>When to go, and how a market Saturday fits a journey</h2>
+        <p>The season runs from the first Saturday of April to the last of October, nine in the morning to three in the shoulder months and to four in high season. High season runs from the last Saturday of June to the Labour Day weekend. In December the market returns for the first three Saturdays, ten to three, which is a smaller, woodsmoke version of the same thing and worth knowing about if winter is your season on the coast.</p>
+        <p>A market morning pairs naturally with the rest of the island: the studios and farms that open through the week, the viewpoint road up Mount Maxwell, a slow afternoon on the southern end at Ruckle Park, and a ferry home that leaves the day unhurried.</p>
+        <p class="small">One operational note worth having: summer ferries to Salt Spring run on sailings that fill, so the day is built around the boat times first and the market hours second. That ordering is most of what a private plan buys you here.</p>
+      </div>
+      <figure class="shot shot-wide">
+        <img src="/images/journal-saltspring-landscape.svg" width="1400" height="800" alt="The road south from Ganges with arbutus trees and the sea beyond" loading="lazy">
+        <figcaption>The road south from Ganges, arbutus and sea, on an afternoon with no schedule.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band-glacier">
+    <div class="wrap">
+      <div class="callout">
+        <div class="lab">For couples</div>
+        <p>Arrive on the Friday, take the market slowly on Saturday morning, and give the afternoon to the vineyards and the viewpoint. The island is small, and a day without a schedule suits it.</p>
+      </div>
+      <div class="callout">
+        <div class="lab">For families</div>
+        <p>The market is genuinely good with children: room to move, food they will actually eat, and makers who will talk to them. Keep the morning to the park, swim in the afternoon, and let the ferry be the last event of the day rather than the race.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white">
+    <div class="wrap">
+      <div class="prose">
+        <h2>What a private guide changes about a market day</h2>
+        <p>Timing, mostly, and the day built around it. The ferry sailings, the parking, the hour the baking goes, the farms and studios that answer when you arrive: a private day chains these so the market is the anchor and not the queue. We build the day around the boat times, put the market first, and leave the afternoon open enough to follow whatever the makers point you toward.</p>
+        <p>That is the difference between visiting the market and having a Salt Spring Saturday.</p>
+        <figure class="shot shot-wide">
+          <img src="/images/journal-saltspring-closing.svg" width="1400" height="800" alt="Ganges village in the late afternoon after the market crowds thin" loading="lazy">
+          <figcaption>Ganges in the late afternoon, the market packed down and the village quiet again.</figcaption>
+        </figure>
+        <p>Plan your own <a href="/destinations/salt-spring-island-private-tour/">Salt Spring Island private tour</a>, see how the Gulf Islands pair with the outer coast in <a href="/journal/tofino-storm-season-guide/">Tofino in storm season</a>, or browse the full <a href="/destinations/">destinations index</a>.</p>
+      </div>
+    </div>
+  </section>
+""",
+    cta_band=("/images/journal-saltspring-cta.svg", "A summer Saturday on Salt Spring Island, market morning and a slow afternoon",
+              "Begin Your Journey", "Tell us your dates, and we will build the island Saturday around them.", "Begin Your Journey"),
+    faq=[
+        ("When does the Salt Spring Island Saturday Market run?",
+         "<p>Every Saturday from the first Saturday of April to the last of October. Hours are nine to three in the shoulder months and nine to four in high season, from the last Saturday of June to the Labour Day weekend. The market also returns for the first three Saturdays of December, ten to three.</p>"),
+        ("Can anything be bought at the market that was not made on the island?",
+         "<p>No. The market has run on a make, bake, or grow rule since the 1970s: everything sold is made, baked, or grown by the vendor behind the table. That rule is why the produce, the baking, and the craft are all traceable to a person, and why the market is worth planning a morning around.</p>"),
+        ("Is a market day worth building a journey around?",
+         "<p>In summer, yes. Pair the morning in Ganges with the farms, studios, and viewpoints that open through the afternoon, and build the day around the ferry sailings rather than the market hours. With the boats timed first, the market becomes the anchor of the island day instead of a stop on it.</p>"),
+    ],
+    extra_nodes=lambda sg: [sg.node_article(
+        "Salt Spring Island Saturday Market: A Summer Guide",
+        "Season dates and hours for the Salt Spring Island Saturday Market, the make, bake, or grow rule, and how a private day on the island builds around it.",
+        "journal/salt-spring-saturday-market-guide/", "/images/journal-saltspring-hero.svg", SALTSPRING_PUBDATE, "Kathy Hingan")],
+)
+
+ALL = [HUB, TOFINO_POST, JASPER_POST, ICEFIELDS_POST, SALTSPRING_POST]

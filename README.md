@@ -10,8 +10,9 @@ Leads land in the shared Arkipelago tracker sheet, tab `Leads Canada`.
 
 Repo: github.com/kathyhingan/luxurytourscanada (public, free-plan Pages),
 GitHub Pages builds from main (last verified "built" at 24e0f7d on
-2026-10-25), custom domain attached from the CNAME file. The site is NOT
+2026-10-26), custom domain attached from the CNAME file. The site is NOT
 reachable until the Namecheap DNS cutover: docs/dns-cutover-2026-10-24.md.
+The local tree is 2 commits ahead of origin and rides the next push.
 Capture is proven end to end (2026-10-24): real submit on the local build
 landed exact values on the `Leads Canada` tab, fetch probe ok:true, Gmail
 alert path ran, LTP `Leads` tab untouched.
@@ -22,10 +23,10 @@ alert path ran, LTP `Leads` tab untouched.
 index.html                  homepage + quote form at /#begin
 destinations/               hub + Tofino, Salt Spring, Jasper, Banff & Yoho, PEC, Niagara-on-the-Lake
 experiences/                hub + private tours, honeymoons & proposals, families, retirees, corporate & MICE
-journal/                    hub + 2 seed posts (Tofino storm season, Jasper)
+journal/                    hub + 4 posts (2 live seeds, 2 November drafts staged locally)
 about/                      brand story, how we work
 assets/site.css, site.js    shared design system and behaviours
-images/                     153 labelled SVG stand-ins (real photos replace them)
+images/                     171 labelled SVG stand-ins (real photos replace them)
 favicon.svg                 custom stylised leaf (NOT the official 11-point leaf)
 docs/                       generator, content modules, form backend, manifest
 ```
@@ -69,6 +70,19 @@ Rebuild after editing content: `python3 docs/build_all.py` then
 8. DONE 2026-10-25: post dates reset to the publish date (2026-10-24) in
    content_journal.py and the two journal sitemap lastmod entries bumped.
    Rides the next push; not live until then.
+9. STAGED 2026-10-26, needs Kathy's approval of the exact text: the two
+   November journal posts are drafted in content_journal.py (Icefields
+   Parkway summer drive, primary keyword "icefields parkway summer drive",
+   planned 2026-11-07; Salt Spring Island Saturday Market, primary keyword
+   "salt spring island saturday market", planned 2026-11-14). Facts verified
+   live 2026-10-26: market season April 4 to October 31, 9 to 3 shoulder /
+   9 to 4 high season (saltspringmarket.com + 2026 vendor guidelines);
+   parkway fully open, fuel stop May to mid-October, Maligne Canyon and
+   Cavell Road closed for 2026 (Parks Canada recovery report + 2026 season
+   sources). On approval: set both date_line values and the sitemap lastmod
+   rows to the real publish date, then the tree rides the next push. Full
+   verification passed 2026-10-26: audit 20 pages clean, sweep 390/1440,
+   FAQ one-open-at-a-time, keyword ledger updated (drafted).
 
 ## Brand rules enforced on every page
 
