@@ -9,12 +9,12 @@ HUB = dict(
     title="Private Canada Tours | Destinations | Luxury Tours Canada",
     desc="Three regions for private Canada tours: the BC coast, the Rockies, and the Ontario lakeshore. Honest seasons, real drive times, eight guests maximum.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/")],
-    og_image="/images/dest-clusters.svg",
+    og_image="/images/dest-hero.jpg",
     hero=dict(
         eyebrow="Three regions, four seasons",
         h1="Private Canada Tours: Three Regions That Deserve More Than a Week",
         sub="Canada is the second largest country on earth. We do not pretend to cover it in a fortnight. We build journeys in the three regions we know best, and we build them slowly.",
-        img="/images/dest-hero.svg",
+        img="/images/dest-hero.jpg",
         alt="Private Canada tours: a quiet highway through the Canadian Rockies at first light",
         cta="Begin Your Journey",
     ),
@@ -37,7 +37,7 @@ HUB = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-tofino.svg" width="600" height="400" alt="Private boat in Clayoquot Sound near Tofino, British Columbia" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-tofino.jpg" width="600" height="400" alt="Private boat in Clayoquot Sound near Tofino, British Columbia" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Tofino, British Columbia</h3>
             <p>Outer Clayoquot Sound by private boat, Hot Springs Cove timed away from the tour boats, whale and bear watching with a naturalist, and a winter storm season almost nobody sees.</p>
@@ -45,7 +45,7 @@ HUB = dict(
           </div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-saltspring.svg" width="600" height="400" alt="Farm stand and vineyard on Salt Spring Island in the Gulf Islands, British Columbia" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-saltspring.jpg" width="600" height="400" alt="Farm stand and vineyard on Salt Spring Island in the Gulf Islands, British Columbia" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Salt Spring Island, British Columbia</h3>
             <p>The largest of the Gulf Islands, reached by floatplane from Vancouver. Farm tables, a Saturday market, Mount Maxwell, and warm-lake swimming in summer.</p>
@@ -65,7 +65,7 @@ HUB = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-jasper.svg" width="600" height="400" alt="Maligne Lake in Jasper National Park at dawn on a private Jasper tour" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-jasper.jpg" width="600" height="400" alt="Maligne Lake in Jasper National Park at dawn on a private Jasper tour" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Jasper, Alberta</h3>
             <p>Larger and quieter than Banff, under one of the largest dark-sky preserves on earth. Maligne Lake at the quiet hours, the Athabasca Glacier, and wildlife viewed at distance, always guide-led.</p>
@@ -73,7 +73,7 @@ HUB = dict(
           </div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-banff.svg" width="600" height="400" alt="Icefields Parkway private tour between Lake Louise and Jasper in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-banff.jpg" width="600" height="400" alt="Icefields Parkway private tour between Lake Louise and Jasper in the Canadian Rockies" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Banff and Yoho, Alberta and BC</h3>
             <p>Banff and Lake Louise at dawn, in shoulder season, or by routes that bypass the queues. Emerald Lake and Takakkaw Falls, the quieter neighbours, and 232 kilometres of the Icefields Parkway.</p>
@@ -94,7 +94,7 @@ HUB = dict(
           <p class="small" style="margin-top:14px">Almost no operator sells southern Ontario as a journey, which is exactly why it belongs in ours. The whole length of it has been ridden, not driven.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/dest-lakeshore.svg" width="1400" height="800" alt="Lakeside vineyards on the Ontario lakeshore near Prince Edward County" loading="lazy">
+          <img src="/images/dest-lakeshore.jpg" width="1400" height="800" alt="Lakeside vineyards on the Ontario lakeshore near Prince Edward County" loading="lazy">
           <figcaption>Wine harvest runs late September into October.</figcaption>
         </figure>
       </div>
@@ -109,7 +109,7 @@ HUB = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-pec.svg" width="600" height="400" alt="Sandbanks dunes and vineyard rows in Prince Edward County, Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-pec.jpg" width="600" height="400" alt="Sandbanks dunes and vineyard rows in Prince Edward County, Ontario" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Prince Edward County</h3>
             <p>Wine, farm tables, and the Sandbanks dunes, an hour and a half from the heritage waterfront at Kingston.</p>
@@ -117,7 +117,7 @@ HUB = dict(
           </div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-notl.svg" width="600" height="400" alt="Winery visit with the winemaker in Niagara-on-the-Lake, Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-notl.jpg" width="600" height="400" alt="Winery visit with the winemaker in Niagara-on-the-Lake, Ontario" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Niagara-on-the-Lake</h3>
             <p>Winery visits with the winemaker, and icewine in January, when the harvest happens on the coldest nights of the year.</p>
@@ -125,7 +125,7 @@ HUB = dict(
           </div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/dest-pelee.svg" width="600" height="400" alt="Monarch butterflies at Point Pelee National Park, the southernmost point of mainland Canada" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/dest-pelee.jpg" width="600" height="400" alt="Monarch butterflies at Point Pelee National Park, the southernmost point of mainland Canada" loading="lazy"></figure>
           <div class="body">
             <h3 class="card-title">Point Pelee and Essex County</h3>
             <p>The southernmost point of mainland Canada: spring bird migration in May, monarchs in September, and Lake Erie wine country.</p>
@@ -177,12 +177,12 @@ TOFINO = dict(
     title="Tofino Private Tour | Luxury BC Coast | Luxury Tours Canada",
     desc="Private Tofino tours built around the outer coast: Clayoquot Sound by private boat, Hot Springs Cove, whales and bears, and storm season. Maximum eight guests.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Tofino", "/destinations/tofino-private-tour/")],
-    og_image="/images/tofino-hero.svg",
+    og_image="/images/tofino-hero.jpg",
     hero=dict(
         eyebrow="British Columbia, Pacific coast",
         h1="Tofino Private Tour: Where the Road Ends at the Pacific",
         sub="Storms you watch from a soaking tub, an old-growth island, and the outer waters of Clayoquot Sound reached by private boat while the beach car park fills up behind you.",
-        img="/images/tofino-hero.svg",
+        img="/images/tofino-hero.jpg",
         alt="Tofino private tour: a private boat on the outer waters of Clayoquot Sound at first light",
         cta="Plan My Tofino Journey",
     ),
@@ -196,7 +196,7 @@ TOFINO = dict(
         <p>What Tofino does best is found in May and June, from September into October, and through the winter, when the Pacific puts on a show and almost nobody is there to see it. The road in from Nanaimo takes roughly three and a half to four hours, and it is one of the finest drives on the coast. A floatplane is the other way in, so the journey can begin above the water.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/tofino-landscape.svg" width="1400" height="800" alt="Clayoquot Sound private boat tour passing a forested island on the Tofino coast" loading="lazy">
+        <img src="/images/tofino-landscape.jpg" width="1400" height="800" alt="Clayoquot Sound private boat tour passing a forested island on the Tofino coast" loading="lazy">
         <figcaption>Chesterman Beach before eight, when the sand still belongs to the shorebirds.</figcaption>
       </figure>
     </div>
@@ -210,19 +210,19 @@ TOFINO = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-hotsprings.svg" width="600" height="400" alt="Hot Springs Cove near Tofino reached by private water taxi" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-hotsprings.jpg" width="600" height="400" alt="Hot Springs Cove near Tofino reached by private water taxi" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Hot Springs Cove by private boat</h3><p>A private water taxi out to the springs, timed so the soak happens after the tour boats have gone. Boardwalk, steam, and the open Pacific beyond.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-clayoquot.svg" width="600" height="400" alt="Whale watching from a private boat in Clayoquot Sound near Tofino" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-clayoquot.jpg" width="600" height="400" alt="Whale watching from a private boat in Clayoquot Sound near Tofino" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Clayoquot Sound by private boat</h3><p>Whales, sea lions, and black bears turning rocks on the low tide line, with a naturalist guide and a vessel that goes where the larger boats cannot.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-meares.svg" width="600" height="400" alt="Old-growth forest walk on Meares Island near Tofino with a guide" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-meares.jpg" width="600" height="400" alt="Old-growth forest walk on Meares Island near Tofino with a guide" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Meares Island old growth</h3><p>A guided walk among cedars older than most countries, on an island that was protected by the people who live here. Mud boots provided, pace set by the forest.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-storm.svg" width="600" height="400" alt="Winter storm watching on the Pacific Rim coast near Tofino" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-storm.jpg" width="600" height="400" alt="Winter storm watching on the Pacific Rim coast near Tofino" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Winter storm watching</h3><p>From November to February the swell arrives in sets you can hear from the lodge. We book the room with the window, and the soaking tub, for exactly this.</p></div>
         </article>
       </div>
@@ -236,10 +236,10 @@ TOFINO = dict(
         <h2 class="section-title">The coast at its quietest</h2>
       </div>
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/tofino-mosaic-1.svg" width="800" height="1000" alt="Rainforest trail above the beach near Tofino" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/tofino-mosaic-1.jpg" width="800" height="1000" alt="Rainforest trail above the beach near Tofino" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/tofino-mosaic-2.svg" width="600" height="400" alt="Floatplane arriving at Tofino harbour on the west coast of Vancouver Island" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/tofino-mosaic-3.svg" width="600" height="400" alt="Fishing boats at anchor in Tofino harbour at dusk" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-mosaic-2.jpg" width="600" height="400" alt="Floatplane arriving at Tofino harbour on the west coast of Vancouver Island" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/tofino-mosaic-3.jpg" width="600" height="400" alt="Fishing boats at anchor in Tofino harbour at dusk" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -285,7 +285,7 @@ TOFINO = dict(
           <p>Everything in the plan has been done here first: the soak at Hot Springs Cove after the boats leave, the walk on Meares Island at the hour the light comes through the canopy, the table at the end of the day where the fishing boats are still coming in.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/tofino-guide.svg" width="1400" height="800" alt="Private guide scanning the water for whales on a Tofino boat day" loading="lazy">
+          <img src="/images/tofino-guide.jpg" width="1400" height="800" alt="Private guide scanning the water for whales on a Tofino boat day" loading="lazy">
           <figcaption>Wildlife is viewed at distance, guide-led, always.</figcaption>
         </figure>
       </div>
@@ -303,7 +303,7 @@ TOFINO = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Tofino, British Columbia, Canada",
         "Private luxury tours of Tofino and Clayoquot Sound on the west coast of Vancouver Island, including private boat days, Hot Springs Cove, and storm season.",
-        "destinations/tofino-private-tour/", 49.1530, -125.7671, "/images/tofino-hero.svg",
+        "destinations/tofino-private-tour/", 49.1530, -125.7671, "/images/tofino-hero.jpg",
         ["Couples", "Retirees", "Independent travellers", "Families"])],
 )
 
@@ -314,12 +314,12 @@ SALTSPRING = dict(
     title="Salt Spring Island Private Tour | Luxury Tours Canada",
     desc="A Salt Spring Island private tour at an unhurried pace: farm tables, the Ganges market, Mount Maxwell, and floatplane transfers from Vancouver.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Salt Spring Island", "/destinations/salt-spring-island-private-tour/")],
-    og_image="/images/saltspring-hero.svg",
+    og_image="/images/saltspring-hero.jpg",
     hero=dict(
         eyebrow="British Columbia, Gulf Islands",
         h1="Salt Spring Island Private Tour: The Island That Still Runs on Farm Stands",
         sub="The largest of the Gulf Islands, thirty five minutes by floatplane from Vancouver, and a life measured in market mornings, orchard walks, and the view from Mount Maxwell.",
-        img="/images/saltspring-hero.svg",
+        img="/images/saltspring-hero.jpg",
         alt="Salt Spring Island private tour: a farm stand and orchard on the Gulf Islands waterfront",
         cta="Plan My Salt Spring Journey",
     ),
@@ -333,7 +333,7 @@ SALTSPRING = dict(
         <p>You arrive by floatplane from Vancouver, or by ferry with the vehicle on deck, and the island does the rest. Drives run fifteen minutes, not three hours. Our retirees tell us this is the leg where they finally exhale, and our couples book it for the same reason.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/saltspring-landscape.svg" width="1400" height="800" alt="Salt Spring Island farm and vineyard view over the southern Gulf Islands" loading="lazy">
+        <img src="/images/saltspring-landscape.jpg" width="1400" height="800" alt="Salt Spring Island farm and vineyard view over the southern Gulf Islands" loading="lazy">
         <figcaption>Mount Maxwell, late afternoon, looking south over the Gulf Islands.</figcaption>
       </figure>
     </div>
@@ -347,19 +347,19 @@ SALTSPRING = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/saltspring-ganges.svg" width="600" height="400" alt="The Saturday market at Ganges on Salt Spring Island" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-ganges.jpg" width="600" height="400" alt="The Saturday market at Ganges on Salt Spring Island" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">The Ganges market</h3><p>Cheese, sourdough, and a jam stall that has been in the same hands for twenty years. A flat kilometre of walking, benches every hundred metres, and nothing you have to buy.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/saltspring-maxwell.svg" width="600" height="400" alt="Mount Maxwell viewpoint on Salt Spring Island with folding chairs set up" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-maxwell.jpg" width="600" height="400" alt="Mount Maxwell viewpoint on Salt Spring Island with folding chairs set up" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Mount Maxwell lookouts</h3><p>A short walk over firm ground to a view across the southern Gulf Islands and out to the Pacific. Our guide carries the folding chairs.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/saltspring-farm.svg" width="600" height="400" alt="Farm table lunch on Salt Spring Island with food grown in sight of the plates" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-farm.jpg" width="600" height="400" alt="Farm table lunch on Salt Spring Island with food grown in sight of the plates" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Farm tables and tastings</h3><p>Lunch where the food was grown in sight of the plates, then a dairy or cidery visit on the way back. Producers who sell to the island first and visitors second.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/saltspring-cusheon.svg" width="600" height="400" alt="Cusheon Lake on Salt Spring Island, warm enough for swimming in summer" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-cusheon.jpg" width="600" height="400" alt="Cusheon Lake on Salt Spring Island, warm enough for swimming in summer" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Cusheon Lake in summer</h3><p>The ocean here is cold; this lake is not. A warm-water swim in summer, with a dock, a picnic, and a book, is the whole afternoon.</p></div>
         </article>
       </div>
@@ -369,10 +369,10 @@ SALTSPRING = dict(
   <section class="band-white">
     <div class="wrap">
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/saltspring-mosaic-1.svg" width="800" height="1000" alt="Orchard walk on Salt Spring Island in autumn" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/saltspring-mosaic-1.jpg" width="800" height="1000" alt="Orchard walk on Salt Spring Island in autumn" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/saltspring-mosaic-2.svg" width="600" height="400" alt="Floatplane landing on the water near Salt Spring Island" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/saltspring-mosaic-3.svg" width="600" height="400" alt="Farm gate and pasture on Salt Spring Island" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-mosaic-2.jpg" width="600" height="400" alt="Floatplane landing on the water near Salt Spring Island" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/saltspring-mosaic-3.jpg" width="600" height="400" alt="Farm gate and pasture on Salt Spring Island" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -414,7 +414,7 @@ SALTSPRING = dict(
           <p>Salt Spring pairs naturally with Tofino for a coast journey of seven to ten days, and with the Rockies for a signature shape that crosses the country from the Pacific to the peaks.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/saltspring-guide.svg" width="1400" height="800" alt="Guide and guests walking a farm road on Salt Spring Island" loading="lazy">
+          <img src="/images/saltspring-guide.jpg" width="1400" height="800" alt="Guide and guests walking a farm road on Salt Spring Island" loading="lazy">
           <figcaption>A kilometre of market walk, and a bench every hundred metres.</figcaption>
         </figure>
       </div>
@@ -432,7 +432,7 @@ SALTSPRING = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Salt Spring Island, British Columbia, Canada",
         "Private luxury tours of Salt Spring Island in the Gulf Islands, including the Ganges market, Mount Maxwell, farm and dairy visits, and floatplane arrivals.",
-        "destinations/salt-spring-island-private-tour/", 48.8567, -123.4983, "/images/saltspring-hero.svg",
+        "destinations/salt-spring-island-private-tour/", 48.8567, -123.4983, "/images/saltspring-hero.jpg",
         ["Retirees", "Couples", "Independent travellers"])],
 )
 
@@ -443,12 +443,12 @@ JASPER = dict(
     title="Jasper Private Tour | Luxury Canadian Rockies Journeys",
     desc="A Jasper private tour built around dark skies, quiet lakes, the Athabasca Glacier, and the Icefields Parkway, with wildlife at distance. Maximum eight guests.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Jasper", "/destinations/jasper-private-tour/")],
-    og_image="/images/jasper-hero.svg",
+    og_image="/images/jasper-hero.jpg",
     hero=dict(
         eyebrow="Alberta, Canadian Rockies",
         h1="Jasper Private Tour: Dark Skies and Empty Switchbacks",
         sub="Larger, quieter, and darker than anywhere else in the Rockies. A glacier you can walk to before breakfast, elk on the roadside at dusk, and a night sky with nothing between you and it.",
-        img="/images/jasper-hero.svg",
+        img="/images/jasper-hero.jpg",
         alt="Jasper private tour: Maligne Lake and the Canadian Rockies under a dark sky at dusk",
         cta="Plan My Jasper Journey",
     ),
@@ -462,7 +462,7 @@ JASPER = dict(
         <p>We lead with Jasper and work outward: the Icefields Parkway south to Lake Louise, Yoho beyond it, and Banff only in the quiet hours. Some trails and services in the park were affected by the 2024 wildfire, so we confirm the current status of every road and walk with Parks Canada before we build, and we say plainly what is open.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/jasper-landscape.svg" width="1400" height="800" alt="Icefields Parkway private tour looking south toward the Columbia Icefield in the Canadian Rockies" loading="lazy">
+        <img src="/images/jasper-landscape.jpg" width="1400" height="800" alt="Icefields Parkway private tour looking south toward the Columbia Icefield in the Canadian Rockies" loading="lazy">
         <figcaption>Fill the tank at Jasper or Lake Louise. The parkway runs 232 kilometres with very few services.</figcaption>
       </figure>
     </div>
@@ -476,19 +476,19 @@ JASPER = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/jasper-maligne.svg" width="600" height="400" alt="Maligne Lake in Jasper National Park at the quiet hour before day visitors arrive" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-maligne.jpg" width="600" height="400" alt="Maligne Lake in Jasper National Park at the quiet hour before day visitors arrive" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Maligne Lake at the quiet hours</h3><p>Maligne and Medicine Lake with a guide who knows when the day visitors come and go. A canoe on still water is the way to do it, not a seat on a cruise.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/jasper-darksky.svg" width="600" height="400" alt="Dark sky viewing in the Jasper Dark Sky Preserve with a guide" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-darksky.jpg" width="600" height="400" alt="Dark sky viewing in the Jasper Dark Sky Preserve with a guide" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Jasper Dark Sky Preserve</h3><p>An evening with a guide who knows where to stand, when the moon is out of the way, and which lake reflects the Milky Way best that week.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/jasper-glacier.svg" width="600" height="400" alt="Guided walk toward the Athabasca Glacier on the Icefields Parkway" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-glacier.jpg" width="600" height="400" alt="Guided walk toward the Athabasca Glacier on the Icefields Parkway" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">The Athabasca Glacier</h3><p>A guided walk toward the ice on the Icefields Parkway, with the scale of the Columbia Icefield in front of you the whole way.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/jasper-wildlife.svg" width="600" height="400" alt="Elk beside the road near Jasper, viewed at distance with a guide" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-wildlife.jpg" width="600" height="400" alt="Elk beside the road near Jasper, viewed at distance with a guide" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Wildlife, at distance</h3><p>Elk, bighorn sheep, black bears, and if you are lucky a grizzly on a distant slope. Viewed from the vehicle or a marked viewpoint, guide-led, always.</p></div>
         </article>
       </div>
@@ -498,10 +498,10 @@ JASPER = dict(
   <section class="band-white">
     <div class="wrap">
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/jasper-mosaic-1.svg" width="800" height="1000" alt="Canoe on a still Rockies lake in Jasper National Park" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/jasper-mosaic-1.jpg" width="800" height="1000" alt="Canoe on a still Rockies lake in Jasper National Park" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/jasper-mosaic-2.svg" width="600" height="400" alt="Mountain lodge in Jasper at dusk with the peaks behind" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/jasper-mosaic-3.svg" width="600" height="400" alt="Elk grazing on a Jasper roadside meadow in autumn" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-mosaic-2.jpg" width="600" height="400" alt="Mountain lodge in Jasper at dusk with the peaks behind" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/jasper-mosaic-3.jpg" width="600" height="400" alt="Elk grazing on a Jasper roadside meadow in autumn" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -548,7 +548,7 @@ JASPER = dict(
           <p>Where a wildfire or a weather system changes the plan, the fallback is already written: a different valley at the same hour, and a second location for any evening we have promised on the water or the ice.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/jasper-guide.svg" width="1400" height="800" alt="Private guide pointing out a distant grizzly from a safe distance in Jasper" loading="lazy">
+          <img src="/images/jasper-guide.jpg" width="1400" height="800" alt="Private guide pointing out a distant grizzly from a safe distance in Jasper" loading="lazy">
           <figcaption>The reaction to a first bear sighting tells us everything about a traveller.</figcaption>
         </figure>
       </div>
@@ -566,7 +566,7 @@ JASPER = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Jasper, Alberta, Canada",
         "Private luxury tours of Jasper National Park and the Jasper Dark Sky Preserve, including Maligne Lake, the Athabasca Glacier, and the Icefields Parkway.",
-        "destinations/jasper-private-tour/", 52.8737, -118.0814, "/images/jasper-hero.svg",
+        "destinations/jasper-private-tour/", 52.8737, -118.0814, "/images/jasper-hero.jpg",
         ["Independent travellers", "Couples", "Retirees", "Families"])],
 )
 
@@ -577,12 +577,12 @@ BANFF = dict(
     title="Icefields Parkway Private Tour | Banff and Yoho | Canada",
     desc="An Icefields Parkway private tour with Banff and Yoho in the quiet hours: Lake Louise at sunrise, Emerald Lake, and Takakkaw Falls. Private guide throughout.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Banff and Yoho", "/destinations/banff-yoho-private-tour/")],
-    og_image="/images/banff-hero.svg",
+    og_image="/images/banff-hero.jpg",
     hero=dict(
         eyebrow="Alberta and British Columbia",
         h1="Icefields Parkway Private Tour: Banff and Yoho in the Quiet Hours",
         sub="The lake at sunrise, before the day visitors arrive. A quieter valley next door. And 232 kilometres of parkway between two mountain towns, driven slowly.",
-        img="/images/banff-hero.svg",
+        img="/images/banff-hero.jpg",
         alt="Icefields Parkway private tour: Lake Louise at sunrise with the Victoria Glacier behind",
         cta="Plan My Rockies Journey",
     ),
@@ -596,7 +596,7 @@ BANFF = dict(
         <p>Yoho National Park is the quieter neighbour, thirty minutes away, with Emerald Lake and Takakkaw Falls. Road and parking rules around Lake Louise and Moraine Lake have changed in recent years, so we confirm access before every journey and build the day around the current system rather than last year's instructions.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/banff-landscape.svg" width="1400" height="800" alt="Banff luxury tour: the Bow Valley and the Icefields Parkway seen from a quiet viewpoint" loading="lazy">
+        <img src="/images/banff-landscape.jpg" width="1400" height="800" alt="Banff luxury tour: the Bow Valley and the Icefields Parkway seen from a quiet viewpoint" loading="lazy">
         <figcaption>Lake Louise, twenty minutes after sunrise, when the day visitors are still in bed.</figcaption>
       </figure>
     </div>
@@ -610,19 +610,19 @@ BANFF = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/banff-lakelouise.svg" width="600" height="400" alt="Lake Louise at sunrise on a private Banff tour before the day visitors arrive" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-lakelouise.jpg" width="600" height="400" alt="Lake Louise at sunrise on a private Banff tour before the day visitors arrive" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Lake Louise at sunrise</h3><p>We leave before eight, take the walk along the shore, and are drinking coffee while the first coaches pull in behind us.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/banff-icefields.svg" width="600" height="400" alt="Icefields Parkway private tour vehicle stopped at a glacier viewpoint" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-icefields.jpg" width="600" height="400" alt="Icefields Parkway private tour vehicle stopped at a glacier viewpoint" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Icefields Parkway by private vehicle</h3><p>232 kilometres of glacier, waterfall, and empty switchback between Lake Louise and Jasper, at your pace, with the fuel and food stops planned honestly.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/banff-yoho.svg" width="600" height="400" alt="Emerald Lake in Yoho National Park on a private Rockies journey" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-yoho.jpg" width="600" height="400" alt="Emerald Lake in Yoho National Park on a private Rockies journey" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Yoho: Emerald Lake and Takakkaw Falls</h3><p>The neighbour Banff forgets. Emerald Lake for an easy walk and a canoe, Takakkaw Falls for a short stroll to the base of the water.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/banff-canoe.svg" width="600" height="400" alt="Canoeing on a glacial lake in the Canadian Rockies with a guide" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-canoe.jpg" width="600" height="400" alt="Canoeing on a glacial lake in the Canadian Rockies with a guide" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">A canoe instead of a swim</h3><p>Glacial lakes are far too cold to swim, so the water activity is a canoe, with a guide, on a lake that photographs badly and feels extraordinary.</p></div>
         </article>
       </div>
@@ -632,10 +632,10 @@ BANFF = dict(
   <section class="band-white">
     <div class="wrap">
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/banff-mosaic-1.svg" width="800" height="1000" alt="Yoho National Park waterfall beside the road on a private Rockies tour" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/banff-mosaic-1.jpg" width="800" height="1000" alt="Yoho National Park waterfall beside the road on a private Rockies tour" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/banff-mosaic-2.svg" width="600" height="400" alt="Mountain lodge fireplace in Banff after a day on the parkway" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/banff-mosaic-3.svg" width="600" height="400" alt="Bighorn sheep on the roadside in the Canadian Rockies, viewed at distance" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-mosaic-2.jpg" width="600" height="400" alt="Mountain lodge fireplace in Banff after a day on the parkway" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/banff-mosaic-3.jpg" width="600" height="400" alt="Bighorn sheep on the roadside in the Canadian Rockies, viewed at distance" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -681,7 +681,7 @@ BANFF = dict(
           <p>The result is a region that feels private even in August: the lake at dawn, the quieter valley after lunch, and the parkway at the hours when the coaches are somewhere else.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/banff-guide.svg" width="1400" height="800" alt="Guide setting up a sunrise viewpoint above Lake Louise for private guests" loading="lazy">
+          <img src="/images/banff-guide.jpg" width="1400" height="800" alt="Guide setting up a sunrise viewpoint above Lake Louise for private guests" loading="lazy">
           <figcaption>Coffee at the lake, twenty minutes after sunrise.</figcaption>
         </figure>
       </div>
@@ -699,7 +699,7 @@ BANFF = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Banff and Yoho National Parks, Canada",
         "Icefields Parkway private tours with Banff and Yoho National Parks, including Lake Louise at sunrise, Emerald Lake, Takakkaw Falls, and the Athabasca Glacier.",
-        "destinations/banff-yoho-private-tour/", 51.1784, -115.5708, "/images/banff-hero.svg",
+        "destinations/banff-yoho-private-tour/", 51.1784, -115.5708, "/images/banff-hero.jpg",
         ["Independent travellers", "Couples", "Retirees", "Families", "Corporate groups"])],
 )
 
@@ -710,12 +710,12 @@ PEC = dict(
     title="Prince Edward County Private Tour | Ontario Wine Country",
     desc="A Prince Edward County private tour with wine, farm tables, and the Sandbanks dunes, plus a private Thousand Islands cruise from Kingston. Flat, unhurried days.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Prince Edward County", "/destinations/prince-edward-county-private-tour/")],
-    og_image="/images/pec-hero.svg",
+    og_image="/images/pec-hero.jpg",
     hero=dict(
         eyebrow="Ontario, Lake Ontario and Lake Erie",
         h1="Prince Edward County Private Tour: Wine, Farm Tables, and Sandbanks Dunes",
         sub="Limestone towns, vineyards a bicycle ride apart, and a county where the food is grown within sight of the table. The road we know best, ridden end to end.",
-        img="/images/pec-hero.svg",
+        img="/images/pec-hero.jpg",
         alt="Prince Edward County private tour: a vineyard row and farm table in Ontario wine country",
         cta="Plan My Lakeshore Journey",
     ),
@@ -729,7 +729,7 @@ PEC = dict(
         <p>The whole lakeshore from Kingston to Essex County has been ridden on a bicycle rather than driven past, and that changes what we recommend: the vineyard with the winemaker still pouring, the county road with the view, and the day built so nobody spends it in a car.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/pec-landscape.svg" width="1400" height="800" alt="Vineyard and farm table overlooking Lake Ontario in Prince Edward County" loading="lazy">
+        <img src="/images/pec-landscape.jpg" width="1400" height="800" alt="Vineyard and farm table overlooking Lake Ontario in Prince Edward County" loading="lazy">
         <figcaption>Sandbanks dunes, late afternoon, when the day visitors have gone home.</figcaption>
       </figure>
     </div>
@@ -743,19 +743,19 @@ PEC = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-kingston.svg" width="600" height="400" alt="Limestone waterfront at Kingston, Ontario, with a private Thousand Islands cruise departing" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-kingston.jpg" width="600" height="400" alt="Limestone waterfront at Kingston, Ontario, with a private Thousand Islands cruise departing" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Kingston and the Thousand Islands</h3><p>The limestone waterfront, the old market square, and a private cruise out among islands with a story on every one. Toronto is the gateway.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-wine.svg" width="600" height="400" alt="Winery visit with the winemaker in Prince Edward County wine country" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-wine.jpg" width="600" height="400" alt="Winery visit with the winemaker in Prince Edward County wine country" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Wineries with the winemaker</h3><p>Not a tasting room queue. We book the visit where the person who made the wine talks you through it, in a county small enough that they still can.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-dunes.svg" width="600" height="400" alt="Sandbanks dunes in Prince Edward County beside Lake Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-dunes.jpg" width="600" height="400" alt="Sandbanks dunes in Prince Edward County beside Lake Ontario" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Sandbanks dunes</h3><p>A provincial park where the lake runs clear and shallow for a hundred metres, warm enough to swim by August, with dunes behind it.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-bike.svg" width="600" height="400" alt="Guests on electric bicycles beside the guide on the Waterfront Trail in Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-bike.jpg" width="600" height="400" alt="Guests on electric bicycles beside the guide on the Waterfront Trail in Ontario" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">The Waterfront Trail by electric bicycle</h3><p>Flat, quiet, and exactly the right speed for this shoreline. Your guide rides beside you, and the vineyard stops are all within reach.</p></div>
         </article>
       </div>
@@ -765,10 +765,10 @@ PEC = dict(
   <section class="band-white">
     <div class="wrap">
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/pec-mosaic-1.svg" width="800" height="1000" alt="Heritage limestone building in Kingston, Ontario, on a private lakeshore tour" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/pec-mosaic-1.jpg" width="800" height="1000" alt="Heritage limestone building in Kingston, Ontario, on a private lakeshore tour" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/pec-mosaic-2.svg" width="600" height="400" alt="Farm table lunch in Prince Edward County with regional produce" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/pec-mosaic-3.svg" width="600" height="400" alt="Monarch butterflies resting in Point Pelee National Park in autumn" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-mosaic-2.jpg" width="600" height="400" alt="Farm table lunch in Prince Edward County with regional produce" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/pec-mosaic-3.jpg" width="600" height="400" alt="Monarch butterflies resting in Point Pelee National Park in autumn" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -814,7 +814,7 @@ PEC = dict(
           <p>The whole road from Kingston to Essex has been ridden end to end, which is why we can tell you which town deserves two nights, which winery is worth an appointment, and which viewpoint is a photograph rather than an experience.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/pec-guide.svg" width="1400" height="800" alt="Guide and guests on bicycles beside the Waterfront Trail in Ontario" loading="lazy">
+          <img src="/images/pec-guide.jpg" width="1400" height="800" alt="Guide and guests on bicycles beside the Waterfront Trail in Ontario" loading="lazy">
           <figcaption>Flat, quiet, and exactly the right speed for this shoreline.</figcaption>
         </figure>
       </div>
@@ -832,7 +832,7 @@ PEC = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Prince Edward County, Ontario, Canada",
         "Private luxury tours of Prince Edward County wine country in Ontario, with the Sandbanks dunes, farm tables, and a private Thousand Islands cruise from Kingston.",
-        "destinations/prince-edward-county-private-tour/", 44.0043, -77.1481, "/images/pec-hero.svg",
+        "destinations/prince-edward-county-private-tour/", 44.0043, -77.1481, "/images/pec-hero.jpg",
         ["Retirees", "Couples", "Independent travellers", "Corporate groups"])],
 )
 
@@ -843,12 +843,12 @@ NOTL = dict(
     title="Niagara-on-the-Lake Private Tour | Ontario Wine Journeys",
     desc="A Niagara-on-the-Lake private tour with cellar visits beside the winemaker, icewine in January, the heritage town, and a private driver for the day.",
     crumb=[("Home", "/"), ("Destinations", "/destinations/"), ("Niagara-on-the-Lake", "/destinations/niagara-on-the-lake-private-tour/")],
-    og_image="/images/notl-hero.svg",
+    og_image="/images/notl-hero.jpg",
     hero=dict(
         eyebrow="Ontario, Niagara wine country",
         h1="Niagara-on-the-Lake Private Tour: Winery Visits with the Winemaker",
         sub="Canada's oldest wine region, an hour from Toronto, with cellars that will open a private tasting for the right appointment and icewine harvested on the coldest nights of January.",
-        img="/images/notl-hero.svg",
+        img="/images/notl-hero.jpg",
         alt="Niagara-on-the-Lake private tour: a winery cellar tasting beside the winemaker in Ontario",
         cta="Plan My Wine Journey",
     ),
@@ -862,7 +862,7 @@ NOTL = dict(
         <p>The difference a private tour makes here is appointments. We book the visits where the person who made the wine takes you through it, at the times the tasting rooms are quiet, and we drive, so nobody at the table has to count glasses.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/notl-landscape.svg" width="1400" height="800" alt="Luxury Ontario wine tour: vineyard rows above the Niagara River in autumn" loading="lazy">
+        <img src="/images/notl-landscape.jpg" width="1400" height="800" alt="Luxury Ontario wine tour: vineyard rows above the Niagara River in autumn" loading="lazy">
         <figcaption>Icewine is picked by hand at night, below minus eight degrees.</figcaption>
       </figure>
     </div>
@@ -876,19 +876,19 @@ NOTL = dict(
       </div>
       <div class="grid g-2">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/notl-cellar.svg" width="600" height="400" alt="Private cellar tasting with a winemaker in Niagara-on-the-Lake" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-cellar.jpg" width="600" height="400" alt="Private cellar tasting with a winemaker in Niagara-on-the-Lake" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Cellar appointments</h3><p>Two or three visits rather than five, chosen for what you actually drink, each with the winemaker or the cellar master rather than a host reading a card.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/notl-icewine.svg" width="600" height="400" alt="Icewine harvest at night in the Niagara wine region of Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-icewine.jpg" width="600" height="400" alt="Icewine harvest at night in the Niagara wine region of Ontario" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Icewine in January</h3><p>The harvest happens when the temperature allows, often at three in the morning. We plan a winter journey around that window and the festivals that follow it.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/notl-town.svg" width="600" height="400" alt="Heritage main street of Niagara-on-the-Lake, Ontario" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-town.jpg" width="600" height="400" alt="Heritage main street of Niagara-on-the-Lake, Ontario" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">The heritage town</h3><p>A main street built for walking, with a theatre season, good coffee, and the river two blocks behind it. Toronto is an hour away.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/notl-dinner.svg" width="600" height="400" alt="Private dinner table at a Niagara winery restaurant" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-dinner.jpg" width="600" height="400" alt="Private dinner table at a Niagara winery restaurant" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">A table at the winery</h3><p>Dinner on the estate where the wine was made, then the drive back handled, so the evening can run as long as it wants to.</p></div>
         </article>
       </div>
@@ -898,10 +898,10 @@ NOTL = dict(
   <section class="band-white">
     <div class="wrap">
       <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/notl-mosaic-1.svg" width="800" height="1000" alt="Niagara River and vineyard in winter on a private Ontario wine journey" loading="lazy"></figure>
+        <figure class="shot shot-mosaic"><img src="/images/notl-mosaic-1.jpg" width="800" height="1000" alt="Niagara River and vineyard in winter on a private Ontario wine journey" loading="lazy"></figure>
         <div class="grid">
-          <figure class="shot shot-card"><img src="/images/notl-mosaic-2.svg" width="600" height="400" alt="Wine barrels in a Niagara cellar" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/notl-mosaic-3.svg" width="600" height="400" alt="Heritage houses on a Niagara-on-the-Lake street" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-mosaic-2.jpg" width="600" height="400" alt="Wine barrels in a Niagara cellar" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/notl-mosaic-3.jpg" width="600" height="400" alt="Heritage houses on a Niagara-on-the-Lake street" loading="lazy"></figure>
         </div>
       </div>
     </div>
@@ -947,7 +947,7 @@ NOTL = dict(
           <p>Niagara pairs naturally with Prince Edward County for a lakeshore journey of seven to ten days, and with the Rockies for guests who want wine and mountains in the same trip.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/notl-guide.svg" width="1400" height="800" alt="Driver-guide waiting outside a Niagara winery for private guests" loading="lazy">
+          <img src="/images/notl-guide.jpg" width="1400" height="800" alt="Driver-guide waiting outside a Niagara winery for private guests" loading="lazy">
           <figcaption>We drive, so nobody at the table has to count glasses.</figcaption>
         </figure>
       </div>
@@ -965,7 +965,7 @@ NOTL = dict(
     extra_nodes=lambda sg: [sg.node_attraction(
         "Niagara-on-the-Lake, Ontario, Canada",
         "Private luxury wine tours of Niagara-on-the-Lake and the Niagara wine region, with cellar appointments, icewine in January, and a driver for the day.",
-        "destinations/niagara-on-the-lake-private-tour/", 43.2537, -79.0709, "/images/notl-hero.svg",
+        "destinations/niagara-on-the-lake-private-tour/", 43.2537, -79.0709, "/images/notl-hero.jpg",
         ["Couples", "Retirees", "Independent travellers", "Corporate groups"])],
 )
 

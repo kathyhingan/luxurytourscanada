@@ -1,0 +1,548 @@
+[
+ {
+  "slot": "/images/banff-canoe.svg",
+  "photo_id": "39428520",
+  "page": "https://www.pexels.com/photo/39428520",
+  "alt": "Two people canoe on a serene, glacial lake surrounded by the Canadian Rockies in Banff National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-guide.svg",
+  "photo_id": "17933265",
+  "page": "https://www.pexels.com/photo/17933265",
+  "alt": "A serene scene at Lake Louise with a person gazing at snowy mountains reflecting on the water. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-hero.svg",
+  "photo_id": "27807149",
+  "page": "https://www.pexels.com/photo/27807149",
+  "alt": "Tranquil view of Lake Louise reflecting mountains and sky at sunset in Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-icefields.svg",
+  "photo_id": "10227880",
+  "page": "https://www.pexels.com/photo/10227880",
+  "alt": "Red Ice Explorer bus on Athabasca Glacier under cloudy sky in Jasper National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-lakelouise.svg",
+  "photo_id": "6065414",
+  "page": "https://www.pexels.com/photo/6065414",
+  "alt": "Beautiful sunrise reflection on Lake Louise, capturing the serene landscape of mountains and water in Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-landscape.svg",
+  "photo_id": "3723684",
+  "page": "https://www.pexels.com/photo/3723684",
+  "alt": "Peaceful scenic view of Icefields Parkway with snow-capped mountains in Jasper, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-mosaic-1.svg",
+  "photo_id": "32864251",
+  "page": "https://www.pexels.com/photo/32864251",
+  "alt": "Stunning view of Takakkaw Falls cascading down a rocky cliff in Yoho National Park, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-mosaic-2.svg",
+  "photo_id": "30082173",
+  "page": "https://www.pexels.com/photo/30082173",
+  "alt": "Warm and inviting lodge interior with fireplace, perfect for winter relaxation. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-mosaic-3.svg",
+  "photo_id": "30404524",
+  "page": "https://www.pexels.com/photo/30404524",
+  "alt": "Bighorn sheep grazes by snowy mountain road in Banff, Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/banff-yoho.svg",
+  "photo_id": "36611906",
+  "page": "https://www.pexels.com/photo/36611906",
+  "alt": "Stunning view of Emerald Lake in the Canadian Rockies, reflecting towering mountains. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-constant.svg",
+  "photo_id": "35657770",
+  "page": "https://www.pexels.com/photo/35657770",
+  "alt": "Tourists on a whale watching boat tour in Victoria, British Columbia. Life rings marked 'Victoria' in focus. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-carseat.svg",
+  "photo_id": "36552332",
+  "page": "https://www.pexels.com/photo/36552332",
+  "alt": "Safety car seat securely installed in the back of a modern vehicle. Ideal for family travel. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-cta.svg",
+  "photo_id": "3933989",
+  "page": "https://www.pexels.com/photo/3933989",
+  "alt": "A parent and child seated on a lakeside log, enjoying the serene mountain view in autumn. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-hero.svg",
+  "photo_id": "6336567",
+  "page": "https://www.pexels.com/photo/6336567",
+  "alt": "Mother and daughters enjoy a scenic mountain walk in Asheville, NC. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-portrait.svg",
+  "photo_id": "1157386",
+  "page": "https://www.pexels.com/photo/1157386",
+  "alt": "A father carries his child on a scenic mountain trail, embracing adventure and parenthood. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-strip-1.svg",
+  "photo_id": "13778706",
+  "page": "https://www.pexels.com/photo/13778706",
+  "alt": "Two people canoeing in a red canoe on Lake Louise, surrounded by lush evergreen trees. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-strip-2.svg",
+  "photo_id": "7782158",
+  "page": "https://www.pexels.com/photo/7782158",
+  "alt": "A woman teaching gardening to children outdoors on a sunny farm day. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-strip-3.svg",
+  "photo_id": "37043728",
+  "page": "https://www.pexels.com/photo/37043728",
+  "alt": "A scenic view of a teal van parked on a road with majestic snow-covered mountains in the background. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-water.svg",
+  "photo_id": "6299922",
+  "page": "https://www.pexels.com/photo/6299922",
+  "alt": "Two adults and two kids in wetsuits walking on a sandy beach in Portugal, carrying surfboards. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family-wildlife.svg",
+  "photo_id": "9290025",
+  "page": "https://www.pexels.com/photo/9290025",
+  "alt": "A young scout looks through binoculars during a sunny day at summer camp. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-family.svg",
+  "photo_id": "35840885",
+  "page": "https://www.pexels.com/photo/35840885",
+  "alt": "A family enjoying a peaceful moment together outdoors with scenic mountain views. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-hero.svg",
+  "photo_id": "35746723",
+  "page": "https://www.pexels.com/photo/35746723",
+  "alt": "Three hikers consult near a colorful signpost in a scenic mountain area under a bright sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-cta.svg",
+  "photo_id": "20188929",
+  "page": "https://www.pexels.com/photo/20188929",
+  "alt": "A serene view through a window overlooks lakeside wooden houses with misty mountains in the background. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-hero.svg",
+  "photo_id": "13881099",
+  "page": "https://www.pexels.com/photo/13881099",
+  "alt": "An elderly couple enjoying a coastal view in Biarritz, France at sunset. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-lake.svg",
+  "photo_id": "33487763",
+  "page": "https://www.pexels.com/photo/33487763",
+  "alt": "Majestic view of Maligne Lake with snow-capped mountains and canoes, Jasper National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-photographer.svg",
+  "photo_id": "37873838",
+  "page": "https://www.pexels.com/photo/37873838",
+  "alt": "A dedicated photographer with a telephoto lens captures the serene sunrise on a pebbled beach in Stamford. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-quiet.svg",
+  "photo_id": "5864598",
+  "page": "https://www.pexels.com/photo/5864598",
+  "alt": "Elegant outdoor dinner setting with candles and tableware at sunset, creating a warm, romantic ambiance. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-strip-1.svg",
+  "photo_id": "5987650",
+  "page": "https://www.pexels.com/photo/5987650",
+  "alt": "A seaplane rests on calm waters with a majestic forest and mountain backdrop in Tofino, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-strip-2.svg",
+  "photo_id": "19262890",
+  "page": "https://www.pexels.com/photo/19262890",
+  "alt": "Dramatic scene of stormy waves crashing against rocks under a cloudy sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-strip-3.svg",
+  "photo_id": "32979597",
+  "page": "https://www.pexels.com/photo/32979597",
+  "alt": "Intimate table setting with tea cups and pastries by a window, creating a cozy ambiance. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon-weather.svg",
+  "photo_id": "13527647",
+  "page": "https://www.pexels.com/photo/13527647",
+  "alt": "Scenic view of a mountain lake in Banff with dramatic clouds and reflections. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-honeymoon.svg",
+  "photo_id": "7041600",
+  "page": "https://www.pexels.com/photo/7041600",
+  "alt": "A woman enjoying a hot tub amidst a snowy forest landscape, creating a serene winter retreat. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-independent.svg",
+  "photo_id": "7263480",
+  "page": "https://www.pexels.com/photo/7263480",
+  "alt": "A person lying on an empty road surrounded by majestic mountains under a clear sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-cta.svg",
+  "photo_id": "29109694",
+  "page": "https://www.pexels.com/photo/29109694",
+  "alt": "Luxurious dining room with long table, wooden decor, and panoramic view. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-day1.svg",
+  "photo_id": "7404361",
+  "page": "https://www.pexels.com/photo/7404361",
+  "alt": "Blue van travels along a scenic mountain road with snow-dusted peaks under a cloudy sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-day2.svg",
+  "photo_id": "38026104",
+  "page": "https://www.pexels.com/photo/38026104",
+  "alt": "Silhouettes of people enjoying a scenic mountain view from a large lodge window. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-day3.svg",
+  "photo_id": "5116976",
+  "page": "https://www.pexels.com/photo/5116976",
+  "alt": "Intimate evening outdoor dining with candlelight and wine glasses. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-hero.svg",
+  "photo_id": "30688593",
+  "page": "https://www.pexels.com/photo/30688593",
+  "alt": "Group of professionals having a casual meeting in an office setting in Lagos. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-lodge.svg",
+  "photo_id": "17832881",
+  "page": "https://www.pexels.com/photo/17832881",
+  "alt": "A picturesque wooden lodge surrounded by lush forest and mountains, perfect for a serene retreat. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-logistics.svg",
+  "photo_id": "5302811",
+  "page": "https://www.pexels.com/photo/5302811",
+  "alt": "Two adults planning a journey using nautical maps and tools on a wooden table. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-strip-1.svg",
+  "photo_id": "6249814",
+  "page": "https://www.pexels.com/photo/6249814",
+  "alt": "Distant people in canoes on calm turquoise river surrounded by steep cliffs with green trees during trip in nature Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-strip-2.svg",
+  "photo_id": "6715103",
+  "page": "https://www.pexels.com/photo/6715103",
+  "alt": "A dimly lit dining room with elegantly set table, decorated with candles, wine, and fruits for a cozy atmosphere. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice-strip-3.svg",
+  "photo_id": "8761299",
+  "page": "https://www.pexels.com/photo/8761299",
+  "alt": "An empty conference room with chairs, a projector screen, and presentation setup. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-mice.svg",
+  "photo_id": "1181738",
+  "page": "https://www.pexels.com/photo/1181738",
+  "alt": "A diverse group of professionals having a meeting in a modern office setting. Teamwork and collaboration. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-more.svg",
+  "photo_id": "2678301",
+  "page": "https://www.pexels.com/photo/2678301",
+  "alt": "Flat lay of map, coffee, coins, and notebook for travel planning. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-boat.svg",
+  "photo_id": "35657771",
+  "page": "https://www.pexels.com/photo/35657771",
+  "alt": "A close-up view of the 'Wild 4 Whales' boat in Victoria, British Columbia, Canada, offering a whale watching adventure. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-cta.svg",
+  "photo_id": "37036228",
+  "page": "https://www.pexels.com/photo/37036228",
+  "alt": "A serene view of canoes docked on Moraine Lake with majestic mountains in Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-dawn.svg",
+  "photo_id": "31891237",
+  "page": "https://www.pexels.com/photo/31891237",
+  "alt": "Peaceful sunrise view over Moraine Lake with mountain peaks in Banff National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-expert.svg",
+  "photo_id": "9630187",
+  "page": "https://www.pexels.com/photo/9630187",
+  "alt": "Group of diverse friends consulting a map while hiking in a lush forest setting. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-hero.svg",
+  "photo_id": "12597641",
+  "page": "https://www.pexels.com/photo/12597641",
+  "alt": "A picturesque road leading towards stunning snowcapped mountains under a cloudy sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-road.svg",
+  "photo_id": "6728242",
+  "page": "https://www.pexels.com/photo/6728242",
+  "alt": "A winding road through snow-covered mountains and evergreen forests under a bright sky. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-strip-1.svg",
+  "photo_id": "16667539",
+  "page": "https://www.pexels.com/photo/16667539",
+  "alt": "A scenic view of seaplanes docked at a pier in Vancouver, BC, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-strip-2.svg",
+  "photo_id": "7263726",
+  "page": "https://www.pexels.com/photo/7263726",
+  "alt": "Scenic view of a canoeist on a tranquil mountain lake surrounded by forests. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-private-strip-3.svg",
+  "photo_id": "6492359",
+  "page": "https://www.pexels.com/photo/6492359",
+  "alt": "Expansive green vineyard in summer with rows of grapevines under soft morning light. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-cta.svg",
+  "photo_id": "7439927",
+  "page": "https://www.pexels.com/photo/7439927",
+  "alt": "Tranquil view of mountains reflecting in Emerald Lake at sunset in British Columbia, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-hero.svg",
+  "photo_id": "16664523",
+  "page": "https://www.pexels.com/photo/16664523",
+  "alt": "A camper van parked in a field with majestic snow-capped mountains, ideal for travel enthusiasts. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-medical.svg",
+  "photo_id": "8409623",
+  "page": "https://www.pexels.com/photo/8409623",
+  "alt": "A woman views a travel planner and map on a wooden table, accompanied by coffee and a smartphone. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-morning.svg",
+  "photo_id": "13510354",
+  "page": "https://www.pexels.com/photo/13510354",
+  "alt": "A delicious breakfast spread with various dishes by an open window on a sunny day. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-portrait.svg",
+  "photo_id": "35910189",
+  "page": "https://www.pexels.com/photo/35910189",
+  "alt": "Senior couple on a bench admiring a serene mountain lake view. Perfect for peaceful moments. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-strip-1.svg",
+  "photo_id": "19116880",
+  "page": "https://www.pexels.com/photo/19116880",
+  "alt": "A white van travels along a winding road with scenic mountainous background, captured outdoors during the day. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-strip-2.svg",
+  "photo_id": "28493636",
+  "page": "https://www.pexels.com/photo/28493636",
+  "alt": "A rustic table with cookies and coffee offers a serene view of lush green hills. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-strip-3.svg",
+  "photo_id": "34942256",
+  "page": "https://www.pexels.com/photo/34942256",
+  "alt": "Two elks standing in a grassy field at Jasper National Park, Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree-walk.svg",
+  "photo_id": "17719527",
+  "page": "https://www.pexels.com/photo/17719527",
+  "alt": "Senior couple standing together, admiring a stunning mountain landscape on a sunny day. Stock Photo"
+ },
+ {
+  "slot": "/images/exp-retiree.svg",
+  "photo_id": "17707120",
+  "page": "https://www.pexels.com/photo/17707120",
+  "alt": "Senior couple standing together, appreciating the panoramic mountain landscape. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-darksky.svg",
+  "photo_id": "4974694",
+  "page": "https://www.pexels.com/photo/4974694",
+  "alt": "Beautiful starry night sky over mountains in Jasper National Park, Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-glacier.svg",
+  "photo_id": "34325891",
+  "page": "https://www.pexels.com/photo/34325891",
+  "alt": "A mesmerizing mountain path leading to snow-capped peaks in Jasper National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-guide.svg",
+  "photo_id": "8975272",
+  "page": "https://www.pexels.com/photo/8975272",
+  "alt": "Two adults using binoculars in a lush forest setting, enjoying nature exploration. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-hero.svg",
+  "photo_id": "38298515",
+  "page": "https://www.pexels.com/photo/38298515",
+  "alt": "A breathtaking view of the Milky Way and stars over a forested landscape. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-landscape.svg",
+  "photo_id": "31812639",
+  "page": "https://www.pexels.com/photo/31812639",
+  "alt": "Snow-capped mountains and glacier with tour bus under a bright blue sky. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-maligne.svg",
+  "photo_id": "32067994",
+  "page": "https://www.pexels.com/photo/32067994",
+  "alt": "Serene Maligne Lake with boats and scenic mountains in Jasper National Park, Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-mosaic-1.svg",
+  "photo_id": "28365746",
+  "page": "https://www.pexels.com/photo/28365746",
+  "alt": "Man near colorful canoes on a dock with Rocky Mountains backdrop at Moraine Lake, Banff. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-mosaic-2.svg",
+  "photo_id": "29519768",
+  "page": "https://www.pexels.com/photo/29519768",
+  "alt": "Warm sunset light on the rustic wooden lodge's architecture, showcasing natural beauty. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-mosaic-3.svg",
+  "photo_id": "30145296",
+  "page": "https://www.pexels.com/photo/30145296",
+  "alt": "Elk in autumn forest with mountains in the background, showcasing natural wilderness. Stock Photo"
+ },
+ {
+  "slot": "/images/jasper-wildlife.svg",
+  "photo_id": "9437300",
+  "page": "https://www.pexels.com/photo/9437300",
+  "alt": "A herd of elk grazing on a grassy hillside in the majestic Rocky Mountains. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-card.svg",
+  "photo_id": "37526085",
+  "page": "https://www.pexels.com/photo/37526085",
+  "alt": "Beautiful view of Maligne Lake surrounded by snowy mountains and a serene dock in Jasper National Park. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-closing.svg",
+  "photo_id": "6185134",
+  "page": "https://www.pexels.com/photo/6185134",
+  "alt": "Warmly lit cabin interior seen through window amid forest setting, offering a cozy retreat. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-cta.svg",
+  "photo_id": "14970056",
+  "page": "https://www.pexels.com/photo/14970056",
+  "alt": "Majestic snowy mountains and serene lake in Jasper, AB, create a breathtaking winter landscape. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-hero.svg",
+  "photo_id": "9096407",
+  "page": "https://www.pexels.com/photo/9096407",
+  "alt": "Stunning view of the Milky Way galaxy in the clear night sky above Arkhyz, Russia. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-landscape.svg",
+  "photo_id": "31451180",
+  "page": "https://www.pexels.com/photo/31451180",
+  "alt": "Breathtaking view of a mountain road surrounded by autumn foliage and snow-capped peaks. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-lead.svg",
+  "photo_id": "32560332",
+  "page": "https://www.pexels.com/photo/32560332",
+  "alt": "Breathtaking view of Samson Peak towering over Maligne Lake in Jasper National Park, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-pair-1.svg",
+  "photo_id": "955855",
+  "page": "https://www.pexels.com/photo/955855",
+  "alt": "A stunning view of a star-filled night sky with silhouetted trees and distant mountains, perfect for stargazing enthusiasts. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-pair-2.svg",
+  "photo_id": "33893517",
+  "page": "https://www.pexels.com/photo/33893517",
+  "alt": "Serene scene of canoeing on a river surrounded by mountains and trees in Banff, Alberta, Canada. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper-quote.svg",
+  "photo_id": "13175901",
+  "page": "https://www.pexels.com/photo/13175901",
+  "alt": "Stunning view of the Milky Way galaxy above a tranquil landscape under the night sky. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-jasper.svg",
+  "photo_id": "8558893",
+  "page": "https://www.pexels.com/photo/8558893",
+  "alt": "Breathtaking view of Spirit Island in Maligne Lake, Jasper National Park, Alberta. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-closing.svg",
+  "photo_id": "2971038",
+  "page": "https://www.pexels.com/photo/2971038",
+  "alt": "Captured at sunset, this tranquil scene showcases fishing boats reflecting on the calm waters of Hout Bay Harbor. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-cta.svg",
+  "photo_id": "14381695",
+  "page": "https://www.pexels.com/photo/14381695",
+  "alt": "A telescope facing the sea during a moody and rainy day capturing the overcast ambiance. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-landscape.svg",
+  "photo_id": "17801942",
+  "page": "https://www.pexels.com/photo/17801942",
+  "alt": "Van driving on a winding road through a lush evergreen forest with majestic mountains in the background. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-lead.svg",
+  "photo_id": "11117785",
+  "page": "https://www.pexels.com/photo/11117785",
+  "alt": "Powerful waves crash against rocky shore under an overcast sky, creating an intense seascape scene. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-pair-1.svg",
+  "photo_id": "7276627",
+  "page": "https://www.pexels.com/photo/7276627",
+  "alt": "Explore a serene forest trail with a wet boardwalk surrounded by tall trees and lush greenery. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-pair-2.svg",
+  "photo_id": "6731661",
+  "page": "https://www.pexels.com/photo/6731661",
+  "alt": "A person relaxes in a hot spring pool surrounded by snowy mountains and serene landscape. Stock Photo"
+ },
+ {
+  "slot": "/images/journal-tofino-quote.svg",
+  "photo_id": "9846070",
+  "page": "https://www.pexels.com/photo/9846070",
+  "alt": "Stormy seas with waves crashing against dark rocky coastline under an overcast sky. Stock Photo"
+ }
+]

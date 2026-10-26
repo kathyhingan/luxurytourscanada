@@ -1,0 +1,206 @@
+[
+ {
+  "slot": "/images/about-hero.svg",
+  "photo_id": "38432423",
+  "page": "https://www.pexels.com/photo/38432423",
+  "alt": "Empty highway amidst mountainous landscape in Hope, BC, during a vibrant sunset"
+ },
+ {
+  "slot": "/images/about-portrait.svg",
+  "photo_id": "15021410",
+  "page": "https://www.pexels.com/photo/15021410",
+  "alt": "A cyclist enjoys a ride on a picturesque road in Vancouver with a mountain backdrop"
+ },
+ {
+  "slot": "/images/dest-banff.svg",
+  "photo_id": "3723684",
+  "page": "https://www.pexels.com/photo/3723684",
+  "alt": "Peaceful scenic view of Icefields Parkway with snow-capped mountains in Jasper, Canada"
+ },
+ {
+  "slot": "/images/dest-hero.svg",
+  "photo_id": "10771815",
+  "page": "https://www.pexels.com/photo/10771815",
+  "alt": "Empty highway through the majestic Canadian Rockies under a cloudy sky, framed by dense forest"
+ },
+ {
+  "slot": "/images/dest-jasper.svg",
+  "photo_id": "19000252",
+  "page": "https://www.pexels.com/photo/19000252",
+  "alt": "A breathtaking view of snow-capped mountains reflecting in Maligne Lake during a serene day in Jasper National Park"
+ },
+ {
+  "slot": "/images/dest-lakeshore.svg",
+  "photo_id": "14447031",
+  "page": "https://www.pexels.com/photo/14447031",
+  "alt": "A tranquil rural scene with vineyards by a lake and hills under a twilight sky"
+ },
+ {
+  "slot": "/images/home-cta.svg",
+  "photo_id": "28966422",
+  "page": "https://www.pexels.com/photo/28966422",
+  "alt": "A tranquil sunrise over Vermilion Lakes with stunning snow-capped mountains in Banff, Canada"
+ },
+ {
+  "slot": "/images/home-guide-at-work.svg",
+  "photo_id": "35746723",
+  "page": "https://www.pexels.com/photo/35746723",
+  "alt": "Three hikers consult near a colorful signpost in a scenic mountain area under a bright sky"
+ },
+ {
+  "slot": "/images/home-hero.svg",
+  "photo_id": "11424149",
+  "page": "https://www.pexels.com/photo/11424149",
+  "alt": "Idyllic view of an empty road leading through mountains in British Columbia, Canada"
+ },
+ {
+  "slot": "/images/home-portrait.svg",
+  "photo_id": "5573235",
+  "page": "https://www.pexels.com/photo/5573235",
+  "alt": "A woman stands on a rocky peak overlooking the Athabasca Glacier in Alberta, Canada"
+ },
+ {
+  "slot": "/images/journal-hero.svg",
+  "photo_id": "19013118",
+  "page": "https://www.pexels.com/photo/19013118",
+  "alt": "Captivating view of mountains at dawn in Whistler, BC with road and traffic light"
+ },
+ {
+  "slot": "/images/journal-icefields-card.svg",
+  "photo_id": "5635734",
+  "page": "https://www.pexels.com/photo/5635734",
+  "alt": "Breathtaking view of Athabasca Glacier in the Canadian Rockies, surrounded by lush greenery"
+ },
+ {
+  "slot": "/images/journal-icefields-closing.svg",
+  "photo_id": "32131626",
+  "page": "https://www.pexels.com/photo/32131626",
+  "alt": "Breathtaking road view through Jasper, Alberta with stunning snow-capped mountains and dramatic skies"
+ },
+ {
+  "slot": "/images/journal-icefields-cta.svg",
+  "photo_id": "18021186",
+  "page": "https://www.pexels.com/photo/18021186",
+  "alt": "A breathtaking landscape of Athabasca Glacier in Jasper National Park, surrounded by mountains"
+ },
+ {
+  "slot": "/images/journal-icefields-hero.svg",
+  "photo_id": "29219341",
+  "page": "https://www.pexels.com/photo/29219341",
+  "alt": "An awe-inspiring view of the Athabasca Glacier in Jasper National Park, Alberta, Canada"
+ },
+ {
+  "slot": "/images/journal-icefields-landscape.svg",
+  "photo_id": "12597866",
+  "page": "https://www.pexels.com/photo/12597866",
+  "alt": "Explore a winding mountain road in a forested valley with snow-capped peaks under a cloudy sky"
+ },
+ {
+  "slot": "/images/journal-icefields-lead.svg",
+  "photo_id": "32194131",
+  "page": "https://www.pexels.com/photo/32194131",
+  "alt": "Beautiful sunrise reflection at Bow Lake with towering mountains in Banff National Park"
+ },
+ {
+  "slot": "/images/journal-icefields-pair-1.svg",
+  "photo_id": "30823714",
+  "page": "https://www.pexels.com/photo/30823714",
+  "alt": "Stunning view of Athabasca Falls beneath snow-capped Rockies in Jasper National Park"
+ },
+ {
+  "slot": "/images/journal-icefields-pair-2.svg",
+  "photo_id": "17792286",
+  "page": "https://www.pexels.com/photo/17792286",
+  "alt": "Captivating view of Peyto Lake and surrounding mountains in Banff National Park, Alberta, Canada"
+ },
+ {
+  "slot": "/images/journal-icefields-quote.svg",
+  "photo_id": "15772357",
+  "page": "https://www.pexels.com/photo/15772357",
+  "alt": "Breathtaking view of Athabasca Glacier with rugged mountains and a winding road in Canada"
+ },
+ {
+  "slot": "/images/journal-saltspring-card.svg",
+  "photo_id": "39390685",
+  "page": "https://www.pexels.com/photo/39390685",
+  "alt": "Colorful produce at an outdoor farmer's market stall with fresh fruits and vegetables"
+ },
+ {
+  "slot": "/images/journal-saltspring-closing.svg",
+  "photo_id": "32772520",
+  "page": "https://www.pexels.com/photo/32772520",
+  "alt": "A tranquil view of the harbor at East Sooke with boats and docks under a cloudy sky"
+ },
+ {
+  "slot": "/images/journal-saltspring-cta.svg",
+  "photo_id": "33554284",
+  "page": "https://www.pexels.com/photo/33554284",
+  "alt": "Lively outdoor farmer's market showcasing fresh local produce and bustling activity"
+ },
+ {
+  "slot": "/images/journal-saltspring-hero.svg",
+  "photo_id": "17309031",
+  "page": "https://www.pexels.com/photo/17309031",
+  "alt": "Bustling farmers market with fresh fruits, vegetables and people exploring vibrant stalls"
+ },
+ {
+  "slot": "/images/journal-saltspring-landscape.svg",
+  "photo_id": "16182865",
+  "page": "https://www.pexels.com/photo/16182865",
+  "alt": "Explore the breathtaking aerial view of Hornby Island's coastline with lush forests and blue sea"
+ },
+ {
+  "slot": "/images/journal-saltspring-lead.svg",
+  "photo_id": "12062202",
+  "page": "https://www.pexels.com/photo/12062202",
+  "alt": "Colorful outdoor market scene showcasing fresh fruits and vegetables at various stalls"
+ },
+ {
+  "slot": "/images/journal-saltspring-pair-1.svg",
+  "photo_id": "25397902",
+  "page": "https://www.pexels.com/photo/25397902",
+  "alt": "Vibrant selection of fresh vegetables on display at an outdoor market stall"
+ },
+ {
+  "slot": "/images/journal-saltspring-pair-2.svg",
+  "photo_id": "18870129",
+  "page": "https://www.pexels.com/photo/18870129",
+  "alt": "Tranquil image of a harbor in Gibsons, BC, Canada depicting moored boats and a rustic shed"
+ },
+ {
+  "slot": "/images/journal-saltspring-quote.svg",
+  "photo_id": "37733062",
+  "page": "https://www.pexels.com/photo/37733062",
+  "alt": "A bustling outdoor market scene showcasing fresh vegetables with people shopping on a sunny day"
+ },
+ {
+  "slot": "/images/journal-tofino-hero.svg",
+  "photo_id": "13289069",
+  "page": "https://www.pexels.com/photo/13289069",
+  "alt": "Aerial photo of ocean waves crashing on the shore at Tofino, BC, Canada"
+ },
+ {
+  "slot": "/images/journal-tofino.svg",
+  "photo_id": "28058374",
+  "page": "https://www.pexels.com/photo/28058374",
+  "alt": "Raindrops on a window with a blurred view of a water landscape in Seattle, WA"
+ },
+ {
+  "slot": "/images/journey-coast.svg",
+  "photo_id": "35659997",
+  "page": "https://www.pexels.com/photo/35659997",
+  "alt": "Serene view of boats docked at Tofino harbor in British Columbia, surrounded by lush greenery"
+ },
+ {
+  "slot": "/images/journey-lakeshore.svg",
+  "photo_id": "29445790",
+  "page": "https://www.pexels.com/photo/29445790",
+  "alt": "Scenic view of a vineyard with a tranquil lake and mountains in the background under a cloudy sky"
+ },
+ {
+  "slot": "/images/journey-rockies.svg",
+  "photo_id": "9966089",
+  "page": "https://www.pexels.com/photo/9966089",
+  "alt": "Breathtaking view of snow-capped mountains and winding road in the Canadian Rockies"
+ }
+]

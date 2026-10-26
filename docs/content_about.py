@@ -8,12 +8,12 @@ ABOUT = dict(
     title="About Luxury Tours Canada | 27 Years of Slow Travel",
     desc="About Luxury Tours Canada: private journeys designed by people who crossed the country slowly. No fixed packages, eight guests maximum, honest seasons.",
     crumb=[("Home", "/"), ("About", "/about/")],
-    og_image="/images/about-hero.svg",
+    og_image="/images/about-hero.jpg",
     hero=dict(
         eyebrow="About",
         h1="About Luxury Tours Canada: Built on 27 Years of Crossing It Slowly",
         sub="Thirteen provinces and territories, the longest coastline of any country on earth, and a designer who has crossed it six times with a thumb out, once on a bicycle.",
-        img="/images/about-hero.svg",
+        img="/images/about-hero.jpg",
         alt="About Luxury Tours Canada: the Trans-Canada Highway crossing the Rockies at dusk",
         cta="Begin Your Journey",
     ),
@@ -35,7 +35,7 @@ ABOUT = dict(
           <p class="small" style="margin-top:16px">The routes we sell are routes we know personally: the BC coast, Salt Spring Island, Tofino, Jasper, Banff, the Rockies, and the Ontario lakeshore from Kingston to Essex. Where we recommend something we have not done ourselves, we say so and we verify it before you travel.</p>
         </div>
         <figure class="shot shot-hero">
-          <img src="/images/about-portrait.svg" width="800" height="1000" alt="The road-experience behind Luxury Tours Canada: a highway and a bicycle" loading="lazy">
+          <img src="/images/about-portrait.jpg" width="800" height="1000" alt="The road-experience behind Luxury Tours Canada: a highway and a bicycle" loading="lazy">
         </figure>
       </div>
     </div>

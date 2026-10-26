@@ -1,0 +1,338 @@
+"""Homepage content for Luxury Tours Canada, LTP section architecture.
+
+Sections mirror luxurytoursphilippines.com homepage order exactly:
+hero, quiz, philosophy, how-it-works, destinations carousel, experiences,
+pull quote, journey form, footer. Copy is Canada and LTC voice throughout:
+no Philippines text, no prices, no forbidden words, no em dashes.
+
+The quiz is the LTP five-step finder ported to Canada: same step flow,
+same data-values, same archetype logic, Canada clusters in step 4 and
+Canada-flavoured result copy. All pace labels avoid dashes.
+"""
+
+HOMEPAGE_CSS = """
+/* ---- LTP-pattern section styles (homepage) ---- */
+.quiz-section{background:var(--spruce-deep);padding:64px 20px}
+@media(min-width:1024px){.quiz-section{padding:120px 60px}}
+.quiz-inner{position:relative;z-index:2;max-width:860px;margin:0 auto}
+.quiz-eyebrow{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.4em;text-transform:uppercase;color:var(--amber);margin-bottom:12px;display:flex;align-items:center;gap:12px}
+.quiz-eyebrow::before{content:'';display:block;width:22px;height:1px;background:var(--amber);opacity:.6}
+.quiz-title{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,5vw,48px);font-weight:300;color:var(--warm-white);margin:0 0 8px;line-height:1.15}
+.quiz-subtitle{font-family:'EB Garamond',serif;font-size:17px;font-style:italic;color:rgba(250,248,244,.45);margin:0 0 44px}
+.quiz-progress{display:flex;gap:5px;margin-bottom:36px}
+.qp{flex:1;height:2px;background:rgba(217,138,43,.14);position:relative;overflow:hidden;transition:background .4s}
+.qp.done{background:var(--amber)}
+.qp.active::after{content:'';position:absolute;inset:0;background:rgba(217,138,43,.55);animation:pF .5s ease forwards}
+@keyframes pF{from{transform:scaleX(0);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+.quiz-step{display:none}
+.quiz-step.active{display:block;animation:sI .4s cubic-bezier(.16,1,.3,1) forwards;opacity:0;transform:translateX(14px)}
+@keyframes sI{to{opacity:1;transform:translateX(0)}}
+.quiz-question{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3.5vw,26px);font-weight:400;color:var(--warm-white);margin:0 0 28px;line-height:1.35}
+.quiz-question span{color:var(--amber);font-style:italic}
+.quiz-options{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:32px}
+@media(min-width:640px){.quiz-options{grid-template-columns:1fr 1fr}}
+.quiz-option{background:rgba(255,255,255,.03);border:1px solid rgba(217,138,43,.16);padding:18px 20px;cursor:pointer;transition:all .22s;display:flex;align-items:flex-start;gap:14px;text-align:left;min-height:72px;-webkit-tap-highlight-color:transparent}
+.quiz-option:hover,.quiz-option:active{border-color:rgba(217,138,43,.5);background:rgba(217,138,43,.06)}
+.quiz-option.selected{border-color:var(--amber);background:rgba(217,138,43,.1)}
+.opt-icon{font-size:20px;flex-shrink:0;margin-top:1px}
+.opt-label{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:var(--warm-white);margin-bottom:2px;line-height:1.2}
+.opt-desc{font-family:'EB Garamond',serif;font-size:14px;color:rgba(250,248,244,.4);font-style:italic;line-height:1.45}
+.quiz-nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.quiz-btn-next{font-family:Montserrat,sans-serif;font-size:10px;letter-spacing:.28em;text-transform:uppercase;background:var(--amber);color:var(--spruce-deep);border:none;padding:14px 30px;cursor:pointer;transition:background .3s;min-height:52px}
+.quiz-btn-next:hover:not(:disabled){background:var(--gold)}
+.quiz-btn-next:disabled{opacity:.25;cursor:not-allowed}
+.quiz-btn-back{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.2em;color:rgba(250,248,244,.25);background:none;border:none;cursor:pointer;transition:color .3s;min-height:48px;padding:0 8px}
+.quiz-btn-back:hover{color:var(--amber)}
+.quiz-step-counter{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.18em;color:rgba(217,138,43,.35)}
+.quiz-result{display:none;text-align:center;padding:8px 0}
+.quiz-result.active{display:block;animation:sI .5s cubic-bezier(.16,1,.3,1) forwards;opacity:0}
+.result-badge{display:inline-block;font-family:Montserrat,sans-serif;font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--spruce-deep);background:var(--amber);padding:8px 18px;margin-bottom:20px}
+.result-title{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,5vw,48px);font-weight:300;color:var(--warm-white);margin:0 0 16px;line-height:1.15}
+.result-desc{font-family:'EB Garamond',serif;font-size:18px;font-style:italic;color:rgba(250,248,244,.6);line-height:1.75;max-width:580px;margin:0 auto 40px}
+.result-cta-row{display:flex;flex-direction:column;align-items:center;gap:18px}
+@media(min-width:480px){.result-cta-row{flex-direction:row;justify-content:center}}
+.result-restart{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,248,244,.25);background:none;border:none;cursor:pointer;transition:color .3s;min-height:48px}
+.result-restart:hover{color:var(--amber)}
+/* philosophy stats */
+.phil-grid{display:grid;grid-template-columns:1fr;gap:48px}
+@media(min-width:1024px){.phil-grid{grid-template-columns:1fr 1fr;gap:100px;align-items:center}}
+.phil-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.phil-stat{border-left:2px solid var(--amber);padding-left:16px}
+.phil-stat-num{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,5vw,52px);font-weight:300;color:var(--warm-white);line-height:1.1}
+.phil-stat-label{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,248,244,.5);margin-top:8px;line-height:1.6}
+/* how it works */
+.hiw-grid{display:grid;grid-template-columns:1fr;gap:1px;background:rgba(217,138,43,.15);border:1px solid rgba(217,138,43,.15)}
+@media(min-width:768px){.hiw-grid{grid-template-columns:repeat(4,1fr)}}
+.hiw-step{background:var(--warm-white);padding:28px 22px}
+.hiw-step-num{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--amber);margin-bottom:10px}
+.hiw-step-label{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;color:var(--spruce-deep);margin-bottom:8px;line-height:1.3}
+.hiw-step-body{font-family:'EB Garamond',serif;font-size:16px;line-height:1.7;color:var(--slate);margin:0}
+/* destination carousel */
+.hc-carousel{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;scrollbar-width:none}
+.hc-carousel::-webkit-scrollbar{display:none}
+.hc-card{position:relative;flex:0 0 min(320px,82vw);scroll-snap-align:start;min-height:420px;display:flex;align-items:flex-end;overflow:hidden;text-decoration:none;background:var(--spruce-deep)}
+.hc-card-img{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .5s}
+.hc-card:hover .hc-card-img{transform:scale(1.05)}
+.hc-card-base{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,24,18,.92) 0%,rgba(10,24,18,.25) 55%,rgba(10,24,18,.05) 100%)}
+.hc-card-num{position:absolute;top:14px;right:16px;font-family:'Cormorant Garamond',serif;font-size:22px;color:rgba(250,248,244,.85);z-index:2}
+.hc-card-content{position:relative;z-index:2;padding:22px;color:var(--warm-white)}
+.hc-card-tag{font-family:Montserrat,sans-serif;font-size:8px;letter-spacing:.28em;text-transform:uppercase;color:var(--amber)}
+.hc-card-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;margin:6px 0 8px}
+.hc-card-desc{font-family:'EB Garamond',serif;font-size:14px;line-height:1.6;color:rgba(250,248,244,.75);margin:0}
+/* experience cards */
+.exp-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:768px){.exp-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.exp-grid{grid-template-columns:repeat(5,1fr)}}
+.exp-card{background:var(--glacier);padding:26px 22px;display:flex;flex-direction:column;gap:10px}
+.exp-icon{font-size:24px}
+.exp-title{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--spruce-deep)}
+.exp-body{font-family:'EB Garamond',serif;font-size:15px;line-height:1.65;color:var(--slate);margin:0;flex:1}
+.exp-cta{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--maple);text-decoration:none}
+/* pull quote */
+.quote-band{background:var(--spruce-deep);padding:80px 24px;text-align:center}
+.quote-mark{font-family:'Cormorant Garamond',serif;font-size:80px;color:var(--gold);line-height:.6;display:block}
+.quote-text{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,4vw,34px);font-weight:300;color:var(--warm-white);line-height:1.4;max-width:720px;margin:12px auto 20px}
+.quote-attr{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber)}
+"""
+
+QUIZ_HTML = """
+<section class="quiz-section" id="quiz" aria-label="Journey finder quiz">
+  <div class="quiz-inner">
+    <div class="quiz-eyebrow">Find Your Journey</div>
+    <h2 class="quiz-title">What kind of traveller are you?</h2>
+    <p class="quiz-subtitle">Five questions. Enough for us to begin imagining your journey before you even write to us.</p>
+    <div class="quiz-progress">
+      <div class="qp active" id="qp0"></div><div class="qp" id="qp1"></div><div class="qp" id="qp2"></div><div class="qp" id="qp3"></div><div class="qp" id="qp4"></div>
+    </div>
+    <div class="quiz-step active" id="step0">
+      <div class="quiz-question">This journey, <span>who is it for?</span></div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="solo" onclick="sel(this,0)"><div class="opt-icon">🧳</div><div><div class="opt-label">Just me</div><div class="opt-desc">A solo journey on my own terms</div></div></div>
+        <div class="quiz-option" data-value="couple" onclick="sel(this,0)"><div class="opt-icon">💑</div><div><div class="opt-label">Me and my partner</div><div class="opt-desc">Honeymoon, anniversary, or simply the two of us</div></div></div>
+        <div class="quiz-option" data-value="family" onclick="sel(this,0)"><div class="opt-icon">👨‍👩‍👧‍👦</div><div><div class="opt-label">Family with children</div><div class="opt-desc">We travel together, kids included</div></div></div>
+        <div class="quiz-option" data-value="retire" onclick="sel(this,0)"><div class="opt-icon">🍁</div><div><div class="opt-label">Retirement journey</div><div class="opt-desc">The trip I have been planning for decades, finally taken right</div></div></div>
+        <div class="quiz-option" data-value="corporate" onclick="sel(this,0)"><div class="opt-icon">🏛️</div><div><div class="opt-label">My team or company</div><div class="opt-desc">Corporate retreat, MICE, or incentive travel</div></div></div>
+      </div>
+      <div class="quiz-nav"><div class="quiz-step-counter">1 of 5</div><button class="quiz-btn-next" id="next0" onclick="nxt(0)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step1">
+      <div class="quiz-question">What draws you to <span>Canada</span> above anywhere else?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="nature" onclick="sel(this,1)"><div class="opt-icon">🏔️</div><div><div class="opt-label">The natural world</div><div class="opt-desc">Mountains, coast, wildlife, somewhere genuinely untouched</div></div></div>
+        <div class="quiz-option" data-value="culture" onclick="sel(this,1)"><div class="opt-icon">🏛️</div><div><div class="opt-label">Culture and heritage</div><div class="opt-desc">Limestone towns, vineyards, local life, I travel to understand a place</div></div></div>
+        <div class="quiz-option" data-value="romance" onclick="sel(this,1)"><div class="opt-icon">🌅</div><div><div class="opt-label">Romance and beauty</div><div class="opt-desc">I want somewhere that stops me mid-sentence</div></div></div>
+        <div class="quiz-option" data-value="adventure" onclick="sel(this,1)"><div class="opt-icon">🛶</div><div><div class="opt-label">Adventure and activity</div><div class="opt-desc">Paddling, hiking, wildlife, I want to be out in it</div></div></div>
+        <div class="quiz-option" data-value="slow" onclick="sel(this,1)"><div class="opt-icon">🌿</div><div><div class="opt-label">Rest and restoration</div><div class="opt-desc">I have earned this. I want to do nothing, beautifully</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(1)">← Back</button><div class="quiz-step-counter">2 of 5</div><button class="quiz-btn-next" id="next1" onclick="nxt(1)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step2">
+      <div class="quiz-question">How long are you imagining, and <span>what pace feels right</span>?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="short" onclick="sel(this,2)"><div class="opt-icon">⚡</div><div><div class="opt-label">4 to 6 days, well-packed</div><div class="opt-desc">Limited time, but I want to see a lot</div></div></div>
+        <div class="quiz-option" data-value="balanced" onclick="sel(this,2)"><div class="opt-icon">🗓️</div><div><div class="opt-label">7 to 10 days, balanced</div><div class="opt-desc">A mix of exploring and breathing</div></div></div>
+        <div class="quiz-option" data-value="long" onclick="sel(this,2)"><div class="opt-icon">🌙</div><div><div class="opt-label">11 to 14 days, unhurried</div><div class="opt-desc">I want to settle in. No rushing.</div></div></div>
+        <div class="quiz-option" data-value="extended" onclick="sel(this,2)"><div class="opt-icon">🗺️</div><div><div class="opt-label">Two weeks or more</div><div class="opt-desc">I want to genuinely cross the country</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(2)">← Back</button><div class="quiz-step-counter">3 of 5</div><button class="quiz-btn-next" id="next2" onclick="nxt(2)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step3">
+      <div class="quiz-question">Which part of Canada <span>calls to you</span> most?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="coast" onclick="sel(this,3)"><div class="opt-icon">🌊</div><div><div class="opt-label">Tofino & Salt Spring Island, BC</div><div class="opt-desc">Storm watching, outer sound, islands that move slowly</div></div></div>
+        <div class="quiz-option" data-value="rockies" onclick="sel(this,3)"><div class="opt-icon">🏔️</div><div><div class="opt-label">Jasper, Banff & Yoho</div><div class="opt-desc">Glacier water, dark skies, the Icefields Parkway</div></div></div>
+        <div class="quiz-option" data-value="lakeshore" onclick="sel(this,3)"><div class="opt-icon">🍇</div><div><div class="opt-label">Prince Edward County & Niagara-on-the-Lake</div><div class="opt-desc">Dunes, winemakers, heritage towns, cool-climate wine</div></div></div>
+        <div class="quiz-option" data-value="multi" onclick="sel(this,3)"><div class="opt-icon">✈️</div><div><div class="opt-label">Show me everything</div><div class="opt-desc">I want a journey that spans coast to coast</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(3)">← Back</button><div class="quiz-step-counter">4 of 5</div><button class="quiz-btn-next" id="next3" onclick="nxt(3)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step4">
+      <div class="quiz-question">When you think of <span>luxury</span>, what does it actually mean to you?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="privacy" onclick="sel(this,4)"><div class="opt-icon">🔒</div><div><div class="opt-label">Total privacy</div><div class="opt-desc">No other guests. Just us and the place.</div></div></div>
+        <div class="quiz-option" data-value="service" onclick="sel(this,4)"><div class="opt-icon">🤍</div><div><div class="opt-label">Flawless service</div><div class="opt-desc">Every need anticipated before I think to ask</div></div></div>
+        <div class="quiz-option" data-value="access" onclick="sel(this,4)"><div class="opt-icon">🗝️</div><div><div class="opt-label">Access to the unreachable</div><div class="opt-desc">Places money cannot simply buy, you need to know someone</div></div></div>
+        <div class="quiz-option" data-value="comfort" onclick="sel(this,4)"><div class="opt-icon">🛏️</div><div><div class="opt-label">Exceptional comfort</div><div class="opt-desc">The finest rooms, the best beds, nothing roughing it</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(4)">← Back</button><div class="quiz-step-counter">5 of 5</div><button class="quiz-btn-next" id="next4" onclick="showResult()" disabled>See My Journey →</button></div>
+    </div>
+    <div class="quiz-result" id="quizResult">
+      <div class="result-badge" id="rBadge"></div>
+      <h3 class="result-title" id="rTitle"></h3>
+      <p class="result-desc" id="rDesc"></p>
+      <div class="result-cta-row">
+        <button class="quiz-btn-next" style="min-width:220px" onclick="scrollToForm()"><span>Begin This Journey</span></button>
+        <button class="result-restart" onclick="restartQuiz()">Retake the quiz</button>
+      </div>
+    </div>
+  </div>
+</section>
+"""
+
+PHILOSOPHY_HTML = """
+<section class="band-deep on-dark" aria-label="Our philosophy">
+  <div class="wrap">
+    <div class="phil-grid">
+      <div>
+        <div class="lab eyebrow">Our Philosophy</div>
+        <h2 class="section-title">Every client we serve is paying to <em>not think about logistics.</em></h2>
+        <p class="lede on-dark" style="margin-top:18px">We are not a booking engine. We are not an operator with fixed packages. Luxury Tours Canada is a small, expert team that has spent decades learning which roads are worth the day, which pull-off has the view and which one has the bears, and which seasons reward each coast and each pass.</p>
+        <p class="lede on-dark" style="margin-top:14px">We build your journey from scratch, whether you are newly married and planning the honeymoon of your lives, travelling with children who need more than a gift shop, a retiree finally taking the private guided tour of Canada you have spent years imagining, or a corporate team that needs something genuinely extraordinary. Then we handle everything, so you can be entirely present for it.</p>
+      </div>
+      <div>
+        <div class="phil-stat-grid">
+          <div class="phil-stat"><div class="phil-stat-num">13</div><div class="phil-stat-label">Provinces and territories, coast to coast to coast</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">8</div><div class="phil-stat-label">Maximum guests per private journey</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">100%</div><div class="phil-stat-label">Custom, no two journeys are identical</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">27</div><div class="phil-stat-label">Years of personal journeys across Canada, beginning at sixteen with a thumb out on the Trans-Canada</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+"""
+
+HOWITWORKS_HTML = """
+<section class="band-white" id="how-it-works" aria-label="How it works">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="lab eyebrow">How It Works</div>
+      <h2 class="section-title">Four steps. One journey. Everything handled.</h2>
+      <p class="lede">There are no packages here. Just a process designed to turn what you are imagining into something that exceeds it.</p>
+    </div>
+    <div class="hiw-grid">
+      <div class="hiw-step"><div class="hiw-step-num">01</div><div class="hiw-step-label">Tell Us What You Are Imagining</div><p class="hiw-step-body">Take the five-question quiz above. Fill in the form below. Tell us as much or as little as you know. We do the rest.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">02</div><div class="hiw-step-label">We Respond Within 24 Hours</div><p class="hiw-step-body">A real person reads every inquiry. Within 24 hours, you will have our initial thinking, destinations, pacing, and a few questions that help us go further.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">03</div><div class="hiw-step-label">We Design Your Journey</div><p class="hiw-step-body">A bespoke day-by-day itinerary built entirely around your group. Not a template. Not a fixed package. A journey designed from scratch, revised until every element is right.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">04</div><div class="hiw-step-label">Your Journey Is Confirmed</div><p class="hiw-step-body">We handle everything: vessels, transfers, lodges, permits, equipment, dietary requirements. You arrive. We have already thought of the rest.</p></div>
+    </div>
+    <div class="section-head" style="text-align:center;margin-top:36px">
+      <button class="quiz-btn-next" style="min-width:240px;background:var(--maple);color:var(--warm-white)" onclick="scrollToForm()"><span>Begin Your Journey</span></button>
+      <p class="lede" style="margin-top:14px;font-size:14px">No commitment until you say so. Every inquiry handled personally.</p>
+    </div>
+  </div>
+</section>
+"""
+
+DESTINATIONS_HTML = """
+<section class="band-spruce on-dark" id="destinations" aria-label="Luxury tour destinations Canada">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="lab eyebrow">Where We Take You</div>
+        <h2 class="section-title">The Destinations</h2>
+      </div>
+      <a href="/destinations/" class="lab" style="color:var(--amber);text-decoration:none">View all →</a>
+    </div>
+    <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Destination cards, scroll horizontally">
+      <a class="hc-card hc-card-link" href="/destinations/tofino-private-tour/" aria-label="Tofino, British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/tofino-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">01</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Vancouver Island, BC</span>
+          <h3 class="hc-card-title">Tofino</h3>
+          <p class="hc-card-desc">Storms watched from glass, the outer sound by private boat, a rainforest coast that ends at the open Pacific.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/salt-spring-island-private-tour/" aria-label="Salt Spring Island, British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/salt-spring-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">02</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Gulf Islands, BC</span>
+          <h3 class="hc-card-title">Salt Spring Island</h3>
+          <p class="hc-card-desc">Saturday markets, studios, and a slow-ferry rhythm, private for the people who would rather linger.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/jasper-private-tour/" aria-label="Jasper, Alberta">
+        <div class="hc-card-img" style="background-image:url('/images/jasper-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">03</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Alberta Rockies</span>
+          <h3 class="hc-card-title">Jasper</h3>
+          <p class="hc-card-desc">The largest dark-sky preserve on earth, glacier water the colour of mint, elk on empty switchbacks at dawn.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/banff-yoho-private-tour/" aria-label="Banff and Yoho, Alberta and British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/banff-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">04</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Alberta & BC Rockies</span>
+          <h3 class="hc-card-title">Banff & Yoho</h3>
+          <p class="hc-card-desc">Lake Louise and Moraine before the crowds, the Burgess Shale, the parkway without a schedule.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/prince-edward-county-private-tour/" aria-label="Prince Edward County, Ontario">
+        <div class="hc-card-img" style="background-image:url('/images/dest-pec.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">05</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Ontario</span>
+          <h3 class="hc-card-title">Prince Edward County</h3>
+          <p class="hc-card-desc">Sandbanks dunes, vineyard rows off quiet sideroads, and a food scene that never left the farm.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/niagara-on-the-lake-private-tour/" aria-label="Niagara-on-the-Lake, Ontario">
+        <div class="hc-card-img" style="background-image:url('/images/dest-notl.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">06</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Ontario</span>
+          <h3 class="hc-card-title">Niagara-on-the-Lake</h3>
+          <p class="hc-card-desc">Heritage streets, icewine in January, and the winemakers who pour it, private and unhurried.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+"""
+
+EXPERIENCES_HTML = """
+<section class="band-white" id="experiences" aria-label="Private guided tour types Canada">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="lab eyebrow">Who We Design For</div>
+        <h2 class="section-title">Every Journey, Entirely Yours</h2>
+      </div>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-card"><span class="exp-icon">🧭</span><div class="exp-title">Private Journeys</div><p class="exp-body">For the traveller who has seen enough of the world to know what they do not want. We go where groups do not.</p><a href="/experiences/private-tours/" class="exp-cta">Explore journeys</a></div>
+      <div class="exp-card"><span class="exp-icon">💍</span><div class="exp-title">Honeymoons & Proposals</div><p class="exp-body">A proposal at sunrise on Lake Louise, a storm watched from a soaking tub in Tofino. We will not let you down.</p><a href="/experiences/honeymoon-proposals/" class="exp-cta">Plan the moment</a></div>
+      <div class="exp-card"><span class="exp-icon">🌿</span><div class="exp-title">Families with Children</div><p class="exp-body">Cold-water rules, wildlife briefings, flexible pacing. We have thought of what you have not yet.</p><a href="/experiences/family-tours/" class="exp-cta">Make more memories</a></div>
+      <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Retiree Journeys</div><p class="exp-body">The journey you have been planning for decades, finally done right. Unhurried days, expert guides, the finest rooms.</p><a href="/experiences/retirement-travel/" class="exp-cta">Plan my journey</a></div>
+      <div class="exp-card"><span class="exp-icon">🏛️</span><div class="exp-title">Corporate & MICE</div><p class="exp-body">Leadership retreats beyond the resort conference room. Canada as a stage for something genuinely memorable.</p><a href="/experiences/corporate-mice/" class="exp-cta">Corporate enquiry</a></div>
+    </div>
+  </div>
+</section>
+"""
+
+QUOTE_HTML = """
+<section class="quote-band" aria-label="Why choose Luxury Tours Canada">
+  <h2 class="visually-hidden">Why Choose Luxury Tours Canada for Private Guided Tours</h2>
+  <span class="quote-mark">"</span>
+  <p class="quote-text">We do not sell Canada. <br> We give you access to the version of it <br> that <em>most people never find.</em></p>
+  <div class="quote-attr">Luxury Tours Canada, Est. 2026</div>
+</section>
+"""
+
+HERO_HTML = """
+<section class="hero" aria-label="Introduction">
+  <img src="/images/home-hero.jpg" width="1600" height="900" alt="Private guided luxury tour in Canada: a mountain lake at first light" fetchpriority="high">
+  <div class="veil"></div>
+  <div class="inner">
+    <div class="lab eyebrow">Bespoke Multi-Destination Journeys</div>
+    <h1>Canada, as it was always <br> meant to be <em>experienced.</em></h1>
+    <p class="sub">Private luxury tours and guided journeys across Canada, for couples, families, retirees, and discerning travellers who want the country the highway skips.</p>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:8px">
+      <button class="quiz-btn-next" style="background:var(--maple);color:var(--warm-white);min-width:220px" onclick="scrollToForm()"><span>Begin Your Journey</span></button>
+      <a href="#destinations" class="lab" style="color:var(--glacier);text-decoration:none;display:inline-flex;align-items:center;gap:8px;padding:16px 6px">Explore destinations ↓</a>
+    </div>
+  </div>
+</section>
+"""
+
+ALL = []

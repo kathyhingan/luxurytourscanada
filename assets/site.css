@@ -241,3 +241,10 @@ textarea.form-input{min-height:110px;resize:vertical}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
 }
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.hero h1 em,.section-title em,.result-title em{font-style:italic;color:var(--gold);font-weight:inherit}
+.quote-text em{font-style:italic;color:var(--gold)}
+.section-title{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(26px,4.5vw,40px);line-height:1.15;color:var(--spruce)}
+.on-dark .section-title,.band-deep .section-title,.band-spruce .section-title,.quote-band .section-title{color:var(--warm-white)}
+.on-dark .lede,.band-deep .lede,.band-spruce .lede{color:#D8E2DC}

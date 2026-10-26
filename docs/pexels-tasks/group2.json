@@ -1,0 +1,278 @@
+[
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Winery visit with the winemaker in Niagara-on-the-Lake, Ontario",
+  "slot": "/images/dest-notl.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Sandbanks dunes and vineyard rows in Prince Edward County, Ontario",
+  "slot": "/images/dest-pec.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Monarch butterflies at Point Pelee National Park, the southernmost point of mainland Canada",
+  "slot": "/images/dest-pelee.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Farm stand and vineyard on Salt Spring Island in the Gulf Islands, British Columbia",
+  "slot": "/images/dest-saltspring.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private boat in Clayoquot Sound near Tofino, British Columbia",
+  "slot": "/images/dest-tofino.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Pacific storm seen from a lodge window on the Tofino coast",
+  "slot": "/images/journal-tofino-card.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private cellar tasting with a winemaker in Niagara-on-the-Lake",
+  "slot": "/images/notl-cellar.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private dinner table at a Niagara winery restaurant",
+  "slot": "/images/notl-dinner.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Driver-guide waiting outside a Niagara winery for private guests",
+  "slot": "/images/notl-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Niagara-on-the-Lake private tour: a winery cellar tasting beside the winemaker in Ontario",
+  "slot": "/images/notl-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Icewine harvest at night in the Niagara wine region of Ontario",
+  "slot": "/images/notl-icewine.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Luxury Ontario wine tour: vineyard rows above the Niagara River in autumn",
+  "slot": "/images/notl-landscape.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Niagara River and vineyard in winter on a private Ontario wine journey",
+  "slot": "/images/notl-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Wine barrels in a Niagara cellar",
+  "slot": "/images/notl-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Heritage houses on a Niagara-on-the-Lake street",
+  "slot": "/images/notl-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Heritage main street of Niagara-on-the-Lake, Ontario",
+  "slot": "/images/notl-town.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guests on electric bicycles beside the guide on the Waterfront Trail in Ontario",
+  "slot": "/images/pec-bike.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Sandbanks dunes in Prince Edward County beside Lake Ontario",
+  "slot": "/images/pec-dunes.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Guide and guests on bicycles beside the Waterfront Trail in Ontario",
+  "slot": "/images/pec-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Prince Edward County private tour: a vineyard row and farm table in Ontario wine country",
+  "slot": "/images/pec-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Limestone waterfront at Kingston, Ontario, with a private Thousand Islands cruise departing",
+  "slot": "/images/pec-kingston.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Vineyard and farm table overlooking Lake Ontario in Prince Edward County",
+  "slot": "/images/pec-landscape.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Heritage limestone building in Kingston, Ontario, on a private lakeshore tour",
+  "slot": "/images/pec-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Farm table lunch in Prince Edward County with regional produce",
+  "slot": "/images/pec-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Monarch butterflies resting in Point Pelee National Park in autumn",
+  "slot": "/images/pec-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Winery visit with the winemaker in Prince Edward County wine country",
+  "slot": "/images/pec-wine.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Cusheon Lake on Salt Spring Island, warm enough for swimming in summer",
+  "slot": "/images/saltspring-cusheon.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Farm table lunch on Salt Spring Island with food grown in sight of the plates",
+  "slot": "/images/saltspring-farm.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "The Saturday market at Ganges on Salt Spring Island",
+  "slot": "/images/saltspring-ganges.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Guide and guests walking a farm road on Salt Spring Island",
+  "slot": "/images/saltspring-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Salt Spring Island private tour: a farm stand and orchard on the Gulf Islands waterfront",
+  "slot": "/images/saltspring-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Salt Spring Island farm and vineyard view over the southern Gulf Islands",
+  "slot": "/images/saltspring-landscape.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Mount Maxwell viewpoint on Salt Spring Island with folding chairs set up",
+  "slot": "/images/saltspring-maxwell.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Orchard walk on Salt Spring Island in autumn",
+  "slot": "/images/saltspring-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Floatplane landing on the water near Salt Spring Island",
+  "slot": "/images/saltspring-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Farm gate and pasture on Salt Spring Island",
+  "slot": "/images/saltspring-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Whale watching from a private boat in Clayoquot Sound near Tofino",
+  "slot": "/images/tofino-clayoquot.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Private guide scanning the water for whales on a Tofino boat day",
+  "slot": "/images/tofino-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Tofino private tour: a private boat on the outer waters of Clayoquot Sound at first light",
+  "slot": "/images/tofino-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Hot Springs Cove near Tofino reached by private water taxi",
+  "slot": "/images/tofino-hotsprings.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Clayoquot Sound private boat tour passing a forested island on the Tofino coast",
+  "slot": "/images/tofino-landscape.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Old-growth forest walk on Meares Island near Tofino with a guide",
+  "slot": "/images/tofino-meares.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Rainforest trail above the beach near Tofino",
+  "slot": "/images/tofino-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Floatplane arriving at Tofino harbour on the west coast of Vancouver Island",
+  "slot": "/images/tofino-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Fishing boats at anchor in Tofino harbour at dusk",
+  "slot": "/images/tofino-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Winter storm watching on the Pacific Rim coast near Tofino",
+  "slot": "/images/tofino-storm.svg"
+ }
+]

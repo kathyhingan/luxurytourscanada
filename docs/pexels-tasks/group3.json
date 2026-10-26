@@ -1,0 +1,548 @@
+[
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Canoeing on a glacial lake in the Canadian Rockies with a guide",
+  "slot": "/images/banff-canoe.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Guide setting up a sunrise viewpoint above Lake Louise for private guests",
+  "slot": "/images/banff-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Icefields Parkway private tour: Lake Louise at sunrise with the Victoria Glacier behind",
+  "slot": "/images/banff-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Icefields Parkway private tour vehicle stopped at a glacier viewpoint",
+  "slot": "/images/banff-icefields.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Lake Louise at sunrise on a private Banff tour before the day visitors arrive",
+  "slot": "/images/banff-lakelouise.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Banff luxury tour: the Bow Valley and the Icefields Parkway seen from a quiet viewpoint",
+  "slot": "/images/banff-landscape.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Yoho National Park waterfall beside the road on a private Rockies tour",
+  "slot": "/images/banff-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Mountain lodge fireplace in Banff after a day on the parkway",
+  "slot": "/images/banff-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Bighorn sheep on the roadside in the Canadian Rockies, viewed at distance",
+  "slot": "/images/banff-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Emerald Lake in Yoho National Park on a private Rockies journey",
+  "slot": "/images/banff-yoho.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Guide checking the marine forecast before a private boat day in British Columbia",
+  "slot": "/images/exp-constant.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Child seat installed in a private vehicle on the Icefields Parkway",
+  "slot": "/images/exp-family-carseat.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Family watching a mountain sunset from a lakeside lodge deck in Canada",
+  "slot": "/images/exp-family-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Luxury family tour Canada: parents and children on a guided lakeside walk in the Canadian Rockies",
+  "slot": "/images/exp-family-hero.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Family with young children preparing for a guided walk in the Canadian Rockies",
+  "slot": "/images/exp-family-portrait.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Family canoeing on a Rockies lake with a guide",
+  "slot": "/images/exp-family-strip-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Children at a Salt Spring Island farm stand",
+  "slot": "/images/exp-family-strip-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Nap-timed drive with a stop at a mountain viewpoint",
+  "slot": "/images/exp-family-strip-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guide supervised beach day with wetsuits on the BC coast",
+  "slot": "/images/exp-family-water.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guide briefing children before a wildlife walk in Jasper",
+  "slot": "/images/exp-family-wildlife.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Family with children on a guided walk in the Canadian Rockies",
+  "slot": "/images/exp-family.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Private guided tours Canada: a guide and two guests on a quiet trail in the Canadian Rockies",
+  "slot": "/images/exp-hero.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Canada honeymoon luxury: a lodge window looking out over a mountain lake at dusk",
+  "slot": "/images/exp-honeymoon-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Canada honeymoon luxury: a couple watching the Pacific from the window of a private Tofino lodge",
+  "slot": "/images/exp-honeymoon-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Maligne Lake at dawn on a Canada honeymoon, canoe at the shore in still water",
+  "slot": "/images/exp-honeymoon-lake.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Hidden photographer at a distance during a surprise proposal in the Canadian Rockies",
+  "slot": "/images/exp-honeymoon-photographer.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private dinner setting at a lodge table with a view",
+  "slot": "/images/exp-honeymoon-quiet.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private floatplane arrival at a lake in the Rockies",
+  "slot": "/images/exp-honeymoon-strip-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Storm light on the Pacific coast near Tofino",
+  "slot": "/images/exp-honeymoon-strip-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Breakfast set for two at a private lodge",
+  "slot": "/images/exp-honeymoon-strip-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Mountain weather changing over a lake in the Canadian Rockies",
+  "slot": "/images/exp-honeymoon-weather.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Couple watching the Pacific from a soaking tub on a Canada honeymoon",
+  "slot": "/images/exp-honeymoon.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Independent travellers on a quiet road in the Canadian Rockies",
+  "slot": "/images/exp-independent.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Evening light on a private mountain lodge terrace set for a corporate dinner",
+  "slot": "/images/exp-mice-cta.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Team arriving at a private lodge by private transfer from Calgary",
+  "slot": "/images/exp-mice-day1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Strategy session in a lodge with mountain views behind",
+  "slot": "/images/exp-mice-day2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private dinner setting in a location no group has dined",
+  "slot": "/images/exp-mice-day3.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Canada corporate retreat luxury: a leadership group meeting in a private mountain lodge",
+  "slot": "/images/exp-mice-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Private mountain lodge prepared for a corporate retreat in the Canadian Rockies",
+  "slot": "/images/exp-mice-lodge.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Guide and organiser reviewing the transport manifest before the group departs",
+  "slot": "/images/exp-mice-logistics.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guided canoe session for a corporate group in the Rockies",
+  "slot": "/images/exp-mice-strip-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private dinner table set for a corporate group in a heritage venue",
+  "slot": "/images/exp-mice-strip-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Hybrid session with AV support in a mountain lodge",
+  "slot": "/images/exp-mice-strip-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Leadership retreat group in a mountain lodge in Alberta",
+  "slot": "/images/exp-mice.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Notebook, map, and coffee on a table beside an itinerary",
+  "slot": "/images/exp-more.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private boat in the outer waters of Clayoquot Sound near Tofino",
+  "slot": "/images/exp-private-boat.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Private tours Canada: a mountain lake at dusk with a canoe at the shore",
+  "slot": "/images/exp-private-cta.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Lake at first light on a private tour of Canada, before the day visitors",
+  "slot": "/images/exp-private-dawn.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guide explaining a route on a map with private guests",
+  "slot": "/images/exp-private-expert.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Private tours Canada: an empty mountain road at dawn on a luxury Canada journey",
+  "slot": "/images/exp-private-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Empty switchbacks on a private guided tour of the Canadian Rockies at sunrise",
+  "slot": "/images/exp-private-road.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Floatplane transfer on the BC coast",
+  "slot": "/images/exp-private-strip-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Canoe on a Rockies lake at dawn",
+  "slot": "/images/exp-private-strip-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Vineyard stop on the Ontario lakeshore",
+  "slot": "/images/exp-private-strip-3.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Unhurried evening light over a Canadian mountain lake seen from a lodge",
+  "slot": "/images/exp-retiree-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Retiree travel Canada luxury: an unhurried private vehicle stop on the Icefields Parkway",
+  "slot": "/images/exp-retiree-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guide reviewing a printed itinerary with guests at a lodge",
+  "slot": "/images/exp-retiree-medical.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Breakfast on a lodge terrace with a mountain view at half past eight",
+  "slot": "/images/exp-retiree-morning.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Retired couple on a lodge deck overlooking a Canadian mountain lake",
+  "slot": "/images/exp-retiree-portrait.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private vehicle on the Icefields Parkway with a glacier viewpoint",
+  "slot": "/images/exp-retiree-strip-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Garden and farm table lunch on Salt Spring Island",
+  "slot": "/images/exp-retiree-strip-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Evening wildlife outing beside a quiet road in Jasper",
+  "slot": "/images/exp-retiree-strip-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Short guided walk on firm ground with long views in the Canadian Rockies",
+  "slot": "/images/exp-retiree-walk.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Retiree couple on the Icefields Parkway with a private vehicle and guide",
+  "slot": "/images/exp-retiree.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Dark sky viewing in the Jasper Dark Sky Preserve with a guide",
+  "slot": "/images/jasper-darksky.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Guided walk toward the Athabasca Glacier on the Icefields Parkway",
+  "slot": "/images/jasper-glacier.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Private guide pointing out a distant grizzly from a safe distance in Jasper",
+  "slot": "/images/jasper-guide.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Jasper private tour: Maligne Lake and the Canadian Rockies under a dark sky at dusk",
+  "slot": "/images/jasper-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Icefields Parkway private tour looking south toward the Columbia Icefield in the Canadian Rockies",
+  "slot": "/images/jasper-landscape.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Maligne Lake in Jasper National Park at the quiet hour before day visitors arrive",
+  "slot": "/images/jasper-maligne.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Canoe on a still Rockies lake in Jasper National Park",
+  "slot": "/images/jasper-mosaic-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Mountain lodge in Jasper at dusk with the peaks behind",
+  "slot": "/images/jasper-mosaic-2.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Elk grazing on a Jasper roadside meadow in autumn",
+  "slot": "/images/jasper-mosaic-3.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Elk beside the road near Jasper, viewed at distance with a guide",
+  "slot": "/images/jasper-wildlife.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Maligne Lake at dawn in Jasper before the day visitors arrive",
+  "slot": "/images/journal-jasper-card.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Lodge window in Jasper at dusk with mountains behind",
+  "slot": "/images/journal-jasper-closing.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Evening light on the Canadian Rockies near Jasper",
+  "slot": "/images/journal-jasper-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Luxury Jasper tour: Maligne Lake and the Canadian Rockies under a dark sky",
+  "slot": "/images/journal-jasper-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "The Icefields Parkway in autumn with golden larches and a glacier ahead",
+  "slot": "/images/journal-jasper-landscape.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Maligne Lake at the quiet hour on a private luxury Jasper tour",
+  "slot": "/images/journal-jasper-lead.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Dark sky evening with a guide in the Jasper Dark Sky Preserve",
+  "slot": "/images/journal-jasper-pair-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Canoe on a still lake in Jasper National Park at dawn",
+  "slot": "/images/journal-jasper-pair-2.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Night sky over a Rockies lake in Jasper",
+  "slot": "/images/journal-jasper-quote.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Maligne Lake in Jasper at dawn before the tour buses arrive",
+  "slot": "/images/journal-jasper.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Tofino harbour at dusk with fishing boats and lodge lights",
+  "slot": "/images/journal-tofino-closing.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Tofino storm season: the Pacific seen from a lodge window at dusk",
+  "slot": "/images/journal-tofino-cta.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Coastal road on the drive into Tofino in winter, rainforest on both sides",
+  "slot": "/images/journal-tofino-landscape.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Winter swell breaking on the rocks near Tofino during storm watching season",
+  "slot": "/images/journal-tofino-lead.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Rainforest trail on Meares Island near Tofino in winter",
+  "slot": "/images/journal-tofino-pair-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Hot Springs Cove soak in winter on the Tofino coast",
+  "slot": "/images/journal-tofino-pair-2.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Storm light on the Tofino shoreline at dusk",
+  "slot": "/images/journal-tofino-quote.svg"
+ }
+]

@@ -5,7 +5,7 @@
 <!-- Google Analytics: [GA ID TBD] -->
 <!-- Microsoft Clarity: [CLARITY ID TBD] -->
 <!-- 2. Favicon -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.jpg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <!-- 3. SEO -->
 <meta charset="UTF-8">
@@ -17,16 +17,100 @@
 <meta property="og:url" content="https://luxurytourscanada.com/">
 <meta property="og:title" content="Luxury Tours Canada | Private Journeys Coast to Coast">
 <meta property="og:description" content="Bespoke luxury tours and private guided journeys across Canada, designed entirely around you. No fixed packages, maximum eight guests.">
-<meta property="og:image" content="https://luxurytourscanada.com/images/home-hero.svg">
+<meta property="og:image" content="https://luxurytourscanada.com/images/home-hero.jpg">
 <meta property="og:site_name" content="Luxury Tours Canada">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Luxury Tours Canada | Private Journeys Coast to Coast">
 <meta name="twitter:description" content="Private guided journeys across Canada, designed entirely around you.">
-<meta name="twitter:image" content="https://luxurytourscanada.com/images/home-hero.svg">
+<meta name="twitter:image" content="https://luxurytourscanada.com/images/home-hero.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
+<style>
+/* ---- LTP-pattern section styles (homepage) ---- */
+.quiz-section{background:var(--spruce-deep);padding:64px 20px}
+@media(min-width:1024px){.quiz-section{padding:120px 60px}}
+.quiz-inner{position:relative;z-index:2;max-width:860px;margin:0 auto}
+.quiz-eyebrow{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.4em;text-transform:uppercase;color:var(--amber);margin-bottom:12px;display:flex;align-items:center;gap:12px}
+.quiz-eyebrow::before{content:'';display:block;width:22px;height:1px;background:var(--amber);opacity:.6}
+.quiz-title{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,5vw,48px);font-weight:300;color:var(--warm-white);margin:0 0 8px;line-height:1.15}
+.quiz-subtitle{font-family:'EB Garamond',serif;font-size:17px;font-style:italic;color:rgba(250,248,244,.45);margin:0 0 44px}
+.quiz-progress{display:flex;gap:5px;margin-bottom:36px}
+.qp{flex:1;height:2px;background:rgba(217,138,43,.14);position:relative;overflow:hidden;transition:background .4s}
+.qp.done{background:var(--amber)}
+.qp.active::after{content:'';position:absolute;inset:0;background:rgba(217,138,43,.55);animation:pF .5s ease forwards}
+@keyframes pF{from{transform:scaleX(0);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+.quiz-step{display:none}
+.quiz-step.active{display:block;animation:sI .4s cubic-bezier(.16,1,.3,1) forwards;opacity:0;transform:translateX(14px)}
+@keyframes sI{to{opacity:1;transform:translateX(0)}}
+.quiz-question{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3.5vw,26px);font-weight:400;color:var(--warm-white);margin:0 0 28px;line-height:1.35}
+.quiz-question span{color:var(--amber);font-style:italic}
+.quiz-options{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:32px}
+@media(min-width:640px){.quiz-options{grid-template-columns:1fr 1fr}}
+.quiz-option{background:rgba(255,255,255,.03);border:1px solid rgba(217,138,43,.16);padding:18px 20px;cursor:pointer;transition:all .22s;display:flex;align-items:flex-start;gap:14px;text-align:left;min-height:72px;-webkit-tap-highlight-color:transparent}
+.quiz-option:hover,.quiz-option:active{border-color:rgba(217,138,43,.5);background:rgba(217,138,43,.06)}
+.quiz-option.selected{border-color:var(--amber);background:rgba(217,138,43,.1)}
+.opt-icon{font-size:20px;flex-shrink:0;margin-top:1px}
+.opt-label{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:var(--warm-white);margin-bottom:2px;line-height:1.2}
+.opt-desc{font-family:'EB Garamond',serif;font-size:14px;color:rgba(250,248,244,.4);font-style:italic;line-height:1.45}
+.quiz-nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.quiz-btn-next{font-family:Montserrat,sans-serif;font-size:10px;letter-spacing:.28em;text-transform:uppercase;background:var(--amber);color:var(--spruce-deep);border:none;padding:14px 30px;cursor:pointer;transition:background .3s;min-height:52px}
+.quiz-btn-next:hover:not(:disabled){background:var(--gold)}
+.quiz-btn-next:disabled{opacity:.25;cursor:not-allowed}
+.quiz-btn-back{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.2em;color:rgba(250,248,244,.25);background:none;border:none;cursor:pointer;transition:color .3s;min-height:48px;padding:0 8px}
+.quiz-btn-back:hover{color:var(--amber)}
+.quiz-step-counter{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.18em;color:rgba(217,138,43,.35)}
+.quiz-result{display:none;text-align:center;padding:8px 0}
+.quiz-result.active{display:block;animation:sI .5s cubic-bezier(.16,1,.3,1) forwards;opacity:0}
+.result-badge{display:inline-block;font-family:Montserrat,sans-serif;font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:var(--spruce-deep);background:var(--amber);padding:8px 18px;margin-bottom:20px}
+.result-title{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,5vw,48px);font-weight:300;color:var(--warm-white);margin:0 0 16px;line-height:1.15}
+.result-desc{font-family:'EB Garamond',serif;font-size:18px;font-style:italic;color:rgba(250,248,244,.6);line-height:1.75;max-width:580px;margin:0 auto 40px}
+.result-cta-row{display:flex;flex-direction:column;align-items:center;gap:18px}
+@media(min-width:480px){.result-cta-row{flex-direction:row;justify-content:center}}
+.result-restart{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,248,244,.25);background:none;border:none;cursor:pointer;transition:color .3s;min-height:48px}
+.result-restart:hover{color:var(--amber)}
+/* philosophy stats */
+.phil-grid{display:grid;grid-template-columns:1fr;gap:48px}
+@media(min-width:1024px){.phil-grid{grid-template-columns:1fr 1fr;gap:100px;align-items:center}}
+.phil-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.phil-stat{border-left:2px solid var(--amber);padding-left:16px}
+.phil-stat-num{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,5vw,52px);font-weight:300;color:var(--warm-white);line-height:1.1}
+.phil-stat-label{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,248,244,.5);margin-top:8px;line-height:1.6}
+/* how it works */
+.hiw-grid{display:grid;grid-template-columns:1fr;gap:1px;background:rgba(217,138,43,.15);border:1px solid rgba(217,138,43,.15)}
+@media(min-width:768px){.hiw-grid{grid-template-columns:repeat(4,1fr)}}
+.hiw-step{background:var(--warm-white);padding:28px 22px}
+.hiw-step-num{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--amber);margin-bottom:10px}
+.hiw-step-label{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;color:var(--spruce-deep);margin-bottom:8px;line-height:1.3}
+.hiw-step-body{font-family:'EB Garamond',serif;font-size:16px;line-height:1.7;color:var(--slate);margin:0}
+/* destination carousel */
+.hc-carousel{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;scrollbar-width:none}
+.hc-carousel::-webkit-scrollbar{display:none}
+.hc-card{position:relative;flex:0 0 min(320px,82vw);scroll-snap-align:start;min-height:420px;display:flex;align-items:flex-end;overflow:hidden;text-decoration:none;background:var(--spruce-deep)}
+.hc-card-img{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .5s}
+.hc-card:hover .hc-card-img{transform:scale(1.05)}
+.hc-card-base{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,24,18,.92) 0%,rgba(10,24,18,.25) 55%,rgba(10,24,18,.05) 100%)}
+.hc-card-num{position:absolute;top:14px;right:16px;font-family:'Cormorant Garamond',serif;font-size:22px;color:rgba(250,248,244,.85);z-index:2}
+.hc-card-content{position:relative;z-index:2;padding:22px;color:var(--warm-white)}
+.hc-card-tag{font-family:Montserrat,sans-serif;font-size:8px;letter-spacing:.28em;text-transform:uppercase;color:var(--amber)}
+.hc-card-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;margin:6px 0 8px}
+.hc-card-desc{font-family:'EB Garamond',serif;font-size:14px;line-height:1.6;color:rgba(250,248,244,.75);margin:0}
+/* experience cards */
+.exp-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:768px){.exp-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1100px){.exp-grid{grid-template-columns:repeat(5,1fr)}}
+.exp-card{background:var(--glacier);padding:26px 22px;display:flex;flex-direction:column;gap:10px}
+.exp-icon{font-size:24px}
+.exp-title{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--spruce-deep)}
+.exp-body{font-family:'EB Garamond',serif;font-size:15px;line-height:1.65;color:var(--slate);margin:0;flex:1}
+.exp-cta{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--maple);text-decoration:none}
+/* pull quote */
+.quote-band{background:var(--spruce-deep);padding:80px 24px;text-align:center}
+.quote-mark{font-family:'Cormorant Garamond',serif;font-size:80px;color:var(--gold);line-height:.6;display:block}
+.quote-text{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,4vw,34px);font-weight:300;color:var(--warm-white);line-height:1.4;max-width:720px;margin:12px auto 20px}
+.quote-attr{font-family:Montserrat,sans-serif;font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:var(--amber)}
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,210 +163,231 @@
 
 <main id="main">
 
-  <section class="hero" aria-label="Introduction">
-    <img src="/images/home-hero.svg" width="1600" height="900" alt="Luxury Tours Canada private journey: an empty coastal road at first light on the Pacific coast of British Columbia" fetchpriority="high">
-    <div class="veil"></div>
-    <div class="inner">
-      <div class="lab eyebrow">Private journeys, coast to coast</div>
-      <h1>Luxury Tours Canada: Journeys the Highway Never Shows You</h1>
-      <p class="sub">You have seen Banff from a hundred photographs. We design the other Canada: mountains at dawn, an island that still runs on farm stands, and a road with no one on it at six in the morning.</p>
-      <p><a class="btn" href="/#begin">Begin Your Journey</a></p>
+<section class="hero" aria-label="Introduction">
+  <img src="/images/home-hero.jpg" width="1600" height="900" alt="Private guided luxury tour in Canada: a mountain lake at first light" fetchpriority="high">
+  <div class="veil"></div>
+  <div class="inner">
+    <div class="lab eyebrow">Bespoke Multi-Destination Journeys</div>
+    <h1>Canada, as it was always <br> meant to be <em>experienced.</em></h1>
+    <p class="sub">Private luxury tours and guided journeys across Canada, for couples, families, retirees, and discerning travellers who want the country the highway skips.</p>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:8px">
+      <button class="quiz-btn-next" style="background:var(--maple);color:var(--warm-white);min-width:220px" onclick="scrollToForm()"><span>Begin Your Journey</span></button>
+      <a href="#destinations" class="lab" style="color:var(--glacier);text-decoration:none;display:inline-flex;align-items:center;gap:8px;padding:16px 6px">Explore destinations ↓</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="prose lede">
-        <p>Luxury Tours Canada designs private, multi-destination journeys across one of the largest countries on earth. Every journey is built from scratch around one party, a maximum of eight guests, with private vehicles, private boats, and guides who live where they work.</p>
-        <p>We work from 27 years of travelling this country the slow way: the Rockies, the BC coast, Salt Spring Island, Tofino, Jasper, Banff, and the Ontario lakeshore from Kingston to Essex. That knowledge is the product. Distance is part of the design, wildfire season is planned around months ahead, and mountain weather that turns by the hour gets a second plan for the same day, every day.</p>
+<section class="quiz-section" id="quiz" aria-label="Journey finder quiz">
+  <div class="quiz-inner">
+    <div class="quiz-eyebrow">Find Your Journey</div>
+    <h2 class="quiz-title">What kind of traveller are you?</h2>
+    <p class="quiz-subtitle">Five questions. Enough for us to begin imagining your journey before you even write to us.</p>
+    <div class="quiz-progress">
+      <div class="qp active" id="qp0"></div><div class="qp" id="qp1"></div><div class="qp" id="qp2"></div><div class="qp" id="qp3"></div><div class="qp" id="qp4"></div>
+    </div>
+    <div class="quiz-step active" id="step0">
+      <div class="quiz-question">This journey, <span>who is it for?</span></div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="solo" onclick="sel(this,0)"><div class="opt-icon">🧳</div><div><div class="opt-label">Just me</div><div class="opt-desc">A solo journey on my own terms</div></div></div>
+        <div class="quiz-option" data-value="couple" onclick="sel(this,0)"><div class="opt-icon">💑</div><div><div class="opt-label">Me and my partner</div><div class="opt-desc">Honeymoon, anniversary, or simply the two of us</div></div></div>
+        <div class="quiz-option" data-value="family" onclick="sel(this,0)"><div class="opt-icon">👨‍👩‍👧‍👦</div><div><div class="opt-label">Family with children</div><div class="opt-desc">We travel together, kids included</div></div></div>
+        <div class="quiz-option" data-value="retire" onclick="sel(this,0)"><div class="opt-icon">🍁</div><div><div class="opt-label">Retirement journey</div><div class="opt-desc">The trip I have been planning for decades, finally taken right</div></div></div>
+        <div class="quiz-option" data-value="corporate" onclick="sel(this,0)"><div class="opt-icon">🏛️</div><div><div class="opt-label">My team or company</div><div class="opt-desc">Corporate retreat, MICE, or incentive travel</div></div></div>
+      </div>
+      <div class="quiz-nav"><div class="quiz-step-counter">1 of 5</div><button class="quiz-btn-next" id="next0" onclick="nxt(0)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step1">
+      <div class="quiz-question">What draws you to <span>Canada</span> above anywhere else?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="nature" onclick="sel(this,1)"><div class="opt-icon">🏔️</div><div><div class="opt-label">The natural world</div><div class="opt-desc">Mountains, coast, wildlife, somewhere genuinely untouched</div></div></div>
+        <div class="quiz-option" data-value="culture" onclick="sel(this,1)"><div class="opt-icon">🏛️</div><div><div class="opt-label">Culture and heritage</div><div class="opt-desc">Limestone towns, vineyards, local life, I travel to understand a place</div></div></div>
+        <div class="quiz-option" data-value="romance" onclick="sel(this,1)"><div class="opt-icon">🌅</div><div><div class="opt-label">Romance and beauty</div><div class="opt-desc">I want somewhere that stops me mid-sentence</div></div></div>
+        <div class="quiz-option" data-value="adventure" onclick="sel(this,1)"><div class="opt-icon">🛶</div><div><div class="opt-label">Adventure and activity</div><div class="opt-desc">Paddling, hiking, wildlife, I want to be out in it</div></div></div>
+        <div class="quiz-option" data-value="slow" onclick="sel(this,1)"><div class="opt-icon">🌿</div><div><div class="opt-label">Rest and restoration</div><div class="opt-desc">I have earned this. I want to do nothing, beautifully</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(1)">← Back</button><div class="quiz-step-counter">2 of 5</div><button class="quiz-btn-next" id="next1" onclick="nxt(1)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step2">
+      <div class="quiz-question">How long are you imagining, and <span>what pace feels right</span>?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="short" onclick="sel(this,2)"><div class="opt-icon">⚡</div><div><div class="opt-label">4 to 6 days, well-packed</div><div class="opt-desc">Limited time, but I want to see a lot</div></div></div>
+        <div class="quiz-option" data-value="balanced" onclick="sel(this,2)"><div class="opt-icon">🗓️</div><div><div class="opt-label">7 to 10 days, balanced</div><div class="opt-desc">A mix of exploring and breathing</div></div></div>
+        <div class="quiz-option" data-value="long" onclick="sel(this,2)"><div class="opt-icon">🌙</div><div><div class="opt-label">11 to 14 days, unhurried</div><div class="opt-desc">I want to settle in. No rushing.</div></div></div>
+        <div class="quiz-option" data-value="extended" onclick="sel(this,2)"><div class="opt-icon">🗺️</div><div><div class="opt-label">Two weeks or more</div><div class="opt-desc">I want to genuinely cross the country</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(2)">← Back</button><div class="quiz-step-counter">3 of 5</div><button class="quiz-btn-next" id="next2" onclick="nxt(2)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step3">
+      <div class="quiz-question">Which part of Canada <span>calls to you</span> most?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="coast" onclick="sel(this,3)"><div class="opt-icon">🌊</div><div><div class="opt-label">Tofino & Salt Spring Island, BC</div><div class="opt-desc">Storm watching, outer sound, islands that move slowly</div></div></div>
+        <div class="quiz-option" data-value="rockies" onclick="sel(this,3)"><div class="opt-icon">🏔️</div><div><div class="opt-label">Jasper, Banff & Yoho</div><div class="opt-desc">Glacier water, dark skies, the Icefields Parkway</div></div></div>
+        <div class="quiz-option" data-value="lakeshore" onclick="sel(this,3)"><div class="opt-icon">🍇</div><div><div class="opt-label">Prince Edward County & Niagara-on-the-Lake</div><div class="opt-desc">Dunes, winemakers, heritage towns, cool-climate wine</div></div></div>
+        <div class="quiz-option" data-value="multi" onclick="sel(this,3)"><div class="opt-icon">✈️</div><div><div class="opt-label">Show me everything</div><div class="opt-desc">I want a journey that spans coast to coast</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(3)">← Back</button><div class="quiz-step-counter">4 of 5</div><button class="quiz-btn-next" id="next3" onclick="nxt(3)" disabled>Continue →</button></div>
+    </div>
+    <div class="quiz-step" id="step4">
+      <div class="quiz-question">When you think of <span>luxury</span>, what does it actually mean to you?</div>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="privacy" onclick="sel(this,4)"><div class="opt-icon">🔒</div><div><div class="opt-label">Total privacy</div><div class="opt-desc">No other guests. Just us and the place.</div></div></div>
+        <div class="quiz-option" data-value="service" onclick="sel(this,4)"><div class="opt-icon">🤍</div><div><div class="opt-label">Flawless service</div><div class="opt-desc">Every need anticipated before I think to ask</div></div></div>
+        <div class="quiz-option" data-value="access" onclick="sel(this,4)"><div class="opt-icon">🗝️</div><div><div class="opt-label">Access to the unreachable</div><div class="opt-desc">Places money cannot simply buy, you need to know someone</div></div></div>
+        <div class="quiz-option" data-value="comfort" onclick="sel(this,4)"><div class="opt-icon">🛏️</div><div><div class="opt-label">Exceptional comfort</div><div class="opt-desc">The finest rooms, the best beds, nothing roughing it</div></div></div>
+      </div>
+      <div class="quiz-nav"><button class="quiz-btn-back" onclick="prv(4)">← Back</button><div class="quiz-step-counter">5 of 5</div><button class="quiz-btn-next" id="next4" onclick="showResult()" disabled>See My Journey →</button></div>
+    </div>
+    <div class="quiz-result" id="quizResult">
+      <div class="result-badge" id="rBadge"></div>
+      <h3 class="result-title" id="rTitle"></h3>
+      <p class="result-desc" id="rDesc"></p>
+      <div class="result-cta-row">
+        <button class="quiz-btn-next" style="min-width:220px" onclick="scrollToForm()"><span>Begin This Journey</span></button>
+        <button class="result-restart" onclick="restartQuiz()">Retake the quiz</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="band-deep on-dark">
-    <div class="wrap">
-      <div class="split-wide">
-        <div>
-          <div class="lab eyebrow">Why we understand Canada</div>
-          <blockquote>Six crossings of this country by thumb before I owned a passport stamp, and 700 kilometres by bicycle from Kingston to Essex. I did it the hard way, so I know exactly where the hard way stops being worth it.</blockquote>
-          <p class="small" style="margin-top:16px">Our credibility: 27 years of personal journeys across Canada, beginning at sixteen with a thumb out on the Trans-Canada Highway. Every route we design has been driven, walked, or paddled by someone who lives here.</p>
+<section class="band-deep on-dark" aria-label="Our philosophy">
+  <div class="wrap">
+    <div class="phil-grid">
+      <div>
+        <div class="lab eyebrow">Our Philosophy</div>
+        <h2 class="section-title">Every client we serve is paying to <em>not think about logistics.</em></h2>
+        <p class="lede on-dark" style="margin-top:18px">We are not a booking engine. We are not an operator with fixed packages. Luxury Tours Canada is a small, expert team that has spent decades learning which roads are worth the day, which pull-off has the view and which one has the bears, and which seasons reward each coast and each pass.</p>
+        <p class="lede on-dark" style="margin-top:14px">We build your journey from scratch, whether you are newly married and planning the honeymoon of your lives, travelling with children who need more than a gift shop, a retiree finally taking the private guided tour of Canada you have spent years imagining, or a corporate team that needs something genuinely extraordinary. Then we handle everything, so you can be entirely present for it.</p>
+      </div>
+      <div>
+        <div class="phil-stat-grid">
+          <div class="phil-stat"><div class="phil-stat-num">13</div><div class="phil-stat-label">Provinces and territories, coast to coast to coast</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">8</div><div class="phil-stat-label">Maximum guests per private journey</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">100%</div><div class="phil-stat-label">Custom, no two journeys are identical</div></div>
+          <div class="phil-stat"><div class="phil-stat-num">27</div><div class="phil-stat-label">Years of personal journeys across Canada, beginning at sixteen with a thumb out on the Trans-Canada</div></div>
         </div>
-        <figure class="shot shot-hero">
-          <img src="/images/home-portrait.svg" width="800" height="1000" alt="Portrait of the guide behind Luxury Tours Canada journeys on the Trans-Canada Highway" loading="lazy">
-        </figure>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What we do differently</div>
-        <h2 class="section-title">Four things a group tour cannot give you</h2>
-      </div>
-      <div class="grid g-4">
-        <article class="card">
-          <div class="body">
-            <h3 class="card-title">Jasper first, Banff at dawn</h3>
-            <p>Banff and Lake Louise are thoroughly discovered. We take clients at sunrise, in shoulder season, or by routes that bypass the queues, and we build most Rockies journeys around Jasper, which is larger, quieter, and holds one of the largest dark-sky preserves on earth.</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="body">
-            <h3 class="card-title">Eight guests, never more</h3>
-            <p>No coaches, no strangers, no fixed departures. Your party travels in a private vehicle with a guide who knows which pull-off has the view and which one has the bears.</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="body">
-            <h3 class="card-title">Weather planned for, not apologised for</h3>
-            <p>Mountain weather turns by the hour and July to September carries wildfire smoke. Every outdoor day carries a fallback in the same day, and every summer proposal carries an alternative location.</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="body">
-            <h3 class="card-title">One conversation, one designer</h3>
-            <p>You tell us once what matters: pace, wildlife, wine, altitude, children, a proposal. The journey is then designed around that, and adjusted while you travel.</p>
-          </div>
-        </article>
-      </div>
+<section class="band-white" id="how-it-works" aria-label="How it works">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="lab eyebrow">How It Works</div>
+      <h2 class="section-title">Four steps. One journey. Everything handled.</h2>
+      <p class="lede">There are no packages here. Just a process designed to turn what you are imagining into something that exceeds it.</p>
     </div>
-  </section>
-
-  <section class="band-glacier">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">Signature journeys</div>
-        <h2 class="section-title">Here is what the country can look like</h2>
-        <p class="lede">Options to inspire, never fixed packages. We would design yours from scratch.</p>
-      </div>
-      <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/journey-coast.svg" width="600" height="400" alt="Private boat on Clayoquot Sound near Tofino on the BC coast" loading="lazy"></figure>
-          <div class="body">
-            <h3 class="card-title">The Coast and the Islands</h3>
-            <p>Vancouver, Salt Spring Island, Tofino. Seven to ten days, for couples and retirees.</p>
-            <a class="more" href="/destinations/tofino-private-tour/">See the coast</a>
-          </div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/journey-rockies.svg" width="600" height="400" alt="Icefields Parkway private tour: glacier and empty switchbacks in the Canadian Rockies" loading="lazy"></figure>
-          <div class="body">
-            <h3 class="card-title">The Rockies, Slowly</h3>
-            <p>Jasper, the Icefields Parkway, Yoho, and Banff at dawn. Eight to ten days, for independent travellers and families.</p>
-            <a class="more" href="/destinations/jasper-private-tour/">See the Rockies</a>
-          </div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/journey-lakeshore.svg" width="600" height="400" alt="Ontario lakeshore vineyards near Prince Edward County on a private wine tour" loading="lazy"></figure>
-          <div class="body">
-            <h3 class="card-title">The Lakeshore</h3>
-            <p>Kingston, Prince Edward County, Niagara-on-the-Lake, Point Pelee. Seven to ten days, for retirees and couples.</p>
-            <a class="more" href="/destinations/prince-edward-county-private-tour/">See the lakeshore</a>
-          </div>
-        </article>
-      </div>
-      <div class="callout">
-        <div class="lab">Two longer shapes</div>
-        <p><strong>Coast to Peaks:</strong> Salt Spring, Tofino, and Jasper in ten to fourteen days, our signature journey. <strong>The Whole Road:</strong> BC coast, Rockies, and the Ontario lakeshore in eighteen to twenty-one days, written around six crossings of the country.</p>
-      </div>
+    <div class="hiw-grid">
+      <div class="hiw-step"><div class="hiw-step-num">01</div><div class="hiw-step-label">Tell Us What You Are Imagining</div><p class="hiw-step-body">Take the five-question quiz above. Fill in the form below. Tell us as much or as little as you know. We do the rest.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">02</div><div class="hiw-step-label">We Respond Within 24 Hours</div><p class="hiw-step-body">A real person reads every inquiry. Within 24 hours, you will have our initial thinking, destinations, pacing, and a few questions that help us go further.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">03</div><div class="hiw-step-label">We Design Your Journey</div><p class="hiw-step-body">A bespoke day-by-day itinerary built entirely around your group. Not a template. Not a fixed package. A journey designed from scratch, revised until every element is right.</p></div>
+      <div class="hiw-step"><div class="hiw-step-num">04</div><div class="hiw-step-label">Your Journey Is Confirmed</div><p class="hiw-step-body">We handle everything: vessels, transfers, lodges, permits, equipment, dietary requirements. You arrive. We have already thought of the rest.</p></div>
     </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">Who we design for</div>
-        <h2 class="section-title">Eight kinds of traveller, eight different journeys</h2>
-      </div>
-      <div class="grid g-3">
-        <article class="card"><div class="body"><h3 class="card-title">Independent travellers</h3><p>A Canada the highway does not show you, with access a coach cannot buy.</p><a class="more" href="/experiences/private-tours/">Private journeys</a></div></article>
-        <article class="card"><div class="body"><h3 class="card-title">Honeymoons and proposals</h3><p>Concierge-level planning, a second location for the weather, and discretion from the first email.</p><a class="more" href="/experiences/honeymoon-proposals/">Romance, handled</a></div></article>
-        <article class="card"><div class="body"><h3 class="card-title">Families with children</h3><p>Child seats pre-sourced, wildlife briefings before every walk, cold-water rules for every beach.</p><a class="more" href="/experiences/family-tours/">Travel with kids</a></div></article>
-        <article class="card"><div class="body"><h3 class="card-title">Retirees</h3><p>No departures before 8:30am, honest altitude notes, and a pace that suits the journey you waited for.</p><a class="more" href="/experiences/retirement-travel/">Unhurried journeys</a></div></article>
-        <article class="card"><div class="body"><h3 class="card-title">Corporate and MICE</h3><p>Mountain and coastal retreats for six to thirty, with a fallback venue for every programme.</p><a class="more" href="/experiences/corporate-mice/">Retreats</a></div></article>
-        <article class="card"><div class="body"><h3 class="card-title">Anniversaries, gap years, professionals</h3><p>Three more shapes: romance without ceremony, a safe first journey for an eighteen-year-old, and a week where every day earns its place.</p><a class="more" href="/experiences/">All experiences</a></div></article>
-      </div>
+    <div class="section-head" style="text-align:center;margin-top:36px">
+      <button class="quiz-btn-next" style="min-width:240px;background:var(--maple);color:var(--warm-white)" onclick="scrollToForm()"><span>Begin Your Journey</span></button>
+      <p class="lede" style="margin-top:14px;font-size:14px">No commitment until you say so. Every inquiry handled personally.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="band-spruce on-dark">
-    <div class="wrap">
-      <div class="split">
-        <div>
-          <div class="lab eyebrow">How it works</div>
-          <h2 class="section-title">Three steps, then a journey</h2>
-          <ol class="steps">
-            <li><span class="num">1</span><div><strong>Tell us what you are imagining.</strong> Dates, season, the people travelling, and what would make the trip worth it. Twenty minutes is usually enough.</div></li>
-            <li><span class="num">2</span><div><strong>We design it around you.</strong> A day-by-day journey with drive times stated honestly, private vehicles and boats, and a fallback for every outdoor day.</div></li>
-            <li><span class="num">3</span><div><strong>You travel, we stay on call.</strong> One point of contact for the whole journey, and a 24-hour line while you are in the country.</div></li>
-          </ol>
+<section class="band-spruce on-dark" id="destinations" aria-label="Luxury tour destinations Canada">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="lab eyebrow">Where We Take You</div>
+        <h2 class="section-title">The Destinations</h2>
+      </div>
+      <a href="/destinations/" class="lab" style="color:var(--amber);text-decoration:none">View all →</a>
+    </div>
+    <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Destination cards, scroll horizontally">
+      <a class="hc-card hc-card-link" href="/destinations/tofino-private-tour/" aria-label="Tofino, British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/tofino-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">01</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Vancouver Island, BC</span>
+          <h3 class="hc-card-title">Tofino</h3>
+          <p class="hc-card-desc">Storms watched from glass, the outer sound by private boat, a rainforest coast that ends at the open Pacific.</p>
         </div>
-        <figure class="shot shot-wide">
-          <img src="/images/home-guide-at-work.svg" width="1400" height="800" alt="Private guide briefing guests before a wildlife walk in Jasper, Canadian Rockies" loading="lazy">
-          <figcaption>Wildlife is viewed at distance, guide-led, always.</figcaption>
-        </figure>
-      </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/salt-spring-island-private-tour/" aria-label="Salt Spring Island, British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/saltspring-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">02</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Gulf Islands, BC</span>
+          <h3 class="hc-card-title">Salt Spring Island</h3>
+          <p class="hc-card-desc">Saturday markets, studios, and a slow-ferry rhythm, private for the people who would rather linger.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/jasper-private-tour/" aria-label="Jasper, Alberta">
+        <div class="hc-card-img" style="background-image:url('/images/jasper-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">03</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Alberta Rockies</span>
+          <h3 class="hc-card-title">Jasper</h3>
+          <p class="hc-card-desc">The largest dark-sky preserve on earth, glacier water the colour of mint, elk on empty switchbacks at dawn.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/banff-yoho-private-tour/" aria-label="Banff and Yoho, Alberta and British Columbia">
+        <div class="hc-card-img" style="background-image:url('/images/banff-hero.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">04</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Alberta & BC Rockies</span>
+          <h3 class="hc-card-title">Banff & Yoho</h3>
+          <p class="hc-card-desc">Lake Louise and Moraine before the crowds, the Burgess Shale, the parkway without a schedule.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/prince-edward-county-private-tour/" aria-label="Prince Edward County, Ontario">
+        <div class="hc-card-img" style="background-image:url('/images/dest-pec.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">05</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Ontario</span>
+          <h3 class="hc-card-title">Prince Edward County</h3>
+          <p class="hc-card-desc">Sandbanks dunes, vineyard rows off quiet sideroads, and a food scene that never left the farm.</p>
+        </div>
+      </a>
+      <a class="hc-card hc-card-link" href="/destinations/niagara-on-the-lake-private-tour/" aria-label="Niagara-on-the-Lake, Ontario">
+        <div class="hc-card-img" style="background-image:url('/images/dest-notl.jpg')"></div>
+        <div class="hc-card-base"></div>
+        <div class="hc-card-num">06</div>
+        <div class="hc-card-content">
+          <span class="hc-card-tag">Ontario</span>
+          <h3 class="hc-card-title">Niagara-on-the-Lake</h3>
+          <p class="hc-card-desc">Heritage streets, icewine in January, and the winemakers who pour it, private and unhurried.</p>
+        </div>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What is included</div>
-        <h2 class="section-title">The logistics you will not have to think about</h2>
+<section class="band-white" id="experiences" aria-label="Private guided tour types Canada">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="lab eyebrow">Who We Design For</div>
+        <h2 class="section-title">Every Journey, Entirely Yours</h2>
       </div>
-      <ul class="ticks prose">
-        <li>All private ground transfers, airport to lodge and between destinations</li>
-        <li>Domestic flights and floatplane transfers where the journey calls for them</li>
-        <li>Private boat, canoe, and crew on every water day</li>
-        <li>A dedicated local guide throughout, not a driver with a script</li>
-        <li>Daily breakfast, plus the lunches and dinners noted in your itinerary</li>
-        <li>National and provincial park passes, and all entrance fees</li>
-        <li>Wildlife-safety briefings before every walk</li>
-        <li>Accommodation at the finest available property in each location, confirmed after our call</li>
-        <li>A 24-hour Luxury Tours Canada contact for the whole journey</li>
-      </ul>
-      <p class="small">Not included: international flights, alcoholic beverages and room charges, personal shopping, activities added outside the itinerary, travel medical insurance (strongly recommended, and essential for retirees), eTA fees where required, and gratuities.</p>
     </div>
-  </section>
+    <div class="exp-grid">
+      <div class="exp-card"><span class="exp-icon">🧭</span><div class="exp-title">Private Journeys</div><p class="exp-body">For the traveller who has seen enough of the world to know what they do not want. We go where groups do not.</p><a href="/experiences/private-tours/" class="exp-cta">Explore journeys</a></div>
+      <div class="exp-card"><span class="exp-icon">💍</span><div class="exp-title">Honeymoons & Proposals</div><p class="exp-body">A proposal at sunrise on Lake Louise, a storm watched from a soaking tub in Tofino. We will not let you down.</p><a href="/experiences/honeymoon-proposals/" class="exp-cta">Plan the moment</a></div>
+      <div class="exp-card"><span class="exp-icon">🌿</span><div class="exp-title">Families with Children</div><p class="exp-body">Cold-water rules, wildlife briefings, flexible pacing. We have thought of what you have not yet.</p><a href="/experiences/family-tours/" class="exp-cta">Make more memories</a></div>
+      <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Retiree Journeys</div><p class="exp-body">The journey you have been planning for decades, finally done right. Unhurried days, expert guides, the finest rooms.</p><a href="/experiences/retirement-travel/" class="exp-cta">Plan my journey</a></div>
+      <div class="exp-card"><span class="exp-icon">🏛️</span><div class="exp-title">Corporate & MICE</div><p class="exp-body">Leadership retreats beyond the resort conference room. Canada as a stage for something genuinely memorable.</p><a href="/experiences/corporate-mice/" class="exp-cta">Corporate enquiry</a></div>
+    </div>
+  </div>
+</section>
 
-  <section class="band-glacier">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">From the journal</div>
-        <h2 class="section-title">Reading before you plan</h2>
-      </div>
-      <div class="grid g-2">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/journal-tofino.svg" width="600" height="400" alt="Pacific storm seen from a Tofino window during storm-watching season" loading="lazy"></figure>
-          <div class="body">
-            <h3 class="card-title">Tofino in Storm Season: A Private Guide</h3>
-            <p>Why the quietest months on the Pacific coast are the ones we build journeys around.</p>
-            <a class="more" href="/journal/tofino-storm-season-guide/">Read the guide</a>
-          </div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/journal-jasper.svg" width="600" height="400" alt="Maligne Lake in Jasper at dawn before the tour buses arrive" loading="lazy"></figure>
-          <div class="body">
-            <h3 class="card-title">Private Luxury Tours in Jasper: What the Banff Coaches Never Show You</h3>
-            <p>Dark skies, empty switchbacks, and why Jasper leads every Rockies journey we design.</p>
-            <a class="more" href="/journal/jasper-what-the-banff-coaches-miss/">Read the post</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta" aria-label="Closing invitation">
-    <img src="/images/home-cta.svg" width="1600" height="900" alt="Sunrise over a quiet Canadian lake on a private luxury tour" loading="lazy">
-    <div class="veil"></div>
-    <div class="inner">
-      <h2>Begin Your Journey</h2>
-      <p>Tell us what you are imagining. We will come back within 24 hours.</p>
-      <p><a class="btn" href="/#begin">Begin Your Journey</a></p>
-    </div>
-  </section>
+<section class="quote-band" aria-label="Why choose Luxury Tours Canada">
+  <h2 class="visually-hidden">Why Choose Luxury Tours Canada for Private Guided Tours</h2>
+  <span class="quote-mark">"</span>
+  <p class="quote-text">We do not sell Canada. <br> We give you access to the version of it <br> that <em>most people never find.</em></p>
+  <div class="quote-attr">Luxury Tours Canada, Est. 2026</div>
+</section>
 
   <section class="band-white" id="begin">
     <div class="wrap">
@@ -296,16 +401,16 @@
         <div class="promise-item"><span class="promise-dot"></span><span>Every inquiry is read and answered personally.</span></div>
         <div class="promise-item"><span class="promise-dot"></span><span>No fixed packages and no price grids. Ever.</span></div>
         <iframe name="formSink" style="display:none" aria-hidden="true" tabindex="-1" title="Form submission target"></iframe>
-        <form id="journeyForm" action="https://script.google.com/macros/s/AKfycbwRYj-L08AOiqzyHD7jX8lJhyFTPxzXseriRz0046zeA5ySPXPGwLdQ_vShRWoGwCzf/exec" method="POST" target="formSink" style="margin-top:18px">
+        <form id="journeyForm" action="https://script.google.com/macros/s/AKfycbwRYj-L08AOiqzyHD7jX8lJhyFTPxzXseriRz0046zeA5ySPXPGwLdQ_vShRWoGwCzf/exec" method="POST" target="formSink" onsubmit="submitForm(event)" style="margin-top:18px">
           <input type="hidden" name="source" value="ltc-homepage">
           <input type="hidden" name="page" id="formPage" value="/">
           <input type="hidden" name="timestamp" id="formTimestamp">
-          <input type="hidden" name="quiz_who" value="">
-          <input type="hidden" name="quiz_draw" value="">
-          <input type="hidden" name="quiz_pace" value="">
-          <input type="hidden" name="quiz_dest" value="">
-          <input type="hidden" name="quiz_luxury" value="">
-          <input type="hidden" name="quiz_archetype" value="">
+          <input type="hidden" name="quiz_who" id="quizWho" value="">
+          <input type="hidden" name="quiz_draw" id="quizDraw" value="">
+          <input type="hidden" name="quiz_pace" id="quizPace" value="">
+          <input type="hidden" name="quiz_dest" id="quizDest" value="">
+          <input type="hidden" name="quiz_luxury" id="quizLuxury" value="">
+          <input type="hidden" name="quiz_archetype" id="quizArchetype" value="">
           <div class="form-group">
             <label class="f-label" for="fieldName">Your name</label>
             <input class="form-input" type="text" id="fieldName" name="name" placeholder="First and last name" required>

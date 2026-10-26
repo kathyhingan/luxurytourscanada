@@ -21,7 +21,7 @@ def esc(s):
 
 # ---------------------------------------------------------------- head
 
-def head(title, desc, path, og_type="website", og_image="/images/home-hero.svg", jsonld=None):
+def head(title, desc, path, og_type="website", og_image="/images/home-hero.jpg", jsonld=None):
     """path like 'destinations/tofino-private-tour/' ('' for home)."""
     url = SITE + "/" + path
     graph = json.dumps(jsonld or [], indent=2)
@@ -32,7 +32,7 @@ def head(title, desc, path, og_type="website", og_image="/images/home-hero.svg",
 <!-- Google Analytics: [GA ID TBD] -->
 <!-- Microsoft Clarity: [CLARITY ID TBD] -->
 <!-- 2. Favicon -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.jpg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <!-- 3. SEO -->
 <meta charset="UTF-8">
@@ -93,7 +93,79 @@ def header():
 </header>"""
 
 
-FOOTER = """<footer class="site-foot">
+
+JOURNEY_FORM = """<section class="band-white" id="begin" aria-label="Begin your journey">
+  <div class="wrap" style="max-width:860px">
+    <div class="section-head" style="text-align:center">
+      <div class="lab eyebrow">Start here</div>
+      <h2 class="section-title">Begin Your Journey</h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 6px">Every Luxury Tours Canada journey begins with a conversation. No commitment, no package pricing, no two journeys alike.</p>
+    </div>
+    <div class="form-wrap">
+      <div class="promise-item"><span class="promise-dot"></span><span>We respond within 24 hours, always.</span></div>
+      <div class="promise-item"><span class="promise-dot"></span><span>Every inquiry is read and answered personally.</span></div>
+      <div class="promise-item"><span class="promise-dot"></span><span>No fixed packages and no price grids. Ever.</span></div>
+      <iframe name="formSink" style="display:none" aria-hidden="true" tabindex="-1" title="Form submission target"></iframe>
+      <form id="journeyForm" action="{FORM_ACTION}" method="POST" target="formSink" onsubmit="submitForm(event)" style="margin-top:18px">
+        <input type="hidden" name="source" value="ltc-page">
+        <input type="hidden" name="page" id="formPage">
+        <input type="hidden" name="timestamp" id="formTimestamp">
+        <input type="hidden" name="quiz_who" id="quizWho" value="">
+        <input type="hidden" name="quiz_draw" id="quizDraw" value="">
+        <input type="hidden" name="quiz_pace" id="quizPace" value="">
+        <input type="hidden" name="quiz_dest" id="quizDest" value="">
+        <input type="hidden" name="quiz_luxury" id="quizLuxury" value="">
+        <input type="hidden" name="quiz_archetype" id="quizArchetype" value="">
+        <div class="form-group">
+          <label class="f-label" for="fieldName">Your name</label>
+          <input class="form-input" type="text" id="fieldName" name="name" placeholder="First and last name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="f-label" for="fieldEmail">Email address</label>
+            <input class="form-input" type="email" id="fieldEmail" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label class="f-label" for="fieldType">Journey type</label>
+            <select class="form-select" id="fieldType" name="journey_type">
+              <option value="">Select...</option>
+              <option>Private Journey</option>
+              <option>Honeymoon</option>
+              <option>Engagement Proposal</option>
+              <option>Family with Children</option>
+              <option>Retiree Journey</option>
+              <option>Corporate / MICE</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="f-label" for="fieldPhone">Phone number</label>
+          <input class="form-input" type="tel" id="fieldPhone" name="phone" placeholder="Any country, include the country code" pattern="[+0-9][0-9 ()\-.]{{6,}}" title="Enter your full number with country code, for example +1 604 555 0142" inputmode="tel" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="f-label" for="fieldDates">Approximate dates</label>
+            <input class="form-input" type="text" id="fieldDates" name="dates" placeholder="For example, September 2027">
+          </div>
+          <div class="form-group">
+            <label class="f-label" for="fieldGroup">Group size</label>
+            <input class="form-input" type="text" id="fieldGroup" name="group_size" placeholder="For example, 2 adults, 1 child aged 6">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="f-label" for="fieldMessage">Tell us what you are imagining</label>
+          <textarea class="form-input" id="fieldMessage" name="message" placeholder="Destinations, pace, what matters most, anything on your mind..."></textarea>
+        </div>
+        <button class="btn" type="submit" id="formSubmitBtn">Request My Journey Consultation</button>
+        <p class="form-note">We respond within 24 hours. Every inquiry is handled personally.</p>
+        <div class="form-ok" id="formOk" role="status"><strong>Received.</strong> Thank you. We will come back to you within 24 hours, personally.</div>
+      </form>
+    </div>
+  </div>
+</section>
+"""
+
+FOOTER = JOURNEY_FORM + """<footer class="site-foot">
   <div class="wrap">
     <div class="cols">
       <div>
@@ -307,7 +379,7 @@ def graph(*nodes):
 # ---------------------------------------------------------------- page
 
 def page(path, title, desc, crumb_trail, hero_html, body_html, faq_pairs=None,
-         extra_nodes=None, og_type="website", og_image="/images/home-hero.svg",
+         extra_nodes=None, og_type="website", og_image="/images/home-hero.jpg",
          with_breadcrumb_schema=True, date_line=None):
     """Render a full page. path: 'destinations/x/' (folder with index.html)."""
     nodes = [node_agency()]

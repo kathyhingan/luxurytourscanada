@@ -1,0 +1,206 @@
+[
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "About Luxury Tours Canada: the Trans-Canada Highway crossing the Rockies at dusk",
+  "slot": "/images/about-hero.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "The road-experience behind Luxury Tours Canada: a highway and a bicycle",
+  "slot": "/images/about-portrait.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Icefields Parkway private tour between Lake Louise and Jasper in the Canadian Rockies",
+  "slot": "/images/dest-banff.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Private Canada tours: a quiet highway through the Canadian Rockies at first light",
+  "slot": "/images/dest-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Maligne Lake in Jasper National Park at dawn on a private Jasper tour",
+  "slot": "/images/dest-jasper.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Lakeside vineyards on the Ontario lakeshore near Prince Edward County",
+  "slot": "/images/dest-lakeshore.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Sunrise over a quiet Canadian lake on a private luxury tour",
+  "slot": "/images/home-cta.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Private guide briefing guests before a wildlife walk in Jasper, Canadian Rockies",
+  "slot": "/images/home-guide-at-work.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Luxury Tours Canada private journey: an empty coastal road at first light on the Pacific coast of British Columbia",
+  "slot": "/images/home-hero.svg"
+ },
+ {
+  "w": 800,
+  "h": 1000,
+  "subject": "Portrait of the guide behind Luxury Tours Canada journeys on the Trans-Canada Highway",
+  "slot": "/images/home-portrait.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Journal of private Canada travel guides: a mountain road and a notebook at first light",
+  "slot": "/images/journal-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "The Icefields Parkway in summer with a glacier ahead",
+  "slot": "/images/journal-icefields-card.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "The road south from Jasper with early light on the peaks",
+  "slot": "/images/journal-icefields-closing.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Summer on the Icefields Parkway, glacier and valley in one frame",
+  "slot": "/images/journal-icefields-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "The Icefields Parkway in summer with a glacier above the valley",
+  "slot": "/images/journal-icefields-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Summer evening light on the Sunwapta River along Highway 93",
+  "slot": "/images/journal-icefields-landscape.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Morning light on Bow Lake on the Icefields Parkway in July",
+  "slot": "/images/journal-icefields-lead.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Athabasca Falls in early summer on the Icefields Parkway",
+  "slot": "/images/journal-icefields-pair-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Peyto Lake from the Bow Summit viewpoint in July",
+  "slot": "/images/journal-icefields-pair-2.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "The Columbia Icefield seen from the parkway on a clear summer morning",
+  "slot": "/images/journal-icefields-quote.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Market stalls under the trees in Centennial Park, Ganges, on Salt Spring Island",
+  "slot": "/images/journal-saltspring-card.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Ganges village in the late afternoon after the market crowds thin",
+  "slot": "/images/journal-saltspring-closing.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "A summer Saturday on Salt Spring Island, market morning and a slow afternoon",
+  "slot": "/images/journal-saltspring-cta.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "The Salt Spring Island Saturday Market in Centennial Park, Ganges, in July",
+  "slot": "/images/journal-saltspring-hero.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "The road south from Ganges with arbutus trees and the sea beyond",
+  "slot": "/images/journal-saltspring-landscape.svg"
+ },
+ {
+  "w": 1400,
+  "h": 800,
+  "subject": "Market stalls under the trees in Centennial Park on a summer Saturday",
+  "slot": "/images/journal-saltspring-lead.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "A produce stall at the Salt Spring market with island vegetables",
+  "slot": "/images/journal-saltspring-pair-1.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Ganges harbour seen from the park after a morning at the market",
+  "slot": "/images/journal-saltspring-pair-2.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Morning shoppers in Centennial Park with the market at full swing",
+  "slot": "/images/journal-saltspring-quote.svg"
+ },
+ {
+  "w": 1600,
+  "h": 900,
+  "subject": "Tofino storm watching: the Pacific breaking on the outer coast in winter",
+  "slot": "/images/journal-tofino-hero.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Pacific storm seen from a Tofino window during storm-watching season",
+  "slot": "/images/journal-tofino.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Private boat on Clayoquot Sound near Tofino on the BC coast",
+  "slot": "/images/journey-coast.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Ontario lakeshore vineyards near Prince Edward County on a private wine tour",
+  "slot": "/images/journey-lakeshore.svg"
+ },
+ {
+  "w": 600,
+  "h": 400,
+  "subject": "Icefields Parkway private tour: glacier and empty switchbacks in the Canadian Rockies",
+  "slot": "/images/journey-rockies.svg"
+ }
+]

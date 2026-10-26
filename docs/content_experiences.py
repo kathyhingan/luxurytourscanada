@@ -11,12 +11,12 @@ HUB = dict(
     title="Private Guided Tours in Canada | Luxury Tours Canada",
     desc="Private guided tours Canada by segment: independent travellers, honeymoons and proposals, families, retirees, and corporate retreats, eight guests maximum.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/")],
-    og_image="/images/exp-clusters.svg",
+    og_image="/images/exp-private-hero.jpg",
     hero=dict(
         eyebrow="Eight kinds of traveller",
         h1="Private Guided Tours Canada, Built Around Who Is Travelling",
         sub="A honeymoon, a family with a six year old, and a leadership retreat are three different countries. We design each one from the brief, never from a template.",
-        img="/images/exp-hero.svg",
+        img="/images/exp-hero.jpg",
         alt="Private guided tours Canada: a guide and two guests on a quiet trail in the Canadian Rockies",
         cta="Begin Your Journey",
     ),
@@ -34,27 +34,27 @@ HUB = dict(
     <div class="wrap">
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-independent.svg" width="600" height="400" alt="Independent travellers on a quiet road in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-independent.jpg" width="600" height="400" alt="Independent travellers on a quiet road in the Canadian Rockies" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Independent travellers</h3><p>Seasoned, well researched, and allergic to coaches. Access and exclusivity, with named places rather than scenery.</p><a class="more" href="/experiences/private-tours/">Private journeys</a></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon.svg" width="600" height="400" alt="Couple watching the Pacific from a soaking tub on a Canada honeymoon" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-honeymoon.jpg" width="600" height="400" alt="Couple watching the Pacific from a soaking tub on a Canada honeymoon" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Honeymoons and proposals</h3><p>The moment handled completely, including a second location if the weather takes an interest. Discretion from the first email.</p><a class="more" href="/experiences/honeymoon-proposals/">Romance, planned</a></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family.svg" width="600" height="400" alt="Family with children on a guided walk in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-family.jpg" width="600" height="400" alt="Family with children on a guided walk in the Canadian Rockies" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Families with children</h3><p>Child seats pre-sourced, nap-timed drives, wildlife briefings, and cold-water rules taken seriously.</p><a class="more" href="/experiences/family-tours/">Family travel</a></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree.svg" width="600" height="400" alt="Retiree couple on the Icefields Parkway with a private vehicle and guide" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-retiree.jpg" width="600" height="400" alt="Retiree couple on the Icefields Parkway with a private vehicle and guide" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Retirees</h3><p>Unhurried days, honest altitude notes, same guide throughout, and the trip you have been planning for decades finally done right.</p><a class="more" href="/experiences/retirement-travel/">Unhurried journeys</a></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice.svg" width="600" height="400" alt="Leadership retreat group in a mountain lodge in Alberta" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-mice.jpg" width="600" height="400" alt="Leadership retreat group in a mountain lodge in Alberta" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Corporate and MICE</h3><p>Retreats for six to thirty with one point of contact, a fallback venue for every programme, and outcomes stated before experiences.</p><a class="more" href="/experiences/corporate-mice/">Retreats</a></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-more.svg" width="600" height="400" alt="Notebook, map, and coffee on a table beside an itinerary" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-more.jpg" width="600" height="400" alt="Notebook, map, and coffee on a table beside an itinerary" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Three more shapes</h3><p>Anniversaries and escapes, a safe gap year for an eighteen year old, and a yearly holiday where every single day earns its place. Ask us for the shape in writing.</p><a class="more" href="/#begin">Tell us your dates</a></div>
         </article>
       </div>
@@ -71,7 +71,7 @@ HUB = dict(
           <p class="small" style="margin-top:14px">Our job is to make long roads and fast weather feel effortless, whether you are travelling with a toddler, a board of directors, or a ring in your pocket.</p>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/exp-constant.svg" width="1400" height="800" alt="Guide checking the marine forecast before a private boat day in British Columbia" loading="lazy">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Guide checking the marine forecast before a private boat day in British Columbia" loading="lazy">
           <figcaption>Weather checked the evening before, not the morning of.</figcaption>
         </figure>
       </div>
@@ -95,12 +95,12 @@ PRIVATE = dict(
     title="Private Tours Canada | Independent Luxury Journeys",
     desc="Private tours Canada for independent travellers: access where coaches cannot go, named places, not scenery, and routes from 27 years on the road.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Private Journeys", "/experiences/private-tours/")],
-    og_image="/images/exp-private-hero.svg",
+    og_image="/images/exp-private-hero.jpg",
     hero=dict(
         eyebrow="Independent travellers",
         h1="Private Tours Canada: A Canada the Highway Does Not Show You",
         sub="You have done Banff once, or you know it from a hundred photographs, and you are not going to see it from a bus seat. Good. Neither are we.",
-        img="/images/exp-private-hero.svg",
+        img="/images/exp-private-hero.jpg",
         alt="Private tours Canada: an empty mountain road at dawn on a luxury Canada journey",
         cta="Plan My Private Journey",
     ),
@@ -112,7 +112,7 @@ PRIVATE = dict(
         <p>What you are paying for is access and judgement. Knowing that Tofino is best in the shoulder and the outer waters, that Jasper beats Banff for a private base, that the Icefields Parkway needs a full tank before you start, and that the pull-off with the view is not the pull-off with the sign.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/exp-private-road.svg" width="1400" height="800" alt="Empty switchbacks on a private guided tour of the Canadian Rockies at sunrise" loading="lazy">
+        <img src="/images/exp-private-road.jpg" width="1400" height="800" alt="Empty switchbacks on a private guided tour of the Canadian Rockies at sunrise" loading="lazy">
         <figcaption>The road at six in the morning, and no one on it.</figcaption>
       </figure>
     </div>
@@ -126,15 +126,15 @@ PRIVATE = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-dawn.svg" width="600" height="400" alt="Lake at first light on a private tour of Canada, before the day visitors" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-private-dawn.jpg" width="600" height="400" alt="Lake at first light on a private tour of Canada, before the day visitors" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">The famous places at the quiet hours</h3><p>Lake Louise at sunrise, Maligne Lake before the day visitors, Tofino's beaches before eight. Same places, entirely different experience.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-boat.svg" width="600" height="400" alt="Private boat in the outer waters of Clayoquot Sound near Tofino" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-private-boat.jpg" width="600" height="400" alt="Private boat in the outer waters of Clayoquot Sound near Tofino" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Routes that skip the queue</h3><p>Yoho instead of Banff for the quiet valley. The outer sound instead of the beach car park. The county road instead of the highway.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-expert.svg" width="600" height="400" alt="Guide explaining a route on a map with private guests" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-private-expert.jpg" width="600" height="400" alt="Guide explaining a route on a map with private guests" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">A guide who has done it many times</h3><p>Not a driver with a script. Somebody who knows the road, the weather, the wildlife distances, and when to change the plan.</p></div>
         </article>
       </div>
@@ -153,9 +153,9 @@ PRIVATE = dict(
         <li><span class="num">3</span><div><strong>We run it.</strong> One point of contact, and a 24-hour line while you are in the country.</div></li>
       </ol>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-1.svg" width="600" height="400" alt="Floatplane transfer on the BC coast" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-2.svg" width="600" height="400" alt="Canoe on a Rockies lake at dawn" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-3.svg" width="600" height="400" alt="Vineyard stop on the Ontario lakeshore" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-private-strip-1.jpg" width="600" height="400" alt="Floatplane transfer on the BC coast" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-private-strip-2.jpg" width="600" height="400" alt="Canoe on a Rockies lake at dawn" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-private-strip-3.jpg" width="600" height="400" alt="Vineyard stop on the Ontario lakeshore" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -180,7 +180,7 @@ PRIVATE = dict(
     </div>
   </section>
 """,
-    cta_band=("/images/exp-private-cta.svg", "Private tours Canada: a mountain lake at dusk with a canoe at the shore",
+    cta_band=("/images/exp-private-cta.jpg", "Private tours Canada: a mountain lake at dusk with a canoe at the shore",
               "Begin Your Journey", "Tell us what you are imagining. We will come back within 24 hours.", "Begin Your Journey"),
     faq=[
         ("What makes a private tour different from a small group tour?",
@@ -203,12 +203,12 @@ HONEYMOON = dict(
     title="Canada Honeymoon Luxury | Proposals and Honeymoons",
     desc="Canada honeymoon luxury and proposal planning: private lodges, quiet lakes at dawn, Pacific storms, and a second location if weather intervenes.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Honeymoons and Proposals", "/experiences/honeymoon-proposals/")],
-    og_image="/images/exp-honeymoon-hero.svg",
+    og_image="/images/exp-honeymoon-hero.jpg",
     hero=dict(
         eyebrow="Couples, proposals, and honeymoons",
         h1="Canada Honeymoon Luxury: The Trip You Will Retell for the Rest of Your Lives",
         sub="A private lodge, a lake at dawn with the mist still on it, and a storm coming in off the Pacific while you watch it from a soaking tub. And nobody has to plan a thing.",
-        img="/images/exp-honeymoon-hero.svg",
+        img="/images/exp-honeymoon-hero.jpg",
         alt="Canada honeymoon luxury: a couple watching the Pacific from the window of a private Tofino lodge",
         cta="Plan Our Journey",
     ),
@@ -220,7 +220,7 @@ HONEYMOON = dict(
         <p>For proposal planners, everything runs quietly in the background. A hidden photographer, a private location, a decoy activity, and a second location and time window, because mountain weather turns by the hour and this moment does not get a second take.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/exp-honeymoon-lake.svg" width="1400" height="800" alt="Maligne Lake at dawn on a Canada honeymoon, canoe at the shore in still water" loading="lazy">
+        <img src="/images/exp-honeymoon-lake.jpg" width="1400" height="800" alt="Maligne Lake at dawn on a Canada honeymoon, canoe at the shore in still water" loading="lazy">
         <figcaption>Maligne Lake before the day visitors, which is the whole point of going with us.</figcaption>
       </figure>
     </div>
@@ -234,15 +234,15 @@ HONEYMOON = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-photographer.svg" width="600" height="400" alt="Hidden photographer at a distance during a surprise proposal in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-honeymoon-photographer.jpg" width="600" height="400" alt="Hidden photographer at a distance during a surprise proposal in the Canadian Rockies" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">A proposal that stays secret</h3><p>The photographer is placed before you arrive, the decoy activity is real, and the timing is rehearsed without the other person noticing a thing.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-weather.svg" width="600" height="400" alt="Mountain weather changing over a lake in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-honeymoon-weather.jpg" width="600" height="400" alt="Mountain weather changing over a lake in the Canadian Rockies" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">A second location, and a second window</h3><p>Every proposal, and every outdoor honeymoon day, carries an alternative at the same hour. It is written before you travel, not improvised on the day.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-quiet.svg" width="600" height="400" alt="Private dinner setting at a lodge table with a view" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-honeymoon-quiet.jpg" width="600" height="400" alt="Private dinner setting at a lodge table with a view" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Tables no one else is at</h3><p>Private dining rather than the best table in the room, and lodges chosen for what you can see from the window at six in the morning.</p></div>
         </article>
       </div>
@@ -263,9 +263,9 @@ HONEYMOON = dict(
         <li><strong>What could go wrong, and how we prevent it,</strong> written down and rehearsed with you.</li>
       </ul>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-1.svg" width="600" height="400" alt="Private floatplane arrival at a lake in the Rockies" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-2.svg" width="600" height="400" alt="Storm light on the Pacific coast near Tofino" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-3.svg" width="600" height="400" alt="Breakfast set for two at a private lodge" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-1.jpg" width="600" height="400" alt="Private floatplane arrival at a lake in the Rockies" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-2.jpg" width="600" height="400" alt="Storm light on the Pacific coast near Tofino" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-3.jpg" width="600" height="400" alt="Breakfast set for two at a private lodge" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -288,7 +288,7 @@ HONEYMOON = dict(
     </div>
   </section>
 """,
-    cta_band=("/images/exp-honeymoon-cta.svg", "Canada honeymoon luxury: a lodge window looking out over a mountain lake at dusk",
+    cta_band=("/images/exp-honeymoon-cta.jpg", "Canada honeymoon luxury: a lodge window looking out over a mountain lake at dusk",
               "Begin Your Journey", "Tell us what you are imagining, and we will keep it quiet.", "Plan Our Journey"),
     faq=[
         ("Where in Canada is best for a honeymoon?",
@@ -311,12 +311,12 @@ FAMILY = dict(
     title="Luxury Family Tour Canada | Travel With Kids Done Right",
     desc="A luxury family tour Canada families finish: child seats pre-sourced, nap-timed drives, wildlife briefings, and cold-water rules taken seriously.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Family Travel", "/experiences/family-tours/")],
-    og_image="/images/exp-family-hero.svg",
+    og_image="/images/exp-family-hero.jpg",
     hero=dict(
         eyebrow="Families with children",
         h1="Luxury Family Tours Canada: Travel With Kids, Done Right",
         sub="Car seats in every vehicle, drives timed around naps, wildlife briefings before every walk, and a beach plan that respects how cold the Pacific actually is.",
-        img="/images/exp-family-hero.svg",
+        img="/images/exp-family-hero.jpg",
         alt="Luxury family tour Canada: parents and children on a guided lakeside walk in the Canadian Rockies",
         cta="Plan A Family Journey",
     ),
@@ -330,7 +330,7 @@ FAMILY = dict(
           <p class="small" style="margin-top:14px">Our own family does not travel on client journeys. Local guides and vetted childminders look after the family-facing details on the ground, and every family journey is designed around that reality rather than around the version of family travel that looks good in a brochure.</p>
         </div>
         <figure class="shot shot-hero">
-          <img src="/images/exp-family-portrait.svg" width="800" height="1000" alt="Family with young children preparing for a guided walk in the Canadian Rockies" loading="lazy">
+          <img src="/images/exp-family-portrait.jpg" width="800" height="1000" alt="Family with young children preparing for a guided walk in the Canadian Rockies" loading="lazy">
         </figure>
       </div>
     </div>
@@ -344,15 +344,15 @@ FAMILY = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-carseat.svg" width="600" height="400" alt="Child seat installed in a private vehicle on the Icefields Parkway" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-family-carseat.jpg" width="600" height="400" alt="Child seat installed in a private vehicle on the Icefields Parkway" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Car seats, pre-sourced</h3><p>Child seats are required by law in Canada, and on a long drive they are essential. We confirm the right seats for each child before you land, in every vehicle.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-wildlife.svg" width="600" height="400" alt="Guide briefing children before a wildlife walk in Jasper" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-family-wildlife.jpg" width="600" height="400" alt="Guide briefing children before a wildlife walk in Jasper" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Wildlife briefings for children</h3><p>Short, clear, and repeated before every walk, so the wildlife stays at a distance and the children understand why. Bears are seen, never approached.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-water.svg" width="600" height="400" alt="Guide supervised beach day with wetsuits on the BC coast" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-family-water.jpg" width="600" height="400" alt="Guide supervised beach day with wetsuits on the BC coast" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Cold water, taken seriously</h3><p>Pacific and glacial water is cold year round. Wetsuits for any swimming, guide-supervised beach days only, and the lake rather than the ocean when the children want to stay in.</p></div>
         </article>
       </div>
@@ -373,9 +373,9 @@ FAMILY = dict(
         </ul>
       </div>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-1.svg" width="600" height="400" alt="Family canoeing on a Rockies lake with a guide" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-2.svg" width="600" height="400" alt="Children at a Salt Spring Island farm stand" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-3.svg" width="600" height="400" alt="Nap-timed drive with a stop at a mountain viewpoint" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-family-strip-1.jpg" width="600" height="400" alt="Family canoeing on a Rockies lake with a guide" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-family-strip-2.jpg" width="600" height="400" alt="Children at a Salt Spring Island farm stand" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-family-strip-3.jpg" width="600" height="400" alt="Nap-timed drive with a stop at a mountain viewpoint" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -400,7 +400,7 @@ FAMILY = dict(
     </div>
   </section>
 """,
-    cta_band=("/images/exp-family-cta.svg", "Family watching a mountain sunset from a lakeside lodge deck in Canada",
+    cta_band=("/images/exp-family-cta.jpg", "Family watching a mountain sunset from a lakeside lodge deck in Canada",
               "Begin Your Journey", "Tell us the ages and the season, and we will tell you honestly which region suits them.", "Plan A Family Journey"),
     faq=[
         ("What is the best Canada itinerary with a toddler?",
@@ -423,12 +423,12 @@ RETIREE = dict(
     title="Retiree Travel Canada Luxury | Unhurried Journeys Canada",
     desc="Retiree travel Canada luxury, unhurried: no departures before 8:30am, honest altitude and medical notes, the same guide, and the trip you waited decades for.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Retiree Journeys", "/experiences/retirement-travel/")],
-    og_image="/images/exp-retiree-hero.svg",
+    og_image="/images/exp-retiree-hero.jpg",
     hero=dict(
         eyebrow="Retirees and senior travellers",
         h1="Retiree Travel Canada Luxury: The Trip You Have Been Planning for Decades",
         sub="No departure before half past eight. Long views, short walks, the same guide every day, and a pace that finally matches the way you want to travel.",
-        img="/images/exp-retiree-hero.svg",
+        img="/images/exp-retiree-hero.jpg",
         alt="Retiree travel Canada luxury: an unhurried private vehicle stop on the Icefields Parkway",
         cta="Plan My Retiree Journey",
     ),
@@ -442,7 +442,7 @@ RETIREE = dict(
           <p class="small" style="margin-top:14px">That changes how we plan it: the pace, the properties, the sequence, everything built around comfort, familiarity, and the complete absence of rushing.</p>
         </div>
         <figure class="shot shot-hero">
-          <img src="/images/exp-retiree-portrait.svg" width="800" height="1000" alt="Retired couple on a lodge deck overlooking a Canadian mountain lake" loading="lazy">
+          <img src="/images/exp-retiree-portrait.jpg" width="800" height="1000" alt="Retired couple on a lodge deck overlooking a Canadian mountain lake" loading="lazy">
         </figure>
       </div>
     </div>
@@ -456,15 +456,15 @@ RETIREE = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-morning.svg" width="600" height="400" alt="Breakfast on a lodge terrace with a mountain view at half past eight" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-retiree-morning.jpg" width="600" height="400" alt="Breakfast on a lodge terrace with a mountain view at half past eight" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">No departures before 8:30am</h3><p>Wildlife is best at dawn, so the outing moves to late afternoon or evening instead of an early start. Mornings belong to breakfast and the view.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-walk.svg" width="600" height="400" alt="Short guided walk on firm ground with long views in the Canadian Rockies" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-retiree-walk.jpg" width="600" height="400" alt="Short guided walk on firm ground with long views in the Canadian Rockies" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Short walks, long views</h3><p>Every itinerary states walking distance, terrain, and altitude for each day. The Icefields Parkway by private vehicle, with the walking kept optional.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-medical.svg" width="600" height="400" alt="Guide reviewing a printed itinerary with guests at a lodge" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-retiree-medical.jpg" width="600" height="400" alt="Guide reviewing a printed itinerary with guests at a lodge" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Medical notes in writing</h3><p>The nearest hospital or clinic is noted for every destination, altitude is stated honestly, and travel medical insurance is treated as essential, not optional.</p></div>
         </article>
       </div>
@@ -483,9 +483,9 @@ RETIREE = dict(
         <li><span class="num">3</span><div><strong>You travel unhurried.</strong> If any day needs to change, we change it. Nothing is fixed that does not have to be.</div></li>
       </ol>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-1.svg" width="600" height="400" alt="Private vehicle on the Icefields Parkway with a glacier viewpoint" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-2.svg" width="600" height="400" alt="Garden and farm table lunch on Salt Spring Island" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-3.svg" width="600" height="400" alt="Evening wildlife outing beside a quiet road in Jasper" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-1.jpg" width="600" height="400" alt="Private vehicle on the Icefields Parkway with a glacier viewpoint" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-2.jpg" width="600" height="400" alt="Garden and farm table lunch on Salt Spring Island" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-3.jpg" width="600" height="400" alt="Evening wildlife outing beside a quiet road in Jasper" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -509,7 +509,7 @@ RETIREE = dict(
     </div>
   </section>
 """,
-    cta_band=("/images/exp-retiree-cta.svg", "Unhurried evening light over a Canadian mountain lake seen from a lodge",
+    cta_band=("/images/exp-retiree-cta.jpg", "Unhurried evening light over a Canadian mountain lake seen from a lodge",
               "Begin Your Journey", "Tell us the season and the pace, and we will design the days around both.", "Plan My Retiree Journey"),
     faq=[
         ("Do your Canada tours involve early starts?",
@@ -532,12 +532,12 @@ MICE = dict(
     title="Canada Corporate Retreat Luxury | MICE Canada Retreats",
     desc="Canada corporate retreat luxury for groups of six to thirty: private mountain and coastal retreats, one point of contact, and a fallback for every day.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Corporate and MICE", "/experiences/corporate-mice/")],
-    og_image="/images/exp-mice-hero.svg",
+    og_image="/images/exp-mice-hero.jpg",
     hero=dict(
         eyebrow="Corporate and MICE",
         h1="Canada Corporate Retreat Luxury: Impressive, Seamless, Nothing Goes Wrong",
         sub="One point of contact from brief to debrief. Private mountain and coastal retreats for six to thirty, with a fallback venue for every programme day and a transport manifest for every transfer.",
-        img="/images/exp-mice-hero.svg",
+        img="/images/exp-mice-hero.jpg",
         alt="Canada corporate retreat luxury: a leadership group meeting in a private mountain lodge",
         cta="Schedule A 30 Minute Brief",
     ),
@@ -549,7 +549,7 @@ MICE = dict(
         <p>What the group remembers afterwards is the part we do not compromise: a private dinner in a place no group has dined, a mountain morning that resets a room full of people, and a programme that leaves the team closer than any conference hotel could manage.</p>
       </div>
       <figure class="shot shot-wide">
-        <img src="/images/exp-mice-lodge.svg" width="1400" height="800" alt="Private mountain lodge prepared for a corporate retreat in the Canadian Rockies" loading="lazy">
+        <img src="/images/exp-mice-lodge.jpg" width="1400" height="800" alt="Private mountain lodge prepared for a corporate retreat in the Canadian Rockies" loading="lazy">
         <figcaption>Banff and Lake Louise handle larger groups; Calgary is the gateway, ninety minutes from the park gate.</figcaption>
       </figure>
     </div>
@@ -563,15 +563,15 @@ MICE = dict(
       </div>
       <div class="grid g-3">
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day1.svg" width="600" height="400" alt="Team arriving at a private lodge by private transfer from Calgary" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-mice-day1.jpg" width="600" height="400" alt="Team arriving at a private lodge by private transfer from Calgary" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Day one: arrival and reset</h3><p>Private transfers from Calgary, Vancouver, or Toronto, a briefing on the ground, and an evening that gets everyone out of the airport mindset.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day2.svg" width="600" height="400" alt="Strategy session in a lodge with mountain views behind" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-mice-day2.jpg" width="600" height="400" alt="Strategy session in a lodge with mountain views behind" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Day two: the work, in a room worth sitting in</h3><p>Morning sessions with AV support for hybrid attendees, an outdoor afternoon that changes the conversation, and dinner together.</p></div>
         </article>
         <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day3.svg" width="600" height="400" alt="Private dinner setting in a location no group has dined" loading="lazy"></figure>
+          <figure class="shot shot-card"><img src="/images/exp-mice-day3.jpg" width="600" height="400" alt="Private dinner setting in a location no group has dined" loading="lazy"></figure>
           <div class="body"><h3 class="card-title">Day three: the thing they will talk about</h3><p>A private guided day, a dinner in a place no group has dined, and reflection built into the evening rather than left to the flight home.</p></div>
         </article>
       </div>
@@ -594,7 +594,7 @@ MICE = dict(
           </ul>
         </div>
         <figure class="shot shot-wide">
-          <img src="/images/exp-mice-logistics.svg" width="1400" height="800" alt="Guide and organiser reviewing the transport manifest before the group departs" loading="lazy">
+          <img src="/images/exp-mice-logistics.jpg" width="1400" height="800" alt="Guide and organiser reviewing the transport manifest before the group departs" loading="lazy">
           <figcaption>Manifests, timings, and a second plan for every day.</figcaption>
         </figure>
       </div>
@@ -611,9 +611,9 @@ MICE = dict(
         <p>Team cohesion earned in a canoe rather than a conference room. Leadership alignment reached over a long table at the end of a day that took everyone out of their inbox. And cultural capital: the retelling that raises how the team talks about where it works and who it works with. We will bring the value argument against Whistler, Aspen, or the Alps to the briefing, checked at the current exchange rate rather than asserted.</p>
       </div>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-1.svg" width="600" height="400" alt="Guided canoe session for a corporate group in the Rockies" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-2.svg" width="600" height="400" alt="Private dinner table set for a corporate group in a heritage venue" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-3.svg" width="600" height="400" alt="Hybrid session with AV support in a mountain lodge" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-mice-strip-1.jpg" width="600" height="400" alt="Guided canoe session for a corporate group in the Rockies" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-mice-strip-2.jpg" width="600" height="400" alt="Private dinner table set for a corporate group in a heritage venue" loading="lazy"></figure>
+        <figure class="shot shot-card"><img src="/images/exp-mice-strip-3.jpg" width="600" height="400" alt="Hybrid session with AV support in a mountain lodge" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -627,7 +627,7 @@ MICE = dict(
     </div>
   </section>
 """,
-    cta_band=("/images/exp-mice-cta.svg", "Evening light on a private mountain lodge terrace set for a corporate dinner",
+    cta_band=("/images/exp-mice-cta.jpg", "Evening light on a private mountain lodge terrace set for a corporate dinner",
               "Schedule A 30 Minute Brief", "Tell us the group, the dates, and the outcome you need, and we will bring a programme.", "Schedule A 30 Minute Brief"),
     faq=[
         ("What group sizes can you handle for a corporate retreat in Canada?",
