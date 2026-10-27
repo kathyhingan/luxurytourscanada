@@ -315,7 +315,7 @@ QUOTE_HTML = """
   <h2 class="visually-hidden">Why Choose Luxury Tours Canada for Private Guided Tours</h2>
   <span class="quote-mark">"</span>
   <p class="quote-text">We do not sell Canada. <br> We give you access to the version of it <br> that <em>most people never find.</em></p>
-  <div class="quote-attr">Luxury Tours Canada, Est. 2026</div>
+  <div class="quote-attr">Daryl Urbanski, Luxury Tours Canada</div>
 </section>
 """
 
