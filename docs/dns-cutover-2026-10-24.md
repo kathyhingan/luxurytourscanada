@@ -1,5 +1,12 @@
 # DNS cutover runbook: luxurytourscanada.com to GitHub Pages
 
+DONE 2026-10-27, verified by Hermes the same day: apex resolves to the four
+185.199.x.153 A records, www CNAME resolves to kathyhingan.github.io,
+Let's Encrypt cert issued (valid 2026-10-26 to 2027-01-24), Enforce HTTPS
+ticked on the Pages settings, www 301s to the apex, all 20 sitemap URLs
+return 200 with self-canonicals, and the capture E2E re-ran green from the
+live origin (fetch probe ok:true). Steps below kept for the record.
+
 Written 2026-10-24 from live DNS state. The domain is PURCHASED and parked:
 
 - Nameservers: dns1.registrar-servers.com, dns2.registrar-servers.com

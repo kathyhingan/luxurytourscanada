@@ -9,10 +9,15 @@ Leads land in the shared Arkipelago tracker sheet, tab `Leads Canada`.
 ## Status: LIVE since 2026-10-24 (published on Kathy's explicit order).
 
 Repo: github.com/kathyhingan/luxurytourscanada (public, free-plan Pages),
-GitHub Pages builds from main (last verified "built" at 24e0f7d on
-2026-10-26), custom domain attached from the CNAME file. The site is NOT
-reachable until the Namecheap DNS cutover: docs/dns-cutover-2026-10-24.md.
-The local tree is 2 commits ahead of origin and rides the next push.
+GitHub Pages builds from main (last verified "built" at 9b06d56 on
+2026-10-27), custom domain attached from the CNAME file. LIVE on the custom
+domain since 2026-10-27: DNS cutover done (apex on the four 185.199.x.153
+records, www CNAME to kathyhingan.github.io), Let's Encrypt cert issued the
+same day (valid to 2027-01-24), Enforce HTTPS ticked. Full live verification
+2026-10-27: all 20 sitemap URLs return 200 with self-canonicals, robots.txt
+declares the sitemap, capture E2E re-run from the live origin (ok:true, see
+item 10), quiz-to-form data path verified. Content tree = origin; doc-only
+commits from the cutover verification ride the next push.
 Capture is proven end to end (2026-10-24): real submit on the local build
 landed exact values on the `Leads Canada` tab, fetch probe ok:true, Gmail
 alert path ran, LTP `Leads` tab untouched.
@@ -47,12 +52,12 @@ Rebuild after editing content: `python3 docs/build_all.py` then
 
 ## Open items (Kathy)
 
-1. Namecheap DNS cutover (Kathy, about 5 minutes): Domain List > Manage >
-   Advanced DNS. DELETE the parking A record (162.255.119.27), ADD four apex
-   A records @ = 185.199.108.153 / 109.153 / 110.153 / 111.153, ADD CNAME
-   www = kathyhingan.github.io. Full click-by-click runbook with the live
-   DNS state (re-verified parked 2026-10-25): docs/dns-cutover-2026-10-24.md.
-   DONE parts: repo pushed + Pages enabled + CNAME attached (2026-10-24).
+1. DONE 2026-10-27: Namecheap DNS cutover completed by Kathy (four apex A
+   records 185.199.108-111.153, www CNAME kathyhingan.github.io), Let's
+   Encrypt cert issued the same day, Enforce HTTPS ticked on Pages. Runbook
+   kept for the record: docs/dns-cutover-2026-10-24.md. The legacy Google
+   sitemap ping endpoint is deprecated (404, sunset June 2023), so indexing
+   runs through Search Console: see item 10.
 2. DONE 2026-10-24: `Leads Canada` tab live with the 19 headers, standalone
    Apps Script deployed by Kathy, token swapped in index.html and
    docs/sitegen.py (commit 24e0f7d), E2E readback proof on the exact
@@ -83,6 +88,17 @@ Rebuild after editing content: `python3 docs/build_all.py` then
    rows to the real publish date, then the tree rides the next push. Full
    verification passed 2026-10-26: audit 20 pages clean, sweep 390/1440,
    FAQ one-open-at-a-time, keyword ledger updated (drafted).
+10. OPEN 2026-10-27 (Kathy): (a) Search Console: verify the
+    luxurytourscanada.com domain property, submit sitemap.xml, then request
+    indexing homepage first, then the six destinations, then the five
+    experiences; "Discovered / Crawled, currently not indexed" is normal for
+    weeks on a new site. (b) Delete the two DNS-cutover test rows on the
+    `Leads Canada` tab (names "DNS CUTOVER TEST 1/2 - DELETE",
+    dns-test-1/2@example.com, submitted 2026-10-27 from the live domain; the
+    matching Gmail alerts to her personal inbox are the live alert-path
+    proof). Cleanup from this side is blocked until the revoked shared
+    Google token gets fresh consent; on re-consent the same session also
+    re-runs the LTP `Leads` tab contamination spot-check.
 
 ## Brand rules enforced on every page
 
