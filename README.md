@@ -105,8 +105,11 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     destinations and experiences hubs, the five experience pages. Kathy's
     destination stories slot into a personal band per page when they arrive
     (docs/story-intake-2026-10-22.md); none of the rewritten pages carries a
-    placeholder. Tofino commit f43abc3 is LOCAL; push on Kathy's order, then
-    bump the Tofino lastmod to the live date.
+    placeholder. PUSHED AND LIVE 2026-10-29 on Kathy's explicit push order:
+    commits f43abc3 + 9c40d04 on origin/main, Pages build verified "built",
+    Tofino live-verified on the custom domain (200 + hc-carousel present) and
+    the favicon fix is live on every page. Tofino sitemap lastmod bumped to the
+    live date 2026-10-29 in the same push.
 
 ## Brand rules enforced on every page
 
