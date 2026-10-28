@@ -110,6 +110,18 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     Tofino live-verified on the custom domain (200 + hc-carousel present) and
     the favicon fix is live on every page. Tofino sitemap lastmod bumped to the
     live date 2026-10-29 in the same push.
+12. DONE 2026-10-29 (open since 2026-10-24): notification-email gate closed on
+    Kathy's YES. Production probe through the deployed /exec: {"ok":true},
+    probe row landed on `Leads Canada` with exact values (server-side phone
+    +1 -> 001 normalization working), 19 headers intact. ok:true proves
+    appendRow AND MailApp.sendEmail ran without exception; alert recipient is
+    kathyhingan@gmail.com (Code.gs NOTIFY), subject "LTC Lead: <name>". Inbox
+    receipt not directly verifiable from Hermes (all Gmail tokens read
+    journey@; the alert never routes through journey@, zero hits there), so
+    the probe email was left in her inbox as the receipt artifact for a
+    one-glance confirm. Probe row deleted safely afterwards (locate by value,
+    re-read assert, deleteRange shiftDimension ROWS, full re-read: 19 headers,
+    0 rows, no leftovers; LTP Leads 45 rows, zero contamination).
 
 ## Brand rules enforced on every page
 
