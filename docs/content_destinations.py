@@ -188,94 +188,140 @@ TOFINO = dict(
     ),
     best_for=["Couples", "Retirees", "Independent travellers", "Families with children over 6"],
     body="""
-  <section class="band-white">
+  <section class="band-white" aria-label="Tofino journey facts">
     <div class="wrap">
-      <div class="prose lede">
-        <h2>Why Tofino for private travel</h2>
-        <p>Tofino has been discovered, and in July and August the main beaches know it. So we do not build summer journeys around Chesterman Beach at midday. We build them around the hours and the waters that stay quiet: dawn, the shoulder seasons, and the outer reaches of Clayoquot Sound, reached by private boat with a naturalist who knows where the whales have been feeding that week.</p>
-        <p>What Tofino does best is found in May and June, from September into October, and through the winter, when the Pacific puts on a show and almost nobody is there to see it. The road in from Nanaimo takes roughly three and a half to four hours, and it is one of the finest drives on the coast. A floatplane is the other way in, so the journey can begin above the water.</p>
+      <div class="grid g-4">
+        <div><div class="lab">Best season</div><p class="small">May to June and September to October first, storm season November to February, July and August by honest plan only</p></div>
+        <div><div class="lab">Getting there</div><p class="small">The Pacific Rim Highway from Nanaimo, or a floatplane straight into the harbour</p></div>
+        <div><div class="lab">Ideal stay</div><p class="small">Three to five nights: two boat days, one land day, one weather day</p></div>
+        <div><div class="lab">Character</div><p class="small">Wild coast, private boats, and the quietest hours on the sand</p></div>
       </div>
-      <figure class="shot shot-wide">
-        <img src="/images/tofino-landscape.jpg" width="1400" height="800" alt="Clayoquot Sound private boat tour passing a forested island on the Tofino coast" loading="lazy">
-        <figcaption>Chesterman Beach before eight, when the sand still belongs to the shorebirds.</figcaption>
-      </figure>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="Why Tofino for private travel">
+    <div class="wrap">
+      <div class="split">
+        <div class="prose">
+          <div class="lab eyebrow">The coast</div>
+          <h2 class="section-title">Tofino has been <em>discovered.</em> The water has not.</h2>
+          <p>In July and August the main beaches know it. So we do not build summer journeys around Chesterman Beach at midday. We build them around the hours and the waters that stay quiet: dawn, the shoulder seasons, and the outer reaches of Clayoquot Sound, reached by private boat with a naturalist who knows where the whales have been feeding that week.</p>
+          <p>Every private Tofino tour we build starts on the water. What this coast does best is found in May and June, from September into October, and through the winter, when the Pacific puts on a show and almost nobody is there to see it. The road in from Nanaimo takes roughly three and a half to four hours, and it is one of the finest drives on the coast. A floatplane is the other way in, so the journey can begin above the water.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/tofino-landscape.jpg" width="1400" height="800" alt="Clayoquot Sound private boat tour passing a forested island on the Tofino coast" loading="lazy">
+          <figcaption>Chesterman Beach before eight, when the sand still belongs to the shorebirds.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="What we build into a Tofino journey">
     <div class="wrap">
       <div class="section-head">
         <div class="lab eyebrow">Key experiences</div>
-        <h2 class="section-title">What we build into a Tofino journey</h2>
+        <h2 class="section-title">What we build into a <em>Tofino journey</em></h2>
+        <p class="lede">Six hours of the coast most visitors never reach, timed to the tide and the light.</p>
       </div>
-      <div class="grid g-2">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-hotsprings.jpg" width="600" height="400" alt="Hot Springs Cove near Tofino reached by private water taxi" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Hot Springs Cove by private boat</h3><p>A private water taxi out to the springs, timed so the soak happens after the tour boats have gone. Boardwalk, steam, and the open Pacific beyond.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-clayoquot.jpg" width="600" height="400" alt="Whale watching from a private boat in Clayoquot Sound near Tofino" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Clayoquot Sound by private boat</h3><p>Whales, sea lions, and black bears turning rocks on the low tide line, with a naturalist guide and a vessel that goes where the larger boats cannot.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-meares.jpg" width="600" height="400" alt="Old-growth forest walk on Meares Island near Tofino with a guide" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Meares Island old growth</h3><p>A guided walk among cedars older than most countries, on an island that was protected by the people who live here. Mud boots provided, pace set by the forest.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/tofino-storm.jpg" width="600" height="400" alt="Winter storm watching on the Pacific Rim coast near Tofino" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Winter storm watching</h3><p>From November to February the swell arrives in sets you can hear from the lodge. We book the room with the window, and the soaking tub, for exactly this.</p></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">The place in pictures</div>
-        <h2 class="section-title">The coast at its quietest</h2>
-      </div>
-      <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/tofino-mosaic-1.jpg" width="800" height="1000" alt="Rainforest trail above the beach near Tofino" loading="lazy"></figure>
-        <div class="grid">
-          <figure class="shot shot-card"><img src="/images/tofino-mosaic-2.jpg" width="600" height="400" alt="Floatplane arriving at Tofino harbour on the west coast of Vancouver Island" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/tofino-mosaic-3.jpg" width="600" height="400" alt="Fishing boats at anchor in Tofino harbour at dusk" loading="lazy"></figure>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Tofino experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-hotsprings.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Hot Springs Cove</span>
+            <h3 class="hc-card-title">The soak after the boats leave</h3>
+            <p class="hc-card-desc">A private water taxi out to the springs, timed so the boardwalk and the steam belong to you, and the open Pacific beyond.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-clayoquot.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Clayoquot Sound</span>
+            <h3 class="hc-card-title">Whales and bears, private boat</h3>
+            <p class="hc-card-desc">Grey whales, sea lions, and black bears turning rocks on the low tide line, with a naturalist guide and a vessel that goes where the larger boats cannot.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-meares.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Meares Island</span>
+            <h3 class="hc-card-title">Old growth, guided</h3>
+            <p class="hc-card-desc">A walk among cedars older than most countries, on an island protected by the people who live here. Mud boots provided, pace set by the forest.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-storm.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Storm season</span>
+            <h3 class="hc-card-title">The Pacific at full volume</h3>
+            <p class="hc-card-desc">From November to February the swell arrives in sets you can hear from the lodge. The room with the window, and the soaking tub, booked for exactly this.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-landscape.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The outer beaches</span>
+            <h3 class="hc-card-title">Dawn, before the town wakes</h3>
+            <p class="hc-card-desc">Chesterman and Cox Bay at first light, when the sand still belongs to the shorebirds and the swell is clean.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/tofino-mosaic-1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Rainforest coast</span>
+            <h3 class="hc-card-title">Where the road runs out</h3>
+            <p class="hc-card-desc">Rainforest trails above open ocean at the end of the Pacific Rim Highway, where the map stops and the water starts.</p>
+          </div>
         </div>
       </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the coast.</p>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-white" aria-label="Who a Tofino journey suits">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">When to visit</div>
-        <h2 class="section-title">Seasons on the west coast</h2>
+        <div class="lab eyebrow">For every traveller</div>
+        <h2 class="section-title">The coast, <em>many ways</em></h2>
       </div>
-      <div class="prose">
-        <p>May and June bring grey whales, long evenings, and empty beaches. September and October bring the clearest light of the year and the whale watching most people miss. November to February is storm season, which is a reason to go, not a reason to stay away, provided the room has the view and the fire. July and August are the busy months, workable only with dawn starts and a boat in the outer waters.</p>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">💍</span><div class="exp-title">Couples & Honeymoons</div><p class="exp-body">The room with the window, the tub, and nothing on the schedule until lunch. Winter storm season is the most romantic thing this coast does, and the easiest season to be alone in.</p><a href="/experiences/honeymoon-proposals/" class="exp-cta">Plan the moment</a></div>
+        <div class="exp-card"><span class="exp-icon">🌿</span><div class="exp-title">Families</div><p class="exp-body">Pacific water is cold year round: wetsuits for any swimming, a guide on every beach day, and a fallback day already written before you fly. Best with children over six.</p><a href="/experiences/family-tours/" class="exp-cta">Family journeys</a></div>
+        <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Retirees</div><p class="exp-body">Unhurried boat days, a naturalist who sets the pace, and the drive in from Nanaimo broken into stops worth taking.</p><a href="/experiences/retirement-travel/" class="exp-cta">Retiree journeys</a></div>
+        <div class="exp-card"><span class="exp-icon">🧭</span><div class="exp-title">Independent Travellers</div><p class="exp-body">You have seen the guidebook Tofino. We take you past it: the outer sound, the quiet hours, and the tide tables that decide everything.</p><a href="/experiences/private-tours/" class="exp-cta">Private journeys</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="Planning notes for Tofino">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
       <div class="grid g-3">
-        <div class="card"><div class="body"><div class="lab">Summer</div><p>Long light and warm sand, at its best before nine in the morning. Book early, and let us take you out of the crowd by boat.</p></div></div>
-        <div class="card"><div class="body"><div class="lab">Autumn</div><p>Clear air, active whales, and few people. Our favourite window on this coast, and the one we recommend first for couples.</p></div></div>
-        <div class="card"><div class="body"><div class="lab">Winter</div><p>Storm watching, fireplaces, and the Pacific at full volume. Dress for rain and you will love it.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Getting there</h3><p>The Pacific Rim Highway takes three and a half to four hours from Nanaimo and deserves a full day with stops. The other way in is a floatplane straight into the harbour.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Best season</h3><p>May and June bring grey whales, long evenings, and empty beaches. September and October bring the clearest light of the year and the whale watching most people miss.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The crowd problem</h3><p>July and August are the busy weeks on this coast, workable only with dawn starts and a boat in the outer waters. We plan them honestly or steer you to another window.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">How long</h3><p>Three to five nights. Two boat days, one land day, and one weather day, because boat and floatplane days here are weather dependent.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Storm season</h3><p>November to February: big swell, lodges built around the view, and the quietest the coast ever gets. Dress for rain and you will love it.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Getting around</h3><p>A private vehicle stays with you for the land days, and the boat days start from the harbour. Nothing depends on a shuttle timetable.</p></div></div>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="callout">
-        <div class="lab">For couples</div>
-        <p>The room with the window, the tub, and nothing on the schedule until lunch. Winter storm season is the most romantic thing this coast does, and it is the easiest season to be alone in.</p>
-      </div>
-      <div class="callout">
-        <div class="lab">For families</div>
-        <p>Pacific water is cold year round. Wetsuits for any swimming, and a guide on every beach day, because surf beaches carry rip currents. Boat and floatplane days are weather dependent, so every itinerary keeps a fallback day. Families with children over six do best here.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-spruce on-dark">
+  <section class="band-spruce on-dark" aria-label="How we design this journey">
     <div class="wrap">
       <div class="split">
         <div>
@@ -291,7 +337,21 @@ TOFINO = dict(
       </div>
     </div>
   </section>
+
+  <section class="band-white" aria-label="Longer journeys">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One coast, one journey</div>
+      <h2 class="section-title">Tofino is rarely <em>the only stop.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Most of our guests pair this coast with the Rockies or the Gulf Islands. See how a private Canada journey is built, then tell us what your version looks like.</p>
+      <a class="btn" href="/experiences/private-tours/">How private journeys work</a>
+    </div>
+  </section>
 """,
+    cta_band=("/images/tofino-storm.jpg",
+              "Tofino private tour: winter swell arriving on the Pacific Rim coast",
+              "Ready to see Tofino the right way?",
+              "Tell us what you are imagining. We will come back within 24 hours.",
+              "Begin Your Journey"),
     faq=[
         ("When is the best time for a private Tofino tour?",
          "<p>May and June, then September and October, then the storm season from November to February. July and August are the busiest weeks on this coast, and we work them only with dawn starts and a boat in the outer waters.</p>"),
