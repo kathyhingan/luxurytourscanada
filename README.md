@@ -88,17 +88,25 @@ Rebuild after editing content: `python3 docs/build_all.py` then
    rows to the real publish date, then the tree rides the next push. Full
    verification passed 2026-10-26: audit 20 pages clean, sweep 390/1440,
    FAQ one-open-at-a-time, keyword ledger updated (drafted).
-10. OPEN 2026-10-27 (Kathy): (a) Search Console: verify the
-    luxurytourscanada.com domain property, submit sitemap.xml, then request
-    indexing homepage first, then the six destinations, then the five
-    experiences; "Discovered / Crawled, currently not indexed" is normal for
-    weeks on a new site. (b) Delete the two DNS-cutover test rows on the
-    `Leads Canada` tab (names "DNS CUTOVER TEST 1/2 - DELETE",
-    dns-test-1/2@example.com, submitted 2026-10-27 from the live domain; the
-    matching Gmail alerts to her personal inbox are the live alert-path
-    proof). Cleanup from this side is blocked until the revoked shared
-    Google token gets fresh consent; on re-consent the same session also
-    re-runs the LTP `Leads` tab contamination spot-check.
+10. RESOLVED 2026-10-28 (a pending since 2026-10-27): the two DNS-cutover test
+    rows are GONE from the `Leads Canada` tab (verified by full-tab readback:
+    19 headers, zero data rows; the two Gmail alerts to Kathy's personal inbox
+    remain the live alert-path proof). The LTP `Leads` tab contamination
+    spot-check also ran clean the same day: zero LTC markers across all 45
+    data rows. Item (a) Search Console (verify, submit sitemap.xml, request
+    indexing) remains with Kathy.
+11. Interior LTP-pattern rewrite STARTED 2026-10-28: Tofino is the first page
+    rebuilt on the LTP destination architecture (hero facts strip, intro
+    split, 6-card highlights carousel, traveller strip, planning cards,
+    cross-link, CTA band). The shared component CSS (quiz, phil-stat,
+    hiw-step, exp-grid, hc-carousel) moved into assets/site.css so interior
+    pages can use it; the homepage keeps its identical inline copy. Remaining:
+    Salt Spring, Jasper, Banff and Yoho, PEC, Niagara-on-the-Lake, the
+    destinations and experiences hubs, the five experience pages. Kathy's
+    destination stories slot into a personal band per page when they arrive
+    (docs/story-intake-2026-10-22.md); none of the rewritten pages carries a
+    placeholder. Tofino commit f43abc3 is LOCAL; push on Kathy's order, then
+    bump the Tofino lastmod to the live date.
 
 ## Brand rules enforced on every page
 
