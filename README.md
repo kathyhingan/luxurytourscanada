@@ -122,6 +122,19 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     one-glance confirm. Probe row deleted safely afterwards (locate by value,
     re-read assert, deleteRange shiftDimension ROWS, full re-read: 19 headers,
     0 rows, no leftovers; LTP Leads 45 rows, zero contamination).
+13. 2026-10-29 (two changes staged, ride the next push):
+    (a) Salt Spring rebuilt on the LTP destination architecture (same sections
+    as Tofino), 1,346 words, FAQ and attraction schema kept, no personal-band
+    placeholder; sitemap lastmod bumped to 2026-10-29 for the push.
+    (b) CAPTURE BUG FIXED (found 2026-10-29, live since 2026-10-24): page()
+    shipped the literal {FORM_ACTION} placeholder in the footer form of every
+    generated interior page, so the quote form on all 18 interior pages
+    silently never reached Apps Script; only the hand-maintained homepage
+    carried the real /exec URL. sitegen.py now substitutes the token before
+    write (commit 44e82da); all 20 pages verified carrying the real action,
+    zero placeholders. The homepage capture E2E proof from Oct 24/29 stands
+    unaffected; interior-page capture is fixed as of this push and is
+    re-provable with the capture-e2e recipe if needed.
 
 ## Brand rules enforced on every page
 
