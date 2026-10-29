@@ -406,6 +406,10 @@ def page(path, title, desc, crumb_trail, hero_html, body_html, faq_pairs=None,
         "</body>",
         "</html>",
     ])
+    # 2026-10-29 fix: page() shipped the literal {FORM_ACTION} placeholder in every
+    # generated page's footer form, so capture was silently dead on all interior
+    # pages (only the hand-maintained homepage carried the real /exec URL).
+    html_out = html_out.replace("{FORM_ACTION}", FORM_ACTION)
     target = os.path.join(path, "index.html") if path else "index.html"
     os.makedirs(os.path.dirname(target) or ".", exist_ok=True)
     with open(target, "w", encoding="utf-8") as f:
