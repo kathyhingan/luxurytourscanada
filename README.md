@@ -135,6 +135,21 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     zero placeholders. The homepage capture E2E proof from Oct 24/29 stands
     unaffected; interior-page capture is fixed as of this push and is
     re-provable with the capture-e2e recipe if needed.
+14. DONE 2026-10-30: Jasper rebuilt on the LTP destination architecture (facts
+    strip, intro split, 6-card highlights carousel, traveller strip with
+    cross-links, 6 planning cards, design band, cross-link, CTA band), 1,508
+    words, FAQ and attraction schema kept, no personal-band placeholder. All
+    11 Jasper photos already on disk were reused; no new harvest needed.
+    PUSHED AND LIVE 2026-10-30 under the standing push-all order: commit
+    f7933c8 on origin/main, Pages build verified "built" in 40s, live-verified
+    on the custom domain (200, all six sections present, real /exec form
+    action, zero placeholders), sitemap lastmod bumped to the live date
+    2026-10-30 and confirmed live. Gates: audit exit 0 on all 20 pages, zero
+    em/en dashes, zero forbidden words, all image refs resolve, zero overflow
+    at 390/1440, carousel drag delta 336 via MouseEvents, FAQ one-open
+    verified, Leads Canada re-read 19 headers 0 rows. Remaining rewrites:
+    Banff and Yoho, PEC, Niagara-on-the-Lake, the two hubs, the five
+    experience pages.
 
 ## Brand rules enforced on every page
 
