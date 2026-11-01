@@ -150,6 +150,25 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     verified, Leads Canada re-read 19 headers 0 rows. Remaining rewrites:
     Banff and Yoho, PEC, Niagara-on-the-Lake, the two hubs, the five
     experience pages.
+15. DONE 2026-11-01: Banff and Yoho rebuilt on the LTP destination
+    architecture (facts strip, intro split, 6-card highlights carousel,
+    traveller strip with cross-links, 6 planning cards, design band,
+    cross-link, CTA band), 1,590 words, FAQ and attraction schema kept, no
+    personal-band placeholder. All 10 Banff photos already on disk were
+    reused; 9 slot in, banff-mosaic-2 (lodge fireplace) no longer
+    referenced. Keyword ownership unchanged ("icefields parkway private
+    tour" in title and H1). PUSHED AND LIVE 2026-11-01 under the standing
+    push-all order: commit 4f075db on origin/main, Pages build verified
+    "built", live-verified on the custom domain (200, all seven sections,
+    real /exec form action, zero placeholders), sitemap lastmod bumped to
+    the live date 2026-11-01 and confirmed live. Gates: audit exit 0 on all
+    20 pages, zero em/en dashes, zero forbidden words, all image refs
+    resolve on disk and live, zero overflow at 390/1440, carousel drag
+    delta exactly 336 leftward via MouseEvents, FAQ one-open verified
+    (details[open] state), hero CTA above the fold at both widths (572 at
+    390, 689 at 1440), body 17px/19px. Leads Canada re-read 19 headers
+    0 rows. Remaining rewrites: PEC, Niagara-on-the-Lake, the two hubs,
+    the five experience pages.
 
 ## Brand rules enforced on every page
 
