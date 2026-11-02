@@ -167,8 +167,27 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     delta exactly 336 leftward via MouseEvents, FAQ one-open verified
     (details[open] state), hero CTA above the fold at both widths (572 at
     390, 689 at 1440), body 17px/19px. Leads Canada re-read 19 headers
-    0 rows. Remaining rewrites: PEC, Niagara-on-the-Lake, the two hubs,
-    the five experience pages.
+    0 rows. Remaining rewrites: PEC, the two hubs, the five experience pages.
+16. DONE 2026-11-02: Niagara-on-the-Lake rebuilt on the LTP destination
+    architecture (facts strip, intro split, 6-card highlights carousel,
+    traveller strip with cross-links, 6 planning cards, design band,
+    cross-link, CTA band), 1,651 words, FAQ and attraction schema kept, no
+    personal-band placeholder. 8 of the 10 NOTL photos already on disk are
+    referenced; notl-mosaic-2 (barrels) and notl-mosaic-3 (heritage houses)
+    are no longer used. Keyword ownership unchanged ("niagara-on-the-lake
+    private tour" in title and H1). Hero sub drive time corrected to the
+    honest "an hour and a half from Toronto" to match the FAQ and the new
+    facts strip. PUSHED AND LIVE 2026-11-02 under the standing push-all
+    order: Pages build verified "built", live-verified on the custom domain
+    (200, all seven sections, real /exec form action, zero placeholders),
+    sitemap lastmod bumped to the live date 2026-11-02 and confirmed live.
+    Gates: audit exit 0 on all 20 pages, zero em/en dashes, zero forbidden
+    words, all image refs resolve on disk, zero overflow at 390/1440,
+    carousel drag delta exactly 336 leftward via MouseEvents, FAQ one-open
+    verified (details[open] state), hero CTA above the fold at both widths
+    (556 at 390, 607 at 1440), body 17px/19px, mobile drawer opens and
+    recloses. Leads Canada re-read 19 headers 0 rows. Remaining rewrites:
+    PEC, the two hubs, the five experience pages.
 
 ## Brand rules enforced on every page
 
