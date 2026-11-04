@@ -977,97 +977,147 @@ PEC = dict(
     ),
     best_for=["Retirees", "Couples", "Independent travellers", "Corporate groups"],
     body="""
-  <section class="band-white">
+  <section class="band-white" aria-label="Prince Edward County journey facts">
     <div class="wrap">
-      <div class="prose lede">
-        <h2>Why Prince Edward County for private travel</h2>
-        <p>Almost no luxury operator sells southern Ontario as a journey, which is exactly why it belongs in ours. The county sits an hour and a half east of the heritage waterfront at Kingston, and it holds Canada's youngest serious wine region, farm tables that fill up on a Friday, and the Sandbanks dunes, where the lake behaves like a coast.</p>
-        <p>The whole lakeshore from Kingston to Essex County has been ridden on a bicycle rather than driven past, and that changes what we recommend: the vineyard with the winemaker still pouring, the county road with the view, and the day built so nobody spends it in a car.</p>
+      <div class="grid g-4">
+        <div><div class="lab">Best season</div><p class="small">September and October for harvest and colour in the same fortnight, May to October for lake days and long vineyard evenings</p></div>
+        <div><div class="lab">Getting there</div><p class="small">Fly to Toronto. Kingston is about three hours east by road, and the county begins another ninety minutes along the same shore</p></div>
+        <div><div class="lab">Ideal stay</div><p class="small">Three to four nights split between the limestone waterfront at Kingston and a village base inside the county</p></div>
+        <div><div class="lab">Character</div><p class="small">Canada's youngest serious wine region, farm tables a bicycle ride apart, and the Sandbanks dunes where the lake behaves like a coast</p></div>
       </div>
-      <figure class="shot shot-wide">
-        <img src="/images/pec-landscape.jpg" width="1400" height="800" alt="Vineyard and farm table overlooking Lake Ontario in Prince Edward County" loading="lazy">
-        <figcaption>Sandbanks dunes, late afternoon, when the day visitors have gone home.</figcaption>
-      </figure>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="Why Prince Edward County for private travel">
+    <div class="wrap">
+      <div class="split">
+        <div class="prose">
+          <div class="lab eyebrow">The region</div>
+          <h2 class="section-title">A county built on farm roads, <em>not on coach routes.</em></h2>
+          <p>Almost no luxury operator sells southern Ontario as a journey, which is exactly why it belongs in ours. The county sits an hour and a half east of the heritage waterfront at Kingston, and it holds Canada's youngest serious wine region, farm tables that fill up on a Friday, and the Sandbanks dunes, where the lake behaves like a coast.</p>
+          <p>The whole lakeshore from Kingston to Essex County has been ridden on a bicycle rather than driven past, and that changes what we recommend: the vineyard with the winemaker still pouring, the county road with the view, and the day built so nobody spends it in a car. Appointments do the work here the way they do in Niagara. The tasting with the person who made the wine, the table that is yours for the afternoon, and the dunes at the hour the day visitors have gone home.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/pec-landscape.jpg" width="1400" height="800" alt="Prince Edward County private tour: a vineyard row and farm table overlooking Lake Ontario in Ontario wine country" loading="lazy">
+          <figcaption>Sandbanks dunes, late afternoon, when the day visitors have gone home.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="What we build into a Prince Edward County journey">
     <div class="wrap">
       <div class="section-head">
         <div class="lab eyebrow">Key experiences</div>
-        <h2 class="section-title">Wine, water, history, and a bicycle</h2>
+        <h2 class="section-title">What we build into <em>a lakeshore journey</em></h2>
+        <p class="lede">Two or three county days, one long farm table, and the water always in reach.</p>
       </div>
-      <div class="grid g-2">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-kingston.jpg" width="600" height="400" alt="Limestone waterfront at Kingston, Ontario, with a private Thousand Islands cruise departing" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Kingston and the Thousand Islands</h3><p>The limestone waterfront, the old market square, and a private cruise out among islands with a story on every one. Toronto is the gateway.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-wine.jpg" width="600" height="400" alt="Winery visit with the winemaker in Prince Edward County wine country" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Wineries with the winemaker</h3><p>Not a tasting room queue. We book the visit where the person who made the wine talks you through it, in a county small enough that they still can.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-dunes.jpg" width="600" height="400" alt="Sandbanks dunes in Prince Edward County beside Lake Ontario" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Sandbanks dunes</h3><p>A provincial park where the lake runs clear and shallow for a hundred metres, warm enough to swim by August, with dunes behind it.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/pec-bike.jpg" width="600" height="400" alt="Guests on electric bicycles beside the guide on the Waterfront Trail in Ontario" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">The Waterfront Trail by electric bicycle</h3><p>Flat, quiet, and exactly the right speed for this shoreline. Your guide rides beside you, and the vineyard stops are all within reach.</p></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="grid g-2">
-        <figure class="shot shot-mosaic"><img src="/images/pec-mosaic-1.jpg" width="800" height="1000" alt="Heritage limestone building in Kingston, Ontario, on a private lakeshore tour" loading="lazy"></figure>
-        <div class="grid">
-          <figure class="shot shot-card"><img src="/images/pec-mosaic-2.jpg" width="600" height="400" alt="Farm table lunch in Prince Edward County with regional produce" loading="lazy"></figure>
-          <figure class="shot shot-card"><img src="/images/pec-mosaic-3.jpg" width="600" height="400" alt="Monarch butterflies resting in Point Pelee National Park in autumn" loading="lazy"></figure>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Prince Edward County experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-wine.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Cellar appointments</span>
+            <h3 class="hc-card-title">Winemakers who still pour their own</h3>
+            <p class="hc-card-desc">The county is small enough that the person who made the wine still sits down with you. We book those visits first, at hours the tasting rooms are quiet, and build the day around them.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-dunes.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Sandbanks dunes</span>
+            <h3 class="hc-card-title">A lake that behaves like a coast</h3>
+            <p class="hc-card-desc">The dunes at the mouth of the bay hold water that runs clear and shallow for a hundred metres, warm enough to swim by August. We take them late, after the day visitors have gone home.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-kingston.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Kingston and the islands</span>
+            <h3 class="hc-card-title">Limestone streets and a private cruise</h3>
+            <p class="hc-card-desc">The journey opens on the limestone waterfront and the old market square, then out on the water: a private Thousand Islands cruise with a story on every island. Toronto is the gateway.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-bike.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The Waterfront Trail</span>
+            <h3 class="hc-card-title">Flat kilometres by electric bicycle</h3>
+            <p class="hc-card-desc">The shoreline trail is flat, quiet, and exactly the right speed for this region. Your guide rides beside you, and the vineyard stops sit close enough that nobody counts kilometres.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-mosaic-2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Farm tables</span>
+            <h3 class="hc-card-title">Lunch within sight of the field</h3>
+            <p class="hc-card-desc">The county grows what it serves. A long table on the farm, the menu set by the week's harvest, and nothing rushed: this is the meal guests remember from the whole journey.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/pec-mosaic-3.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The southern shore</span>
+            <h3 class="hc-card-title">Point Pelee and the monarchs</h3>
+            <p class="hc-card-desc">The mainland's southernmost point is a May destination for migrating birds and a September one for monarchs. The ferry timetable decides the day, so we check it before we build anything around it.</p>
+          </div>
         </div>
       </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the region.</p>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-white" aria-label="Who a Prince Edward County journey suits">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">When to visit</div>
-        <h2 class="section-title">May to October, with harvest in the middle</h2>
+        <div class="lab eyebrow">For every traveller</div>
+        <h2 class="section-title">The lakeshore, <em>at your pace</em></h2>
       </div>
-      <div class="prose">
-        <p>May starts the season with the vineyards in leaf and the lake still cold. September and October are the best months, with the wine harvest and the autumn colour arriving within a fortnight of each other. January brings icewine in Niagara, which pairs naturally with this region for a winter journey. Point Pelee, the southernmost point of mainland Canada, is a May destination for migrating birds and a September one for monarchs, and the Pelee Island ferry is seasonal, so we check the timetable before building a day around it.</p>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">&#128141;</span><div class="exp-title">Couples & Honeymoons</div><p class="exp-body">Wine afternoons that end with dinner on the farm, the dunes at the quiet hour, and the simplest romantic days in the portfolio. June and September are the two windows we recommend first.</p><a href="/experiences/honeymoon-proposals/" class="exp-cta">Plan the quiet days</a></div>
+        <div class="exp-card"><span class="exp-icon">&#128188;</span><div class="exp-title">Corporate Groups</div><p class="exp-body">Three hours from Toronto makes this a two day retreat rather than a rush: the private cruise out of Kingston, a winery dinner in the county, and transport handled from the city.</p><a href="/experiences/corporate-mice/" class="exp-cta">Corporate retreats</a></div>
+        <div class="exp-card"><span class="exp-icon">&#127807;</span><div class="exp-title">Retirees</div><p class="exp-body">Flat terrain, short drives, and no departure before half past eight. Two appointments a day rather than a circuit, an afternoon rest built in, and the cellar steps checked before we book them.</p><a href="/experiences/retirement-travel/" class="exp-cta">Retiree journeys</a></div>
+        <div class="exp-card"><span class="exp-icon">&#129517;</span><div class="exp-title">Independent Travellers</div><p class="exp-body">You have seen what a coach party does to a tasting room. We build the private version: the winemaker, the quiet hour on the dunes, and a guide who has ridden every road we recommend.</p><a href="/experiences/private-tours/" class="exp-cta">Private journeys</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="Planning notes for Prince Edward County">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
       <div class="grid g-3">
-        <div class="card"><div class="body"><div class="lab">Summer</div><p>Lake swimming at the dunes, long vineyard evenings, and the county at its fullest.</p></div></div>
-        <div class="card"><div class="body"><div class="lab">Autumn</div><p>Harvest and colour in the same fortnight. The best time to be here.</p></div></div>
-        <div class="card"><div class="body"><div class="lab">Winter</div><p>Icewine in Niagara, quiet county roads, and fires in heritage inns.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Getting there</h3><p>Fly to Toronto, and the lakeshore runs east from there: about three hours to Kingston by road, and the county another ninety minutes along the same shore. Your guide and private vehicle collect you at the airport, so the journey starts at the first vineyard view rather than at a rental counter.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Best season</h3><p>September and October bring the harvest and the colour within a fortnight of each other, the strongest window in the county. May and June are quiet and green, July and August belong to the dunes, and January pairs this region with the icewine harvest in Niagara for a winter journey.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The wine calendar</h3><p>The county pours its newest vintages through the autumn, and the small wineries run on appointments rather than walk-in bars. We check the current vintage calendar before we book anything, and we keep a second appointment in reserve for any day the first one shifts.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Appointments and tables</h3><p>Farm tables fill on summer Fridays and the winemaker visits book out through the harvest. We reserve both before we plan the rest, because the table and the tasting are the two things a schedule cannot bend around.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The bicycle days</h3><p>The Waterfront Trail rides flat from Kingston west through the county, and the electric versions make the vineyard stops effortless. We ride it in the morning when the county roads are quietest, with the day's vehicle carrying the tasting and the picnic.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Pacing and care</h3><p>A driver stays with the journey for its full length, which is what lets the days run at county speed. We recommend travel medical insurance for guests arriving from outside Canada and say so in writing, and the itinerary states the walking and riding at every stop honestly.</p></div></div>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="callout">
-        <div class="lab">For retirees</div>
-        <p>Flat terrain, short drives, and the strongest cultural content in our portfolio: history in Kingston, wine and food in the county, and a lakeshore that can be seen properly without a long day in the vehicle. No departure before half past eight, and an afternoon rest built into every day.</p>
-      </div>
-      <div class="callout">
-        <div class="lab">For couples</div>
-        <p>This is the leg where we plan the long lunch and leave the evening open. Prince Edward County works for couples who want wine, water, and a table that is theirs rather than a tasting bar.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-spruce on-dark">
+  <section class="band-spruce on-dark" aria-label="How we design this journey">
     <div class="wrap">
       <div class="split">
         <div>
           <div class="lab eyebrow">How we design this journey</div>
           <h2 class="section-title">A lakeshore built for short drives</h2>
-          <p>Ontario looks flat on a map and is anything but on a schedule, so we cluster the days: Kingston and the islands, then the county, then Niagara if the journey asks for it. Nobody spends three hours in the vehicle to reach a vineyard.</p>
-          <p>The whole road from Kingston to Essex has been ridden end to end, which is why we can tell you which town deserves two nights, which winery is worth an appointment, and which viewpoint is a photograph rather than an experience.</p>
+          <p>Ontario looks flat on a map and is anything but on a schedule, so we cluster the days: Kingston and the islands first, then the county, then Niagara if the journey asks for it. Nobody spends three hours in a vehicle to reach a vineyard.</p>
+          <p>The whole road from Kingston to Essex has been ridden end to end, which is why we can tell you which town deserves two nights, which winery is worth an appointment, and which viewpoint is a photograph rather than an experience. We plan around the ferry timetable, the harvest dates, and the hour the dunes empty out.</p>
         </div>
         <figure class="shot shot-wide">
           <img src="/images/pec-guide.jpg" width="1400" height="800" alt="Guide and guests on bicycles beside the Waterfront Trail in Ontario" loading="lazy">
@@ -1076,7 +1126,21 @@ PEC = dict(
       </div>
     </div>
   </section>
+
+  <section class="band-white" aria-label="Longer journeys">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One region, one journey</div>
+      <h2 class="section-title">Prince Edward County is rarely <em>the only stop.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Most of our guests pair it with Niagara-on-the-Lake for a lakeshore journey of seven to ten days, or run it as the quiet half of a trip that opens in Toronto. See how a private Canada journey is built, then tell us what your version looks like.</p>
+      <a class="btn" href="/experiences/private-tours/">How private journeys work</a>
+    </div>
+  </section>
 """,
+    cta_band=("/images/pec-hero.jpg",
+              "Prince Edward County private tour: a vineyard row and farm table in Ontario wine country",
+              "Ready to plan a lakeshore journey?",
+              "Tell us what you are imagining. We will come back within 24 hours.",
+              "Begin Your Journey"),
     faq=[
         ("What is there to do in Prince Edward County?",
          "<p>Wine visits with the people who make it, farm tables, the Sandbanks dunes and the lake, and a county small enough to see by bicycle. Paired with Kingston, ninety minutes west, it becomes a proper journey with heritage, water, and food in it.</p>"),
