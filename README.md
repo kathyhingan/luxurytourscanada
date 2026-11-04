@@ -188,6 +188,27 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     (556 at 390, 607 at 1440), body 17px/19px, mobile drawer opens and
     recloses. Leads Canada re-read 19 headers 0 rows. Remaining rewrites:
     PEC, the two hubs, the five experience pages.
+17. DONE 2026-11-04: Prince Edward County rebuilt on the LTP destination
+    architecture (facts strip, intro split, 6-card highlights carousel,
+    traveller strip with cross-links, 6 planning cards, design band,
+    cross-link, CTA band), 1,639 words, FAQ and attraction schema kept, no
+    personal-band placeholder. 9 of the 11 PEC photos already on disk are
+    referenced; pec-mosaic-1 (limestone heritage) is no longer used and
+    pec-mosaic-2 and pec-mosaic-3 moved into the carousel cards. Keyword
+    ownership unchanged ("prince edward county private tour" in title and
+    H1). PUSHED AND LIVE 2026-11-04 under the standing push-all order:
+    commit 84b8b27 on origin/main, Pages build verified "built", live
+    verification on the custom domain (200, all seven sections, six
+    carousel cards, real /exec form action, zero placeholders), sitemap
+    lastmod bumped to the live date 2026-11-04 and confirmed live. Gates:
+    audit exit 0 on all 20 pages, zero em/en dashes, zero forbidden words,
+    all image refs resolve on disk and live, zero overflow at 390/1440,
+    carousel drag delta exactly 336 leftward via MouseEvents at both
+    widths, FAQ one-open verified with settle gaps (details[open] state),
+    hero CTA above the fold at both widths (572 at 390, 689 at 1440), body
+    17px/19px. Conversion-path sweep: all 20 sitemap URLs live 200 with the
+    real form action and zero placeholders. Leads Canada re-read 19 headers
+    0 rows. Remaining rewrites: the two hubs, the five experience pages.
 
 ## Brand rules enforced on every page
 
