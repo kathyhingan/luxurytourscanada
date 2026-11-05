@@ -206,9 +206,26 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     carousel drag delta exactly 336 leftward via MouseEvents at both
     widths, FAQ one-open verified with settle gaps (details[open] state),
     hero CTA above the fold at both widths (572 at 390, 689 at 1440), body
-    17px/19px. Conversion-path sweep: all 20 sitemap URLs live 200 with the
+    1440), body 17px/19px. Conversion-path sweep: all 20 sitemap URLs live 200 with the
     real form action and zero placeholders. Leads Canada re-read 19 headers
     0 rows. Remaining rewrites: the two hubs, the five experience pages.
+18. DONE 2026-11-05: the destinations and experiences hubs rebuilt on the LTP
+    interior architecture (facts strip, intro split, card grids, traveller
+    strip with experience cross-links on the destinations hub, six segment
+    planning cards on the experiences hub, design band, cross-link, CTA
+    band). 1,483 and 1,083 words, keyword ownership unchanged (private canada
+    tours / private guided tours canada in title and H1), FAQ and trip schema
+    kept, Point Pelee folded into the destinations hub intro as the on-request
+    seventh corner. PUSHED AND LIVE 2026-11-05 under the standing push-all
+    order: commit f92b7e6 on origin/main, Pages build verified "built",
+    live-verified on the custom domain (200, all sections, real /exec form
+    action, zero placeholders), sitemap lastmod bumped to the live date and
+    confirmed live. Gates: audit exit 0 on 20 pages, zero em/en dashes, zero
+    forbidden words, all image refs resolve on disk and live, zero overflow
+    at 390/1440, exp-grid renders grid in a fresh session, FAQ one-open
+    verified, hero CTA above the fold at both widths (572 at 390, 689 at
+    1440), body 17px/20px, mobile drawer opens and recloses. Remaining
+    rewrites: the five experience pages.
 
 ## Brand rules enforced on every page
 
