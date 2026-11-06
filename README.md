@@ -241,6 +241,14 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     hero CTA above the fold at both widths (572 at 390, 689 at 1440), body
     17px/19px, mobile drawer toggles aria-expanded. Remaining rewrites: the
     other four experience pages.
+20. 2026-11-06, MOFU: the `Leads Canada` tab recorded its first four data rows,
+    all automated spam (three @formtests.info submissions 5:42 to 5:43 that
+    randomised every text field while keeping the real hidden `source` and
+    `page` defaults, plus one gmx.com link-spam message at 6:41). No real
+    inquiry. A honeypot guard is specified in
+    `docs/form-spam-guard-2026-11-06.md` and NOT applied: it waits on Kathy's
+    go plus her paste and redeploy of the standalone `Code.gs`. Deleting the
+    four rows is also hers to rule on.
 
 ## Brand rules enforced on every page
 
