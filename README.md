@@ -226,6 +226,21 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     verified, hero CTA above the fold at both widths (572 at 390, 689 at
     1440), body 17px/20px, mobile drawer opens and recloses. Remaining
     rewrites: the five experience pages.
+19. DONE 2026-11-06: the private tours experience page rebuilt on the LTP
+    interior architecture (facts strip, intro split, 6-card highlights
+    carousel, 4-card region strip cross-linking the destination pages, six
+    planning cards plus the included/not-included lists, design band,
+    cross-link, CTA band), 1,452 words, best-for strip added, FAQ and trip
+    schema kept, keyword ownership unchanged ("private tours canada" in title
+    and H1). PUSHED AND LIVE 2026-11-06 under the standing push-all order:
+    sitemap lastmod bumped to the live date and confirmed live. Gates: audit
+    exit 0 on 20 pages, zero em/en dashes, zero forbidden words, all image
+    refs resolve on disk, zero overflow at 390/1440, hc-carousel and exp-grid
+    render in a fresh session, carousel drag delta exactly 336 leftward via
+    MouseEvents, FAQ one-open verified with settle gaps (details[open]),
+    hero CTA above the fold at both widths (572 at 390, 689 at 1440), body
+    17px/19px, mobile drawer toggles aria-expanded. Remaining rewrites: the
+    other four experience pages.
 
 ## Brand rules enforced on every page
 

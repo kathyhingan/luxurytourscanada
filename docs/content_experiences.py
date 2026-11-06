@@ -157,6 +157,7 @@ PRIVATE = dict(
     desc="Private tours Canada for independent travellers: access where coaches cannot go, named places, not scenery, and routes from 27 years on the road.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Private Journeys", "/experiences/private-tours/")],
     og_image="/images/exp-private-hero.jpg",
+    best_for=["Independent travellers", "Couples", "Retirees", "Families with teenagers"],
     hero=dict(
         eyebrow="Independent travellers",
         h1="Private Tours Canada: A Canada the Highway Does Not Show You",
@@ -165,79 +166,174 @@ PRIVATE = dict(
         alt="Private tours Canada: an empty mountain road at dawn on a luxury Canada journey",
         cta="Plan My Private Journey",
     ),
-    body="""
-  <section class="band-white">
+body="""
+  <section class="band-white" aria-label="Private tour facts">
     <div class="wrap">
-      <div class="prose lede">
-        <p>Independent travellers research deeply, dislike group tours, and find most luxury marketing patronising. So here is the plain version: we go where the coaches cannot, we time the famous places for the hours nobody else uses, and we name the places instead of describing the scenery.</p>
-        <p>What you are paying for is access and judgement. Knowing that Tofino is best in the shoulder and the outer waters, that Jasper beats Banff for a private base, that the Icefields Parkway needs a full tank before you start, and that the pull-off with the view is not the pull-off with the sign.</p>
+      <div class="grid g-4">
+        <div><div class="lab">Party size</div><p class="small">Eight guests maximum, with the vehicles and boats sized to your party and nobody else</p></div>
+        <div><div class="lab">Design basis</div><p class="small">Built from your brief and your dates, never from a template or a departure board</p></div>
+        <div><div class="lab">Access</div><p class="small">Routes, hours, and waters the coach groups cannot use, chosen for the season you travel</p></div>
+        <div><div class="lab">First reply</div><p class="small">A written answer within 24 hours, including the honest word on your dates and season</p></div>
       </div>
-      <figure class="shot shot-wide">
-        <img src="/images/exp-private-road.jpg" width="1400" height="800" alt="Empty switchbacks on a private guided tour of the Canadian Rockies at sunrise" loading="lazy">
-        <figcaption>The road at six in the morning, and no one on it.</figcaption>
-      </figure>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="How a private Canada journey is built">
+    <div class="wrap">
+      <div class="split">
+        <div class="prose">
+          <div class="lab eyebrow">The approach</div>
+          <h2 class="section-title">What you are paying for is <em>access and judgement.</em></h2>
+          <p>Independent travellers research deeply, dislike group tours, and find most travel marketing patronising. So here is the plain version: we go where the coaches cannot, we time the famous places for the hours nobody else uses, and we name the places instead of describing the scenery.</p>
+          <p>The judgement is the part that cannot be booked anywhere else. Knowing that Tofino is at its best in the shoulder seasons and out on the water, that Jasper beats Banff for a private base, that the Icefields Parkway wants a full tank before it starts, and that the pull-off with the view is rarely the pull-off with the sign.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-private-road.jpg" width="1400" height="800" alt="Empty mountain switchbacks at sunrise on a private Canada tour" loading="lazy">
+          <figcaption>The road at six in the morning, and no one on it.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="What a private Canada journey holds">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">What we do differently</div>
-        <h2 class="section-title">Three things that change the journey</h2>
+        <div class="lab eyebrow">Key experiences</div>
+        <h2 class="section-title">What a private journey <em>actually holds</em></h2>
+        <p class="lede">Six things that separate a private Canada tour from the same road on a coach.</p>
+      </div>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Private Canada journey experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-private-dawn.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The quiet hours</span>
+            <h3 class="hc-card-title">Famous places, before anyone arrives</h3>
+            <p class="hc-card-desc">Lake Louise at sunrise, Maligne Lake before the day visitors, and the Pacific beaches before eight. The same places, at the hours that make the drive worth it.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-private-boat.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">Private waters</span>
+            <h3 class="hc-card-title">The outer sound, your own boat</h3>
+            <p class="hc-card-desc">A private vessel with a naturalist aboard, out past where the tour boats turn around, on the days the marine forecast allows it.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-private-expert.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The guide</span>
+            <h3 class="hc-card-title">Someone who has done it many times</h3>
+            <p class="hc-card-desc">Not a driver with a script. A guide who knows the road, the wildlife distances, the weather patterns, and when to change the plan.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/dest-banff.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The route</span>
+            <h3 class="hc-card-title">Yoho instead of Banff</h3>
+            <p class="hc-card-desc">The quiet valley rather than the busy one, the county road rather than the highway, and the ferry timing that keeps an island day unhurried.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/dest-lakeshore.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The lakeshore</span>
+            <h3 class="hc-card-title">The Ontario back roads</h3>
+            <p class="hc-card-desc">Vineyards, limestone towns, and the best table of the day found on a road with no coach on it.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/jasper-darksky.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">After dark</span>
+            <h3 class="hc-card-title">Dark skies and the last light</h3>
+            <p class="hc-card-desc">Jasper is a dark sky preserve. The evening after dinner becomes part of the route, with the scope set up and no light pollution between you and it.</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the shapes.</p>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where private Canada journeys run">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">The regions</div>
+        <h2 class="section-title">Three regions, <em>known road by road</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">🌊</span><div class="exp-title">British Columbia coast</div><p class="exp-body">Clayoquot Sound, the Pacific Rim, and the Gulf Islands, with private boats and floatplane transfers between them.</p><a href="/destinations/tofino-private-tour/" class="exp-cta">Tofino</a></div>
+        <div class="exp-card"><span class="exp-icon">🏔️</span><div class="exp-title">The Canadian Rockies</div><p class="exp-body">Jasper for a private base, Yoho for the quiet valley, and the Icefields Parkway driven at the hours it deserves.</p><a href="/destinations/banff-yoho-private-tour/" class="exp-cta">Banff and Yoho</a></div>
+        <div class="exp-card"><span class="exp-icon">🍇</span><div class="exp-title">Ontario lakeshore</div><p class="exp-body">Niagara wine country, Prince Edward County, and the limestone towns, ridden on a bicycle before they were driven past.</p><a href="/destinations/prince-edward-county-private-tour/" class="exp-cta">The lakeshore</a></div>
+        <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Gulf Islands</div><p class="exp-body">Salt Spring and its neighbours, where the drives run minutes rather than hours and the market sets the rhythm of the week.</p><a href="/destinations/salt-spring-island-private-tour/" class="exp-cta">Salt Spring</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="Planning notes for a private Canada tour">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
       <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-dawn.jpg" width="600" height="400" alt="Lake at first light on a private tour of Canada, before the day visitors" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">The famous places at the quiet hours</h3><p>Lake Louise at sunrise, Maligne Lake before the day visitors, Tofino's beaches before eight. Same places, entirely different experience.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-boat.jpg" width="600" height="400" alt="Private boat in the outer waters of Clayoquot Sound near Tofino" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Routes that skip the queue</h3><p>Yoho instead of Banff for the quiet valley. The outer sound instead of the beach car park. The county road instead of the highway.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-private-expert.jpg" width="600" height="400" alt="Guide explaining a route on a map with private guests" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">A guide who has done it many times</h3><p>Not a driver with a script. Somebody who knows the road, the weather, the wildlife distances, and when to change the plan.</p></div>
-        </article>
+        <div class="card"><div class="body"><h3 class="card-title">When to travel</h3><p>Late June to early October for the Rockies. May and June, then September and October, for the BC coast. May to October for the Ontario lakeshore. Tell us your month and we will tell you honestly which region suits it.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">How long</h3><p>Seven to fourteen days for one region done properly. Eighteen to twenty-one days to cross from the Pacific coast to the mountains and on to the lakeshore. A rushed Canada is a wasted one.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The vehicle</h3><p>A private vehicle with a guide, sized to the party, with child seats where they are needed. Coaches appear only if a corporate group explicitly asks for one.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Water days</h3><p>Boat and floatplane days are weather dependent. Your guide checks the marine forecast the evening before, and a fallback day is written into the plan before you fly.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The walking</h3><p>Activity is stated honestly at every stop, from the steps at a canyon to a flat vineyard morning, and altitude notes come in advance rather than on the day.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">What it includes</h3><p>Private transfers throughout, a dedicated guide, park passes and entrance fees, wildlife briefings before every walk, and a 24-hour contact for the whole journey.</p></div></div>
       </div>
-    </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">How it works</div>
-        <h2 class="section-title">Three steps, no forms to fill twice</h2>
+      <div class="prose" style="margin-top:22px">
+        <ul class="ticks">
+          <li>All private ground transfers, airport to lodge and between destinations</li>
+          <li>Domestic flights and floatplane transfers where the route calls for them</li>
+          <li>Private boat, canoe, and crew on every water day</li>
+          <li>Daily breakfast, plus the lunches and dinners noted in your itinerary</li>
+          <li>National and provincial park passes and all entrance fees</li>
+          <li>A single point of contact for changes, and a 24-hour line while you are in the country</li>
+        </ul>
       </div>
-      <ol class="steps">
-        <li><span class="num">1</span><div><strong>One conversation.</strong> Tell us the season, the party, and what you want to come home talking about.</div></li>
-        <li><span class="num">2</span><div><strong>We design the route.</strong> Day by day, with honest drive times, private vehicles and boats, and a fallback for every outdoor day.</div></li>
-        <li><span class="num">3</span><div><strong>We run it.</strong> One point of contact, and a 24-hour line while you are in the country.</div></li>
-      </ol>
-      <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-1.jpg" width="600" height="400" alt="Floatplane transfer on the BC coast" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-2.jpg" width="600" height="400" alt="Canoe on a Rockies lake at dawn" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-private-strip-3.jpg" width="600" height="400" alt="Vineyard stop on the Ontario lakeshore" loading="lazy"></figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-glacier">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What is included</div>
-        <h2 class="section-title">The parts you will not have to think about</h2>
-      </div>
-      <ul class="ticks prose">
-        <li>All private ground transfers, airport to lodge and between destinations</li>
-        <li>Domestic flights and floatplane transfers where the route calls for them</li>
-        <li>Private boat, canoe, and crew on every water day</li>
-        <li>A dedicated local guide throughout</li>
-        <li>Daily breakfast, plus the lunches and dinners noted in your itinerary</li>
-        <li>National and provincial park passes and all entrance fees</li>
-        <li>Wildlife-safety briefings before every walk</li>
-        <li>A 24-hour Luxury Tours Canada contact and a single point of contact for changes</li>
-      </ul>
       <p class="small">Not included: international flights, alcohol and room charges, personal shopping, activities added outside the plan, travel medical insurance, eTA fees where required, and gratuities.</p>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="How we design a private Canada journey">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <div class="lab eyebrow">How we design this journey</div>
+          <h2 class="section-title">The plan is written <em>around the hours that matter</em></h2>
+          <p>We build the day around the two or three moments that make it worth the drive, then fill in around them: the boat that leaves the harbour before the fleet, the cellar where the winemaker still pours, the walk into the old growth at the hour the light comes through the canopy.</p>
+          <p>Every one of those has been done here first, in the cold months as well as the warm ones, and in both directions. That is the standard the route is built to, and the reason a private journey here is shorter than it looks on paper and fuller than you expect on the day.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Guide checking the marine forecast before a private boat day in British Columbia" loading="lazy">
+          <figcaption>Weather checked the evening before, not the morning of.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where the roads go">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One country, a dozen roads</div>
+      <h2 class="section-title">The regions decide <em>where the road goes.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Who is travelling decides the pace, the rooms, and the shape of every day. Choose the region first, then tell us who is coming and what the journey is for.</p>
+      <a class="btn" href="/destinations/">Explore the three regions</a>
     </div>
   </section>
 """,
