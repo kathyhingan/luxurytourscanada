@@ -249,6 +249,28 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     `docs/form-spam-guard-2026-11-06.md` and NOT applied: it waits on Kathy's
     go plus her paste and redeploy of the standalone `Code.gs`. Deleting the
     four rows is also hers to rule on.
+21. DONE 2026-11-07: the honeymoon and proposals experience page rebuilt on the
+    LTP interior architecture (facts strip, intro split, 6-card highlights
+    carousel, 4-card setting strip cross-linking the destination pages, six
+    planning cards plus the included/not-included lists, design band,
+    cross-link, CTA band), 1,497 words (was 1,222), best-for strip added (was
+    absent), FAQ and trip schema kept, keyword ownership unchanged ("canada
+    honeymoon luxury" in title and H1). PUSHED AND LIVE 2026-11-07 under the
+    standing push-all order: sitemap lastmod bumped to the live date and
+    confirmed live. Gates: audit exit 0 on 20 pages, zero em/en dashes, zero
+    forbidden words, all 11 content image refs resolve on disk, zero overflow
+    at 390/1440, 6 hc-cards and 4 exp-cards render, carousel drag delta
+    exactly 336 leftward via MouseEvents, FAQ one-open verified with settle
+    gaps (details[open], first item defaults open), hero CTA above the fold
+    (588 at 390, 689 at 1440), body 17px/19px, drawer toggles aria-expanded
+    false to true to false, all 18 root-relative hrefs resolve. Remaining
+    rewrites: the other three experience pages (family, retiree, corporate).
+22. OPEN, found 2026-11-07 (pre-existing since launch, not a regression from
+    any rewrite): `docs/sitegen.py` sets the Organization and publisher
+    `logo` in JSON-LD to `SITE + "/images/logo.png"`, but no `logo.png` exists
+    on disk, so that URL 404s on all 20 pages. Cosmetic for rankings, but a
+    dead structured-data asset. Fix is one line once a real square logo asset
+    exists (or point it at an existing image); no asset has been created yet.
 
 ## Brand rules enforced on every page
 

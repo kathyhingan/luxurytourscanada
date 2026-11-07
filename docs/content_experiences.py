@@ -361,6 +361,7 @@ HONEYMOON = dict(
     desc="Canada honeymoon luxury and proposal planning: private lodges, quiet lakes at dawn, Pacific storms, and a second location if weather intervenes.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Honeymoons and Proposals", "/experiences/honeymoon-proposals/")],
     og_image="/images/exp-honeymoon-hero.jpg",
+    best_for=["Honeymooners", "Proposal planners", "Couples", "Anniversaries"],
     hero=dict(
         eyebrow="Couples, proposals, and honeymoons",
         h1="Canada Honeymoon Luxury: The Trip You Will Retell for the Rest of Your Lives",
@@ -370,78 +371,173 @@ HONEYMOON = dict(
         cta="Plan Our Journey",
     ),
     body="""
-  <section class="band-white">
+  <section class="band-white" aria-label="Canada honeymoon facts">
     <div class="wrap">
-      <div class="prose lede">
-        <p>Honeymoons and proposals are the two journeys where feeling comes first and logistics come second, and both are the happier for it. You tell us the moment you want, and we build the days around it: private lodges, quiet water, dinners at tables no one else is at, and the small logistics handled so completely that you never have to think about them.</p>
-        <p>For proposal planners, everything runs quietly in the background. A hidden photographer, a private location, a decoy activity, and a second location and time window, because mountain weather turns by the hour and this moment does not get a second take.</p>
+      <div class="grid g-4">
+        <div><div class="lab">Party size</div><p class="small">Just the two of you, with one planner handling everything from the first call to the last transfer</p></div>
+        <div><div class="lab">Design basis</div><p class="small">Built around the moment you are planning, a proposal or a honeymoon, never around a package</p></div>
+        <div><div class="lab">The proposal</div><p class="small">Location, timing, photographer, decoy, and a second window, all rehearsed before you fly</p></div>
+        <div><div class="lab">First reply</div><p class="small">A written answer within 24 hours, kept quietly to one of you</p></div>
       </div>
-      <figure class="shot shot-wide">
-        <img src="/images/exp-honeymoon-lake.jpg" width="1400" height="800" alt="Maligne Lake at dawn on a Canada honeymoon, canoe at the shore in still water" loading="lazy">
-        <figcaption>Maligne Lake before the day visitors, which is the whole point of going with us.</figcaption>
-      </figure>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="How we plan a Canada honeymoon">
+    <div class="wrap">
+      <div class="split">
+        <div class="prose">
+          <div class="lab eyebrow">The approach</div>
+          <h2 class="section-title">Honeymoons and proposals run on <em>feeling first.</em></h2>
+          <p>These are the two journeys where feeling comes first and logistics come second, and both are the happier for it. You tell us the moment you want, and we build the days around it: private lodges, quiet water, dinners at tables no one else is at, and the small logistics handled so completely that you never have to think about them.</p>
+          <p>For proposal planners, everything runs quietly in the background. A hidden photographer, a private location, a decoy activity, and a second location and time window, because mountain weather turns by the hour and this moment does not get a second take.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-honeymoon-lake.jpg" width="1400" height="800" alt="Maligne Lake at dawn on a Canada honeymoon, canoe at the shore in still water" loading="lazy">
+          <figcaption>Maligne Lake before the day visitors, which is the whole point of going with us.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="What a Canada honeymoon actually holds">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">What we do differently</div>
-        <h2 class="section-title">Built for the moment, not the itinerary</h2>
+        <div class="lab eyebrow">Key experiences</div>
+        <h2 class="section-title">Six things that make a Canada honeymoon <em>yours</em></h2>
+        <p class="lede">What separates a honeymoon built for two from the same trip booked off a shelf.</p>
+      </div>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Canada honeymoon experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-photographer.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The proposal</span>
+            <h3 class="hc-card-title">The moment, kept secret</h3>
+            <p class="hc-card-desc">The photographer is placed before you arrive, the decoy activity is real, and the timing is rehearsed without the other person noticing a thing.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-strip-1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The arrival</span>
+            <h3 class="hc-card-title">A floatplane to the lodge</h3>
+            <p class="hc-card-desc">Arrival by private floatplane or a quiet transfer, luggage handled, so the honeymoon starts calmly rather than at a carousel.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-weather.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The fallback</span>
+            <h3 class="hc-card-title">A second location, a second window</h3>
+            <p class="hc-card-desc">Every proposal, and every outdoor day, carries an alternative at the same hour. It is written before you travel, not improvised on the day.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-quiet.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The table</span>
+            <h3 class="hc-card-title">Dinner where no one else is</h3>
+            <p class="hc-card-desc">Private dining rather than the best table in the room, and lodges chosen for what you can see from the window at six in the morning.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-strip-2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The coast</span>
+            <h3 class="hc-card-title">Storm watching from the tub</h3>
+            <p class="hc-card-desc">A Tofino room built for the weather, a soaking tub facing the Pacific, and the whole storm yours to watch while the fire stays lit.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-honeymoon-strip-3.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The morning</span>
+            <h3 class="hc-card-title">Breakfast set for two</h3>
+            <p class="hc-card-desc">Breakfast at your own table, at your own hour, before anyone else in the lodge is up and the lake is still holding the mist.</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the shapes.</p>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where a Canada honeymoon runs">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">The settings</div>
+        <h2 class="section-title">Four settings, <em>each a different mood</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">🌊</span><div class="exp-title">British Columbia coast</div><p class="exp-body">Tofino for the raw Pacific, the storms, and the room with the tub, with private boats and floatplane transfers between the islands.</p><a href="/destinations/tofino-private-tour/" class="exp-cta">Tofino</a></div>
+        <div class="exp-card"><span class="exp-icon">🏔️</span><div class="exp-title">The Canadian Rockies</div><p class="exp-body">Jasper for dark skies and long mountain mornings, Banff and Yoho for the lakes at the hour before the day visitors arrive.</p><a href="/destinations/jasper-private-tour/" class="exp-cta">Jasper</a></div>
+        <div class="exp-card"><span class="exp-icon">🍇</span><div class="exp-title">Ontario lakeshore</div><p class="exp-body">Niagara wine country and Prince Edward County, slow mornings, cellar tables, and limestone towns on a road with no coach on it.</p><a href="/destinations/prince-edward-county-private-tour/" class="exp-cta">The lakeshore</a></div>
+        <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Gulf Islands</div><p class="exp-body">Salt Spring and its neighbours, where the drives run minutes rather than hours and the market sets the rhythm of the week.</p><a href="/destinations/salt-spring-island-private-tour/" class="exp-cta">Salt Spring</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="Planning notes for a Canada honeymoon">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
       <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-photographer.jpg" width="600" height="400" alt="Hidden photographer at a distance during a surprise proposal in the Canadian Rockies" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">A proposal that stays secret</h3><p>The photographer is placed before you arrive, the decoy activity is real, and the timing is rehearsed without the other person noticing a thing.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-weather.jpg" width="600" height="400" alt="Mountain weather changing over a lake in the Canadian Rockies" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">A second location, and a second window</h3><p>Every proposal, and every outdoor honeymoon day, carries an alternative at the same hour. It is written before you travel, not improvised on the day.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-honeymoon-quiet.jpg" width="600" height="400" alt="Private dinner setting at a lodge table with a view" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Tables no one else is at</h3><p>Private dining rather than the best table in the room, and lodges chosen for what you can see from the window at six in the morning.</p></div>
-        </article>
+        <div class="card"><div class="body"><h3 class="card-title">When to travel</h3><p>May and June, then September and October, for the BC coast and its storms. Late June to early October for the Rockies. Tell us your month and we will tell you honestly which setting pairs best with it.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">How long</h3><p>Five to eight days for a honeymoon in one region, done slowly. Ten to fourteen to pair the Pacific coast with the mountains. The trip should feel shorter than it is.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Where to base</h3><p>Two bases at most, chosen so you unpack once and settle rather than move every night. A lodge with a view beats a list of towns ticked off.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The proposal</h3><p>One person plans it, correspondence stays discreet, and the photographer, location, and decoy activity are arranged before you land. Nothing about the day reads as staged.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The weather</h3><p>Mountain weather turns by the hour and the Pacific keeps its own forecast. Every outdoor day carries a fallback, and your planner watches the forecast the evening before, not the morning of.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The quiet</h3><p>No group departures, no shared boats, and a schedule that starts when you want it to. If you would rather stay in with the view, the day can be left empty on purpose.</p></div></div>
       </div>
-    </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">The proposal, handled</div>
-        <h2 class="section-title">What we plan before you even land</h2>
+      <div class="prose" style="margin-top:22px">
+        <ul class="ticks">
+          <li>Private transfers throughout, including the arrival, so the journey starts calmly</li>
+          <li>A private boat day on the coast, or a canoe on a mountain lake, guide included</li>
+          <li>The proposal setup on a proposal journey: location, timing, photographer, decoy, and the fallback</li>
+          <li>Private dinners and one table arranged where the setting does the work</li>
+          <li>Accommodation at the finest available property in each setting, confirmed after our call</li>
+          <li>A single point of contact before you travel, and a 24-hour line while you are in the country</li>
+        </ul>
       </div>
-      <ul class="ticks prose">
-        <li><strong>The location and exact timing,</strong> checked at the same hour on the same day of the week, in the same season.</li>
-        <li><strong>The photographer's position,</strong> chosen so the moment is captured without being seen.</li>
-        <li><strong>The decoy activity,</strong> real enough that nothing feels staged.</li>
-        <li><strong>A second location and a second time window,</strong> in case the weather decides otherwise.</li>
-        <li><strong>What could go wrong, and how we prevent it,</strong> written down and rehearsed with you.</li>
-      </ul>
-      <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-1.jpg" width="600" height="400" alt="Private floatplane arrival at a lake in the Rockies" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-2.jpg" width="600" height="400" alt="Storm light on the Pacific coast near Tofino" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-honeymoon-strip-3.jpg" width="600" height="400" alt="Breakfast set for two at a private lodge" loading="lazy"></figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="band-glacier">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What is included</div>
-        <h2 class="section-title">Honeymoons, the quiet way</h2>
-      </div>
-      <ul class="ticks prose">
-        <li>Private transfers throughout, including the arrival, so the journey starts calmly</li>
-        <li>Accommodation at the finest available property in each location, confirmed after our call</li>
-        <li>Private dinners and one table arranged where the setting does the work</li>
-        <li>A private boat day on the coast, or a canoe on a mountain lake, guide included</li>
-        <li>The proposal setup on a proposal journey: location, timing, photographer, decoy, and the fallback</li>
-        <li>A 24-hour contact for the whole journey, and a single point of contact for any change</li>
-      </ul>
       <p class="small">Not included: international flights, alcohol outside arranged dinners, personal shopping, activities added outside the plan, travel medical insurance, and gratuities.</p>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="How we keep a Canada honeymoon quiet">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <div class="lab eyebrow">How we plan it</div>
+          <h2 class="section-title">The details stay <em>out of your way</em></h2>
+          <p>A honeymoon should not feel managed, even when it is. We build the day around the two or three moments that matter, then handle everything around them quietly: the transfer timed to your flight, the table held under one name, the boat booked before the harbour fills, and the weather watched from the evening before.</p>
+          <p>For a proposal, that work happens weeks ahead and stays invisible. The location is checked at the same hour on the same day of the week in the same season, the photographer is positioned so the moment is captured without being seen, and every written fallback is rehearsed with you. Nothing is left to chance, and nothing about it feels arranged.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Planner checking the forecast the evening before a private water day on a Canada honeymoon" loading="lazy">
+          <figcaption>Weather checked the evening before, not the morning of.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where the moments happen">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One country, a dozen quiet corners</div>
+      <h2 class="section-title">The setting decides <em>the mood of the trip.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Tofino for the raw Pacific, Salt Spring for slowness, the Rockies for dark skies and long mornings. Choose the setting first, then tell us the moment you are planning and who is in on it.</p>
+      <a class="btn" href="/destinations/">Explore the regions</a>
     </div>
   </section>
 """,
@@ -449,7 +545,7 @@ HONEYMOON = dict(
               "Begin Your Journey", "Tell us what you are imagining, and we will keep it quiet.", "Plan Our Journey"),
     faq=[
         ("Where in Canada is best for a honeymoon?",
-         "<p>Tofino for the Pacific, storms, and the room with the tub. Salt Spring Island for slowness and farm tables. Jasper for dark skies and mountain lodges. The best honeymoon combines two of them, and the season decides which pairs well.</p>"),
+         "<p>Tofino for the Pacific, the storms, and the room with the tub. Salt Spring Island for slowness and farm tables. Jasper for dark skies and mountain lodges. The best honeymoon pairs two of them, and the season decides which pair works.</p>"),
         ("Can you plan a surprise proposal without my partner finding out?",
          "<p>Yes, and it is a large part of what we do. The planning runs through one person, the correspondence is discreet, the photographer and location are arranged in advance, and the decoy activity is built so the day reads as an ordinary one right up to the moment.</p>"),
         ("What if the weather ruins the proposal location?",
