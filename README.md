@@ -272,6 +272,26 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     dead structured-data asset. Fix is one line once a real square logo asset
     exists (or point it at an existing image); no asset has been created yet.
 
+23. DONE 2026-11-08: the family travel experience page rebuilt on the LTP interior
+    architecture (facts strip, intro split, 6-card highlights carousel, 4-card
+    region strip cross-linking the destination pages, six planning cards plus
+    the included and not-included lists, design band, cross-link, CTA band),
+    1,517 words (was 711), best-for strip added (was absent), FAQ and trip schema
+    kept, keyword ownership unchanged ("luxury family tour canada" in title and
+    H1). PUSHED AND LIVE 2026-11-08 under the standing push-all order: commit
+    47462bd on origin/main, Pages build verified "built", live-verified on the
+    custom domain (200, 12 sections, 6 hc-cards, 4 exp-cards, real /exec form
+    action, zero placeholders), sitemap lastmod bumped to the live date and
+    confirmed live. Gates: audit exit 0 on 20 pages, zero em/en dashes, zero
+    forbidden words, all 10 content images resolve on disk and serve 200
+    image/jpeg, zero overflow at 390/1440 (scrollWidth == clientWidth), hc-carousel
+    flex and exp-grid grid in a fresh session, carousel drag delta exactly 336
+    leftward via MouseEvents, FAQ one-open verified with a settle gap
+    (details[open], first item defaults open), hero CTA above the fold (621 at
+    390, 739 at 1440), body 17px/19px, mobile drawer toggles aria-expanded false
+    to true to false. Remaining rewrites: the other two experience pages (retiree,
+    corporate).
+
 ## Brand rules enforced on every page
 
 All CTAs to /#begin. No prices. No hotel recommendation sections. No em or en
