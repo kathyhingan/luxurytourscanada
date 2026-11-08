@@ -565,6 +565,7 @@ FAMILY = dict(
     desc="A luxury family tour Canada families finish: child seats pre-sourced, nap-timed drives, wildlife briefings, and cold-water rules taken seriously.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Family Travel", "/experiences/family-tours/")],
     og_image="/images/exp-family-hero.jpg",
+    best_for=["Families with children", "Multi-generational groups", "Toddlers to teens", "Slow travel"],
     hero=dict(
         eyebrow="Families with children",
         h1="Luxury Family Tours Canada: Travel With Kids, Done Right",
@@ -574,82 +575,175 @@ FAMILY = dict(
         cta="Plan A Family Journey",
     ),
     body="""
-  <section class="band-deep on-dark">
+  <section class="band-white" aria-label="Luxury family tour Canada facts">
+    <div class="wrap">
+      <div class="grid g-4">
+        <div><div class="lab">Party size</div><p class="small">One family, one vehicle, and one planner handling everything from the first call to the last transfer</p></div>
+        <div><div class="lab">Design basis</div><p class="small">Built around the ages of the children, the season, and how far everyone will happily drive</p></div>
+        <div><div class="lab">Pre-sourced</div><p class="small">Child seats, cots, high chairs, carriers, and wetsuits confirmed before you land</p></div>
+        <div><div class="lab">First reply</div><p class="small">A written answer within 24 hours, with an honest read on which region suits your ages</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="How we plan a family journey in Canada">
     <div class="wrap">
       <div class="split">
-        <div>
-          <div class="lab eyebrow">Why we understand family travel</div>
-          <blockquote>We have children ourselves, so we know what it actually takes to cross this country with them: the logistics that fall apart, the schedules that do not survive contact with a six year old, and the moments that make all of it worth it.</blockquote>
-          <p class="small" style="margin-top:14px">Our own family does not travel on client journeys. Local guides and vetted childminders look after the family-facing details on the ground, and every family journey is designed around that reality rather than around the version of family travel that looks good in a brochure.</p>
+        <div class="prose">
+          <div class="lab eyebrow">The approach</div>
+          <h2 class="section-title">Family travel runs on <em>rhythm, not distance.</em></h2>
+          <p>The best family journey is not the one that sees the most. It is the one nobody has to recover from. We build each day around the children's hours: the drive that fits between a nap and a meal, the walk that ends while everyone still wants more, and the afternoon left open so the pool or the beach can win.</p>
+          <p>Everything children need is sourced before you arrive, from the right car seat in every vehicle to a cot, a high chair, and wetsuits for the water days. Guides who work with children lead those days, long legs get a stop written into them, and wildlife briefings happen before the walk rather than during it. Our own family does not travel on client journeys: local guides and vetted childminders handle the family-facing details on the ground.</p>
         </div>
         <figure class="shot shot-hero">
           <img src="/images/exp-family-portrait.jpg" width="800" height="1000" alt="Family with young children preparing for a guided walk in the Canadian Rockies" loading="lazy">
+          <figcaption>Briefed before the walk, every time.</figcaption>
         </figure>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
+  <section class="band-spruce on-dark" aria-label="What a luxury family tour in Canada holds">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">What we do differently</div>
-        <h2 class="section-title">The things nobody else thinks about</h2>
+        <div class="lab eyebrow">Key experiences</div>
+        <h2 class="section-title">Six things that make a family journey <em>yours</em></h2>
+        <p class="lede">What separates a journey built around children from the same trip booked off a shelf.</p>
       </div>
-      <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-carseat.jpg" width="600" height="400" alt="Child seat installed in a private vehicle on the Icefields Parkway" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Car seats, pre-sourced</h3><p>Child seats are required by law in Canada, and on a long drive they are essential. We confirm the right seats for each child before you land, in every vehicle.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-wildlife.jpg" width="600" height="400" alt="Guide briefing children before a wildlife walk in Jasper" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Wildlife briefings for children</h3><p>Short, clear, and repeated before every walk, so the wildlife stays at a distance and the children understand why. Bears are seen, never approached.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-family-water.jpg" width="600" height="400" alt="Guide supervised beach day with wetsuits on the BC coast" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Cold water, taken seriously</h3><p>Pacific and glacial water is cold year round. Wetsuits for any swimming, guide-supervised beach days only, and the lake rather than the ocean when the children want to stay in.</p></div>
-        </article>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Luxury family tour Canada experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-carseat.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The vehicle</span>
+            <h3 class="hc-card-title">Car seats, pre-sourced</h3>
+            <p class="hc-card-desc">Child seats are required by law in Canada and essential on a long drive. The right seat for each child is confirmed in every vehicle before you land.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-wildlife.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The walk</span>
+            <h3 class="hc-card-title">Wildlife, briefed first</h3>
+            <p class="hc-card-desc">Short and clear briefings, repeated before every walk, so wildlife is seen at a distance and the children understand exactly why.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-water.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The water</span>
+            <h3 class="hc-card-title">Cold water, taken seriously</h3>
+            <p class="hc-card-desc">Pacific and glacial water is cold year round. Wetsuits for any swimming, guide-supervised beach days, and the lake rather than the ocean when the children want to stay in.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-strip-1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The lake</span>
+            <h3 class="hc-card-title">A canoe on flat morning water</h3>
+            <p class="hc-card-desc">A guided canoe on a mountain lake, life jackets sized to each child, and the calm water before the afternoon wind arrives.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-strip-2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The islands</span>
+            <h3 class="hc-card-title">Farm days and short drives</h3>
+            <p class="hc-card-desc">Salt Spring and the Gulf Islands suit young children best: fifteen-minute drives, farm stands, and a day that never has to hurry.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-family-strip-3.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The drive</span>
+            <h3 class="hc-card-title">Stops built into every leg</h3>
+            <p class="hc-card-desc">A long drive becomes two short ones with a viewpoint, a leg stretch, and a snack in the middle. The pace is planned, not improvised.</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the shapes.</p>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where a family journey runs in Canada">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">The settings</div>
+        <h2 class="section-title">Four regions, <em>each a different pace</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Gulf Islands</div><p class="exp-body">Salt Spring and its neighbours, where the drives run minutes rather than hours and a farm morning can carry the whole day.</p><a href="/destinations/salt-spring-island-private-tour/" class="exp-cta">Salt Spring</a></div>
+        <div class="exp-card"><span class="exp-icon">🏔️</span><div class="exp-title">The Canadian Rockies</div><p class="exp-body">Jasper for wildlife, canoeing, and glacier walks, with nap-timed drives and a rest built into the middle of every day.</p><a href="/destinations/jasper-private-tour/" class="exp-cta">Jasper</a></div>
+        <div class="exp-card"><span class="exp-icon">🌊</span><div class="exp-title">British Columbia coast</div><p class="exp-body">Tofino for tide pools, rainforest walks, and storm watching, with every water day guide-led from the first minute.</p><a href="/destinations/tofino-private-tour/" class="exp-cta">Tofino</a></div>
+        <div class="exp-card"><span class="exp-icon">🍇</span><div class="exp-title">Ontario lakeshore</div><p class="exp-body">Prince Edward County and the limestone towns, with gentle roads and settlements small enough to walk in an hour.</p><a href="/destinations/prince-edward-county-private-tour/" class="exp-cta">The lakeshore</a></div>
       </div>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="Planning notes for a family journey in Canada">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">By age</div>
-        <h2 class="section-title">What works at each age</h2>
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
-      <div class="prose">
+      <div class="grid g-3">
+        <div class="card"><div class="body"><h3 class="card-title">When to travel</h3><p>Late June to early October for the Rockies, May to October for the coast and the lakeshore. July and August are warmest and busiest, which is why we start early and finish before the crowds arrive.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">How long</h3><p>Seven to ten days for one region with children, done slowly. Two regions only if the children are older, and never more than one long drive in a day.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Where to base</h3><p>Two bases at most, and for young children one. Unpacking once matters more than adding a destination, and a lodge with room to run beats a list of towns.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The ages</h3><p>Toddlers suit the Gulf Islands and the lakeshore. Six and up open up the Rockies properly. Tell us the ages and we will tell you honestly where the journey works.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The water</h3><p>Every lake, pool, and beach day is guide-supervised, with wetsuits and child-sized safety gear, and a plan for the water that is simply too cold to swim.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">If someone falls ill</h3><p>A sick-day fallback is written into the itinerary before you fly, with a route to care and a plan for the days the first one is missed. Children are children.</p></div></div>
+      </div>
+      <div class="prose" style="margin-top:22px">
         <ul class="ticks">
-          <li><strong>Toddlers, 0 to 3.</strong> Car seats, nap-timed drives, warm layers, and shallow beach play only. Salt Spring's short distances suit this stage better than the Rockies.</li>
-          <li><strong>Young children, 4 to 8.</strong> Wildlife, canoeing, farm days on Salt Spring, and energy managed rather than spent. Long drives get stops built in.</li>
-          <li><strong>Pre-teens, 9 to 14.</strong> Glacier walks, canoeing, and the cultural experiences they will actually remember. The Rockies open up properly at this age.</li>
+          <li>Child seats pre-sourced for every vehicle, fitted before your arrival</li>
+          <li>A cot, high chair, and carriers arranged at each property, confirmed in advance</li>
+          <li>Wetsuits and child-sized safety equipment for the water days</li>
+          <li>Wildlife briefings for children before every walk</li>
+          <li>Vetted childminder contacts at each destination, on request</li>
+          <li>Private vehicles with nap-timed drives and stops built into every long leg</li>
+          <li>A sick-day fallback written into the itinerary</li>
+          <li>A single point of contact before you travel, and a 24-hour line while you are in the country</li>
         </ul>
       </div>
-      <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-1.jpg" width="600" height="400" alt="Family canoeing on a Rockies lake with a guide" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-2.jpg" width="600" height="400" alt="Children at a Salt Spring Island farm stand" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-family-strip-3.jpg" width="600" height="400" alt="Nap-timed drive with a stop at a mountain viewpoint" loading="lazy"></figure>
+      <p class="small">Not included: international flights, travel medical insurance (strongly recommended for every traveller), eTA fees where required, personal shopping, activities added outside the plan, and gratuities.</p>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="How we design a family journey in Canada">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <div class="lab eyebrow">How we design this journey</div>
+          <h2 class="section-title">The days are written <em>around the children's hours</em></h2>
+          <p>We build each day around the two or three moments that make it worth the drive, then fill in around them: the flat water of the morning before the afternoon wind, the farm stand that holds a five year old for an hour, and the viewpoint that lands exactly where a leg stretch is needed.</p>
+          <p>Every one of those has been run here before, with children of our own and with families on the road, in the cold months as well as the warm ones. That is the standard the route is built to, and the reason a family journey here is shorter than it looks on paper and calmer than you expect on the day.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Guide checking the marine forecast before a private water day on a luxury family tour in Canada" loading="lazy">
+          <figcaption>Weather checked the evening before, not the morning of.</figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What is included</div>
-        <h2 class="section-title">Everything pre-sourced before you land</h2>
-      </div>
-      <ul class="ticks prose">
-        <li>Child seats pre-sourced for every vehicle, and fitted before your arrival</li>
-        <li>A cot, high chair, and carriers arranged at each property, confirmed in advance</li>
-        <li>Wetsuits and child-sized safety equipment for water days</li>
-        <li>Wildlife briefings for children before every walk</li>
-        <li>Vetted childminder contacts at each destination, on request</li>
-        <li>Private vehicles with nap-timed drives and stops built into every long leg</li>
-        <li>A sick-day fallback written into the itinerary, because children are children</li>
-        <li>A 24-hour contact for the whole journey</li>
-      </ul>
-      <p class="small">Not included: international flights, travel medical insurance (strongly recommended for every traveller), eTA fees where required, personal shopping, and gratuities.</p>
+  <section class="band-white" aria-label="Where the family days happen">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One country, a dozen easy drives</div>
+      <h2 class="section-title">The region decides <em>the rhythm of the trip.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Salt Spring for short drives and farm mornings, the Rockies for wildlife and canoeing, Tofino for the coast, the lakeshore for gentle roads between small towns. Choose the region first, then tell us the ages and the season.</p>
+      <a class="btn" href="/destinations/">Explore the regions</a>
     </div>
   </section>
 """,
