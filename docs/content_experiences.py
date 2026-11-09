@@ -771,6 +771,7 @@ RETIREE = dict(
     desc="Retiree travel Canada luxury, unhurried: no departures before 8:30am, honest altitude and medical notes, the same guide, and the trip you waited decades for.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Retiree Journeys", "/experiences/retirement-travel/")],
     og_image="/images/exp-retiree-hero.jpg",
+    best_for=["Travellers over 60", "Milestone anniversaries", "Multi-generational groups", "Slow travel"],
     hero=dict(
         eyebrow="Retirees and senior travellers",
         h1="Retiree Travel Canada Luxury: The Trip You Have Been Planning for Decades",
@@ -780,79 +781,174 @@ RETIREE = dict(
         cta="Plan My Retiree Journey",
     ),
     body="""
-  <section class="band-deep on-dark">
+  <section class="band-white" aria-label="Retiree travel Canada luxury facts">
+    <div class="wrap">
+      <div class="grid g-4">
+        <div><div class="lab">Party size</div><p class="small">Two of you or the whole family circle, one vehicle, and one planner from the first call to the last transfer</p></div>
+        <div><div class="lab">Design basis</div><p class="small">Built around pace: walking distances, terrain, altitude, and how you like your mornings, stated in writing</p></div>
+        <div><div class="lab">Pace promise</div><p class="small">No departure before 8:30am, and an afternoon rest written into most days</p></div>
+        <div><div class="lab">First reply</div><p class="small">A written answer within 24 hours, with an honest read on the season and the regions that suit the pace</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-glacier" aria-label="How we plan retiree journeys in Canada">
     <div class="wrap">
       <div class="split">
-        <div>
-          <div class="lab eyebrow">Why we design for this</div>
-          <blockquote>We design journeys for retirees as a core part of what we do, and what we have learned is that this is rarely just a trip. It is often the one that has been imagined through working years.</blockquote>
-          <p class="small" style="margin-top:14px">That changes how we plan it: the pace, the properties, the sequence, everything built around comfort, familiarity, and the complete absence of rushing.</p>
+        <div class="prose">
+          <div class="lab eyebrow">The approach</div>
+          <h2 class="section-title">The journey you waited decades for deserves <em>patience in the design.</em></h2>
+          <p>We design journeys for retirees as a core part of what we do, and what we have learned is that this is rarely just a trip. It is often the one that has been imagined through working years, talked about over dinners, and saved for carefully. That changes how we plan it: the pace, the properties, the sequence, everything built around comfort, familiarity, and the complete absence of rushing.</p>
+          <p>In practice that means one base at a time, short drives, the same vehicle and the same guide wherever the route allows, and an afternoon rest written into most days. Altitude is stated honestly, the nearest hospital or clinic is named for every destination, and if a day needs to change on the road, it changes. Nothing is fixed that does not have to be.</p>
         </div>
         <figure class="shot shot-hero">
           <img src="/images/exp-retiree-portrait.jpg" width="800" height="1000" alt="Retired couple on a lodge deck overlooking a Canadian mountain lake" loading="lazy">
+          <figcaption>Mornings belong to breakfast and the view.</figcaption>
         </figure>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
+  <section class="band-spruce on-dark" aria-label="What a retiree journey in Canada holds">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">What we do differently</div>
-        <h2 class="section-title">Pace is the whole design</h2>
+        <div class="lab eyebrow">Key experiences</div>
+        <h2 class="section-title">Six things that make a retiree journey <em>yours</em></h2>
+        <p class="lede">What separates a journey built around pace and comfort from the same trip booked off a shelf.</p>
       </div>
-      <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-morning.jpg" width="600" height="400" alt="Breakfast on a lodge terrace with a mountain view at half past eight" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">No departures before 8:30am</h3><p>Wildlife is best at dawn, so the outing moves to late afternoon or evening instead of an early start. Mornings belong to breakfast and the view.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-walk.jpg" width="600" height="400" alt="Short guided walk on firm ground with long views in the Canadian Rockies" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Short walks, long views</h3><p>Every itinerary states walking distance, terrain, and altitude for each day. The Icefields Parkway by private vehicle, with the walking kept optional.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-retiree-medical.jpg" width="600" height="400" alt="Guide reviewing a printed itinerary with guests at a lodge" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Medical notes in writing</h3><p>The nearest hospital or clinic is noted for every destination, altitude is stated honestly, and travel medical insurance is treated as essential, not optional.</p></div>
-        </article>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Retiree travel Canada luxury experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-morning.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The morning</span>
+            <h3 class="hc-card-title">No departures before 8:30am</h3>
+            <p class="hc-card-desc">Wildlife is best at dawn, so the outing moves to late afternoon or evening instead of an early start. Mornings belong to breakfast and the view.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-walk.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The walk</span>
+            <h3 class="hc-card-title">Short walks, long views</h3>
+            <p class="hc-card-desc">Every itinerary states walking distance, terrain, and altitude for each day. The walking stays optional and short, with the vehicle close by.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-medical.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The care</span>
+            <h3 class="hc-card-title">Medical notes in writing</h3>
+            <p class="hc-card-desc">The nearest hospital or clinic is named for every destination, altitude is stated honestly, and travel medical insurance is treated as essential, not optional.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-strip-1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The parkway</span>
+            <h3 class="hc-card-title">The Rockies by private vehicle</h3>
+            <p class="hc-card-desc">The Icefields Parkway run at your pace, with the glacier viewpoints close to the road, so the grand days ask almost nothing of the legs.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-strip-2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The islands</span>
+            <h3 class="hc-card-title">Gentle days on the islands</h3>
+            <p class="hc-card-desc">Salt Spring and the lakeshore: fifteen-minute drives, garden and farm table lunches, and days that never have to hurry for anyone.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-retiree-strip-3.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The evening</span>
+            <h3 class="hc-card-title">Wildlife at the quiet hour</h3>
+            <p class="hc-card-desc">Evening wildlife outings in Jasper, when the day visitors have gone. The best viewing hour of the day, reached without an early alarm.</p>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the shapes.</p>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where a retiree journey runs in Canada">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">The settings</div>
+        <h2 class="section-title">Four regions, <em>each a different pace</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">🍁</span><div class="exp-title">Gulf Islands</div><p class="exp-body">Salt Spring and its neighbours: short drives, farm tables, gardens, and galleries, with days that end whenever they are done.</p><a href="/destinations/salt-spring-island-private-tour/" class="exp-cta">Salt Spring</a></div>
+        <div class="exp-card"><span class="exp-icon">🏔️</span><div class="exp-title">The Canadian Rockies</div><p class="exp-body">Jasper for wildlife in the quiet of the evening, glacier viewpoints close to the road, and a lodge base the vehicle never leaves far from.</p><a href="/destinations/jasper-private-tour/" class="exp-cta">Jasper</a></div>
+        <div class="exp-card"><span class="exp-icon">🌊</span><div class="exp-title">British Columbia coast</div><p class="exp-body">Tofino for storm watching from a warm room, rainforest boardwalks, and the sound of the Pacific at the end of the road.</p><a href="/destinations/tofino-private-tour/" class="exp-cta">Tofino</a></div>
+        <div class="exp-card"><span class="exp-icon">🍇</span><div class="exp-title">Ontario lakeshore</div><p class="exp-body">Prince Edward County and the limestone towns, with gentle roads, long lunches, and towns small enough to walk in an hour.</p><a href="/destinations/prince-edward-county-private-tour/" class="exp-cta">The lakeshore</a></div>
       </div>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="Planning notes for a retiree journey in Canada">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">How it works</div>
-        <h2 class="section-title">Three steps, taken slowly</h2>
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you go</em></h2>
       </div>
-      <ol class="steps">
-        <li><span class="num">1</span><div><strong>We talk about pace first.</strong> Walking distances, stairs, altitude, and how you like your mornings.</div></li>
-        <li><span class="num">2</span><div><strong>We design around comfort.</strong> One base at a time, short drives, the same vehicle and guide, and an afternoon rest in most days.</div></li>
-        <li><span class="num">3</span><div><strong>You travel unhurried.</strong> If any day needs to change, we change it. Nothing is fixed that does not have to be.</div></li>
-      </ol>
       <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-1.jpg" width="600" height="400" alt="Private vehicle on the Icefields Parkway with a glacier viewpoint" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-2.jpg" width="600" height="400" alt="Garden and farm table lunch on Salt Spring Island" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-retiree-strip-3.jpg" width="600" height="400" alt="Evening wildlife outing beside a quiet road in Jasper" loading="lazy"></figure>
+        <div class="card"><div class="body"><h3 class="card-title">When to travel</h3><p>Late June to early October for the Rockies, May to October for the coast and the lakeshore. September suits this journey especially: warm roads, thin crowds, and the elk season in Jasper.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">How long</h3><p>Eight to twelve days for one region done slowly. Fewer bases and longer stays beat a list of destinations, at this pace more than any other.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Where to base</h3><p>One base at a time, at the finest available property in each location. Unpacking once is part of the comfort, and a lodge with a view is on the programme, not an extra.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Altitude, honestly</h3><p>Lake Louise sits at about 1,600 metres, so the first day there is built around a short walk and a long view. Every day names its altitude and its terrain in writing.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The rest</h3><p>An afternoon rest is written into most days, not squeezed in around them. If any day needs to change on the road, we change it. Nothing is fixed that does not have to be.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">If someone falls ill</h3><p>A sick-day fallback is written into the itinerary before you fly, with the nearest clinic named and a plan for the days the first one is missed. Travel medical insurance is essential.</p></div></div>
       </div>
-    </div>
-  </section>
-
-  <section class="band-white">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">What is included</div>
-        <h2 class="section-title">Designed for comfort, not compromise</h2>
+      <div class="prose" style="margin-top:22px">
+        <ul class="ticks">
+          <li>Pace-adjusted scheduling: no departures before 8:30am, with an afternoon rest built in</li>
+          <li>An accessibility briefing for each destination: walking distances, terrain, steps, and altitude</li>
+          <li>Accommodation at the finest available property in each location, confirmed after our call</li>
+          <li>The same vehicle and the same guide wherever the route allows</li>
+          <li>Emergency medical contacts at every destination, and honest altitude notes</li>
+          <li>Private transfers throughout, with luggage handled</li>
+          <li>A 24-hour contact for the whole journey, and flexibility if a day needs to change</li>
+        </ul>
       </div>
-      <ul class="ticks prose">
-        <li>Pace-adjusted scheduling: no departures before 8:30am, with an afternoon rest built in</li>
-        <li>An accessibility briefing for each destination: walking distances, terrain, steps, and altitude</li>
-        <li>Accommodation at the finest available property in each location, confirmed after our call</li>
-        <li>The same vehicle and the same guide wherever the route allows</li>
-        <li>Emergency medical contacts at every destination, and honest altitude notes</li>
-        <li>Private transfers throughout, with luggage handled</li>
-        <li>A 24-hour contact for the whole journey, and flexibility if a day needs to change</li>
-      </ul>
       <p class="small">Not included: international flights, travel medical insurance (essential, and we will point you to providers), eTA fees where required, alcohol and room charges, and gratuities.</p>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="How we design a retiree journey in Canada">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <div class="lab eyebrow">How we design this journey</div>
+          <h2 class="section-title">The days are written <em>around comfort and view</em></h2>
+          <p>We build each day around the two or three moments worth the drive, then fill in around them: the viewpoint that lands exactly where a rest is needed, the long lunch that carries the middle of the day, and the early finish that leaves room for the dinner everyone talks about.</p>
+          <p>Every one of those days has been run here before, in the cold months as well as the warm ones. That is the standard the route is built to, and the reason a retiree journey here moves slower than the map suggests and lands better than the brochure promises.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Guide checking the weather and the day plan before an unhurried day on a retiree journey in Canada" loading="lazy">
+          <figcaption>Weather checked the evening before, not the morning of.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where the retiree days happen">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One country, a dozen easy drives</div>
+      <h2 class="section-title">The region decides <em>the rhythm of the trip.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Salt Spring for short drives and farm tables, the Rockies for wildlife in the quiet of the evening, Tofino for the coast, the lakeshore for gentle roads between small towns. Choose the region first, then tell us the season and the pace.</p>
+      <a class="btn" href="/destinations/">Explore the regions</a>
     </div>
   </section>
 """,
