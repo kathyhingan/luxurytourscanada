@@ -292,6 +292,29 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     to true to false. Remaining rewrites: the other two experience pages (retiree,
     corporate).
 
+24. DONE 2026-11-09: the retiree journeys experience page rebuilt on the LTP
+    interior architecture (facts strip, intro split, 6-card highlights
+    carousel, 4-card region strip cross-linking the destination pages, six
+    planning cards plus the included and not-included lists, design band,
+    cross-link, CTA band), 1,522 words (was about 700), best-for strip added
+    (was absent), FAQ and trip schema kept, keyword ownership unchanged
+    ("retiree travel canada luxury" in title and H1). All 9 retiree photos
+    already on disk were reused plus the shared exp-constant.jpg design band
+    shot; no new harvest needed. PUSHED AND LIVE 2026-11-09 under the standing
+    push-all order: commit eecf935 on origin/main, Pages build verified
+    "built", live-verified on the custom domain (200, 12 sections, 6 hc-cards,
+    4 exp-cards, real /exec form action, zero placeholders), sitemap lastmod
+    bumped to the live date and confirmed live. Gates: audit exit 0 on 20
+    pages, zero em/en dashes, zero forbidden words, all image refs resolve on
+    disk and the 4 img files serve 200 image/jpeg (390px pass read 3 broken
+    below-fold images, the known cold-cache false-negative; warm reload and
+    HTTP probes clean), zero overflow at 390/1440, carousel drag delta exactly
+    336 leftward at 1440 via MouseEvents (movement also proven at 390), FAQ
+    one-open verified with a settle gap (details[open], first item defaults
+    open), hero CTA above the fold (621 at 390, 739 at 1440), body 17px/19px,
+    mobile drawer toggles aria-expanded false to true to false. Remaining
+    rewrites: the corporate and MICE page, the last one.
+
 ## Brand rules enforced on every page
 
 All CTAs to /#begin. No prices. No hotel recommendation sections. No em or en
