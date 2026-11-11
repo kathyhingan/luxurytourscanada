@@ -59,6 +59,7 @@ no attribution required). Recorded here for provenance and thank-yous.
 | exp-mice-strip-1.svg | https://www.pexels.com/photo/6249814 |
 | exp-mice-strip-2.svg | https://www.pexels.com/photo/6715103 |
 | exp-mice-strip-3.svg | https://www.pexels.com/photo/8761299 |
+| exp-mice-portrait.jpg | https://www.pexels.com/photo/7108269 |
 | exp-mice.svg | https://www.pexels.com/photo/1181738 |
 | exp-more.svg | https://www.pexels.com/photo/2678301 |
 | exp-private-boat.svg | https://www.pexels.com/photo/35657771 |

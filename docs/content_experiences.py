@@ -976,97 +976,184 @@ MICE = dict(
     desc="Canada corporate retreat luxury for groups of six to thirty: private mountain and coastal retreats, one point of contact, and a fallback for every day.",
     crumb=[("Home", "/"), ("Experiences", "/experiences/"), ("Corporate and MICE", "/experiences/corporate-mice/")],
     og_image="/images/exp-mice-hero.jpg",
+    best_for=["Leadership teams", "Company retreats", "Incentive groups", "Board and strategy offsites"],
     hero=dict(
         eyebrow="Corporate and MICE",
-        h1="Canada Corporate Retreat Luxury: Impressive, Seamless, Nothing Goes Wrong",
+        h1="Canada Corporate Retreat Luxury: Nothing Left to Chance",
         sub="One point of contact from brief to debrief. Private mountain and coastal retreats for six to thirty, with a fallback venue for every programme day and a transport manifest for every transfer.",
         img="/images/exp-mice-hero.jpg",
         alt="Canada corporate retreat luxury: a leadership group meeting in a private mountain lodge",
         cta="Schedule A 30 Minute Brief",
     ),
     body="""
-  <section class="band-white">
+  <section class="band-white" aria-label="Canada corporate retreat luxury facts">
     <div class="wrap">
-      <div class="prose lede">
-        <p>When a leadership team travels, one fear runs underneath everything: something going wrong on the organiser's watch, in front of the chief executive or the client. So we start from the opposite end to a leisure journey and work outward from execution. One point of contact, one plan, and a written contingency for weather, closures, and wildfire smoke at every stage.</p>
-        <p>What the group remembers afterwards is the part we do not compromise: a private dinner in a place no group has dined, a mountain morning that resets a room full of people, and a programme that leaves the team closer than any conference hotel could manage.</p>
-      </div>
-      <figure class="shot shot-wide">
-        <img src="/images/exp-mice-lodge.jpg" width="1400" height="800" alt="Private mountain lodge prepared for a corporate retreat in the Canadian Rockies" loading="lazy">
-        <figcaption>Banff and Lake Louise handle larger groups; Calgary is the gateway, ninety minutes from the park gate.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <section class="band-glacier">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="lab eyebrow">Programme overview</div>
-        <h2 class="section-title">Three to five days, structured around outcomes</h2>
-      </div>
-      <div class="grid g-3">
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day1.jpg" width="600" height="400" alt="Team arriving at a private lodge by private transfer from Calgary" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Day one: arrival and reset</h3><p>Private transfers from Calgary, Vancouver, or Toronto, a briefing on the ground, and an evening that gets everyone out of the airport mindset.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day2.jpg" width="600" height="400" alt="Strategy session in a lodge with mountain views behind" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Day two: the work, in a room worth sitting in</h3><p>Morning sessions with AV support for hybrid attendees, an outdoor afternoon that changes the conversation, and dinner together.</p></div>
-        </article>
-        <article class="card">
-          <figure class="shot shot-card"><img src="/images/exp-mice-day3.jpg" width="600" height="400" alt="Private dinner setting in a location no group has dined" loading="lazy"></figure>
-          <div class="body"><h3 class="card-title">Day three: the thing they will talk about</h3><p>A private guided day, a dinner in a place no group has dined, and reflection built into the evening rather than left to the flight home.</p></div>
-        </article>
+      <div class="grid g-4">
+        <div><div class="lab">Group size</div><p class="small">Six to thirty guests, one vehicle plan per movement, and a transport manifest for every transfer</p></div>
+        <div><div class="lab">Design basis</div><p class="small">Built from the outcome backwards: the session that matters, the evening that bonds, the logistics nobody should notice</p></div>
+        <div><div class="lab">Fallbacks</div><p class="small">A written fallback venue and sequence for weather, closures, and wildfire smoke, settled before the group flies</p></div>
+        <div><div class="lab">First reply</div><p class="small">A written answer within 24 hours, with an honest read on the region, the season, and the room the group needs</p></div>
       </div>
     </div>
   </section>
 
-  <section class="band-spruce on-dark">
+  <section class="band-glacier" aria-label="How we plan a corporate retreat in Canada">
     <div class="wrap">
       <div class="split">
-        <div>
-          <div class="lab eyebrow">Logistics assurance</div>
-          <h2 class="section-title">What the organiser needs in writing</h2>
-          <ul class="ticks">
-            <li>One point of contact from brief to debrief, reachable throughout</li>
-            <li>A fallback venue and sequence for weather, closures, or wildfire smoke</li>
-            <li>Airport-to-lodge private transfers from Calgary, Vancouver, or Toronto</li>
-            <li>Transport manifests for every movement of the group</li>
-            <li>AV support arranged for hybrid sessions, tested before the group arrives</li>
-            <li>Multi-day mountain and coastal retreats for groups up to thirty</li>
-          </ul>
+        <div class="prose">
+          <div class="lab eyebrow">The approach</div>
+          <h2 class="section-title">A retreat is judged on <em>execution, not intentions.</em></h2>
+          <p>When a leadership team travels, one fear runs underneath everything: something going wrong on the organiser's watch, in front of the chief executive or the client. So we start from the opposite end to a leisure journey and work outward from execution. One point of contact, one plan, and a written contingency for weather, closures, and wildfire smoke at every stage.</p>
+          <p>What the group remembers afterwards is the part we do not compromise: a private dinner in a place no group has dined, a mountain morning that resets a room full of people, and a programme that leaves the team closer than any conference hotel could manage. The logistics exist so those moments can happen without anyone seeing the machinery.</p>
         </div>
-        <figure class="shot shot-wide">
-          <img src="/images/exp-mice-logistics.jpg" width="1400" height="800" alt="Guide and organiser reviewing the transport manifest before the group departs" loading="lazy">
-          <figcaption>Manifests, timings, and a second plan for every day.</figcaption>
+        <figure class="shot shot-hero">
+          <img src="/images/exp-mice-portrait.jpg" width="800" height="1000" alt="Business team working through strategy around a single table during a private corporate retreat in Canada" loading="lazy">
+          <figcaption>One point of contact, from brief to debrief.</figcaption>
         </figure>
       </div>
     </div>
   </section>
 
-  <section class="band-white">
+  <section class="band-spruce on-dark" aria-label="What a Canada corporate retreat luxury programme holds">
     <div class="wrap">
       <div class="section-head">
-        <div class="lab eyebrow">What this delivers</div>
-        <h2 class="section-title">Outcomes, stated before experiences</h2>
+        <div class="lab eyebrow">Key experiences</div>
+        <h2 class="section-title">Six things that make a retreat <em>yours</em></h2>
+        <p class="lede">What separates a programme built for the group from the same offsite booked off a shelf.</p>
       </div>
-      <div class="prose">
-        <p>Team cohesion earned in a canoe rather than a conference room. Leadership alignment reached over a long table at the end of a day that took everyone out of their inbox. And cultural capital: the retelling that raises how the team talks about where it works and who it works with. We will bring the value argument against Whistler, Aspen, or the Alps to the briefing, checked at the current exchange rate rather than asserted.</p>
+      <div class="hc-carousel" id="hcCarousel" tabindex="0" aria-label="Canada corporate retreat luxury experiences, scroll horizontally">
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-day1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">01</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The arrival</span>
+            <h3 class="hc-card-title">Nobody drives, nobody navigates</h3>
+            <p class="hc-card-desc">Private transfers from Calgary, Vancouver, or Toronto, a briefing on the ground, and an evening that gets everyone out of the airport mindset before the work starts.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-day2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">02</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The work</span>
+            <h3 class="hc-card-title">Sessions in a room worth sitting in</h3>
+            <p class="hc-card-desc">Morning sessions with AV support for hybrid attendees, tested before the group arrives, in a room with a view that does more for attention than any ballroom.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-strip-1.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">03</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The reset</span>
+            <h3 class="hc-card-title">An afternoon that changes the conversation</h3>
+            <p class="hc-card-desc">A guided canoe session on a glacial lake, or a walk the group did not expect. The best thinking of the week rarely happens in the session room.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-strip-2.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">04</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The evening</span>
+            <h3 class="hc-card-title">A dinner no group has dined</h3>
+            <p class="hc-card-desc">One private table in a heritage venue, a winery barrel room, or a lodge terrace at dusk. It is the night the team retells for years.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-logistics.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">05</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The fallback</span>
+            <h3 class="hc-card-title">A second plan, in writing</h3>
+            <p class="hc-card-desc">A fallback venue and sequence for weather, closures, or wildfire smoke, written into the programme before anyone flies. A disruption changes the plan, not the outcome.</p>
+          </div>
+        </div>
+        <div class="hc-card">
+          <div class="hc-card-img" style="background-image:url('/images/exp-mice-lodge.jpg')"></div>
+          <div class="hc-card-base"></div>
+          <div class="hc-card-num">06</div>
+          <div class="hc-card-content">
+            <span class="hc-card-tag">The setting</span>
+            <h3 class="hc-card-title">Venues checked in person</h3>
+            <p class="hc-card-desc">Capacity, AV, and private-dining options verified before you commit. Banff and Lake Louise take thirty comfortably; the BC coast suits a leadership group of eight.</p>
+          </div>
+        </div>
       </div>
-      <div class="grid g-3">
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-1.jpg" width="600" height="400" alt="Guided canoe session for a corporate group in the Rockies" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-2.jpg" width="600" height="400" alt="Private dinner table set for a corporate group in a heritage venue" loading="lazy"></figure>
-        <figure class="shot shot-card"><img src="/images/exp-mice-strip-3.jpg" width="600" height="400" alt="Hybrid session with AV support in a mountain lodge" loading="lazy"></figure>
+      <p class="small" style="margin-top:12px">Drag the cards to browse the shapes.</p>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where a corporate retreat runs in Canada">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="lab eyebrow">The settings</div>
+        <h2 class="section-title">Four regions, <em>each a different room</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card"><span class="exp-icon">🏔️</span><div class="exp-title">The Canadian Rockies</div><p class="exp-body">Banff and Lake Louise: lodges that take a full thirty, Calgary ninety minutes from the park gate, and sessions with the peaks behind the screen.</p><a href="/destinations/banff-yoho-private-tour/" class="exp-cta">Banff and Yoho</a></div>
+        <div class="exp-card"><span class="exp-icon">⛰️</span><div class="exp-title">Jasper</div><p class="exp-body">Darker skies, quieter roads, and the evening wildlife hour after the last session ends. A retreat that feels further away than the drive suggests.</p><a href="/destinations/jasper-private-tour/" class="exp-cta">Jasper</a></div>
+        <div class="exp-card"><span class="exp-icon">🌊</span><div class="exp-title">British Columbia coast</div><p class="exp-body">Tofino for small leadership groups: storm season strategy weeks, rainforest boardwalks, and the Pacific at the end of the road.</p><a href="/destinations/tofino-private-tour/" class="exp-cta">Tofino</a></div>
+        <div class="exp-card"><span class="exp-icon">🍇</span><div class="exp-title">Ontario wine country</div><p class="exp-body">Niagara-on-the-Lake ninety minutes from Toronto: board offsites with vineyard dinners, in towns small enough to walk between sessions.</p><a href="/destinations/niagara-on-the-lake-private-tour/" class="exp-cta">Niagara on the Lake</a></div>
       </div>
     </div>
   </section>
 
-  <section class="band-glacier">
+  <section class="band-glacier" aria-label="Planning notes for a corporate retreat in Canada">
     <div class="wrap">
-      <div class="callout">
-        <div class="lab">Investment</div>
-        <p>Retreats of this scope are quoted per programme, after a short brief, because the variables are the group size, the season, and the properties. We will give you a range at the briefing and a precise figure once the shape is settled. No price grids, ever.</p>
+      <div class="section-head">
+        <div class="lab eyebrow">Planning notes</div>
+        <h2 class="section-title">What to know <em>before you brief us</em></h2>
       </div>
+      <div class="grid g-3">
+        <div class="card"><div class="body"><h3 class="card-title">When to travel</h3><p>June to early October for the Rockies, January to March for a coast programme built around storm watching. Wildfire season runs July to September, and it is planned around rather than hoped away.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Group size and shape</h3><p>Six to thirty guests. Smaller leadership groups suit the coast, full-team retreats suit the Rockies, and the vehicle plan scales either way. One point of contact for the organiser, whatever the size.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Venues, honestly</h3><p>We verify capacity, AV, and private-dining options before you commit, and we will tell you plainly what a room cannot do rather than promising a link we have not tested.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">Gateways and transfers</h3><p>Calgary, Vancouver, or Toronto, with private transfers and a transport manifest for every movement of the group, from the first airport pickup to the last drop-off.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">The fallback</h3><p>A fallback venue and a fallback sequence for weather, closures, or wildfire smoke are written into every programme before you travel, so a disruption changes the plan rather than the outcome.</p></div></div>
+        <div class="card"><div class="body"><h3 class="card-title">After the retreat</h3><p>Reflection built into the final evening rather than left to the flight home, and a debrief with the organiser while the week is still fresh.</p></div></div>
+      </div>
+      <div class="prose" style="margin-top:22px">
+        <ul class="ticks">
+          <li>One point of contact from brief to debrief, reachable throughout</li>
+          <li>A written fallback venue and sequence for every programme day</li>
+          <li>Private transfers with transport manifests for every movement</li>
+          <li>AV support for hybrid sessions, tested before the group arrives</li>
+          <li>Venue capacity, AV, and private-dining options verified in person</li>
+          <li>A private guided day and a private dinner built into the programme</li>
+          <li>A 24-hour contact throughout, and a debrief after the retreat</li>
+        </ul>
+      </div>
+      <p class="small">Not included: international flights, alcohol and room charges, spa add-ons, and gratuities.</p>
+    </div>
+  </section>
+
+  <section class="band-spruce on-dark" aria-label="How we design a corporate retreat in Canada">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <div class="lab eyebrow">How we design this programme</div>
+          <h2 class="section-title">The days are written <em>from the outcome backwards</em></h2>
+          <p>We start with what the retreat is for: the decision the group needs to reach, the alignment it needs to feel, and the story it needs to tell afterwards. The programme is then written around those outcomes: the session that matters gets the best room and the freshest hours, the reset lands when attention sags, and the dinner comes at the point the group is ready for it.</p>
+          <p>Every one of those days has been run here before, in the cold months as well as the warm ones. That is the standard the programme is built to, and the reason the week ends with the team closer than any conference hotel could manage.</p>
+        </div>
+        <figure class="shot shot-wide">
+          <img src="/images/exp-constant.jpg" width="1400" height="800" alt="Guide checking the weather and the transport manifest before a corporate retreat day in Canada" loading="lazy">
+          <figcaption>Weather checked the evening before, not the morning of.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-white" aria-label="Where corporate retreat venues sit in Canada">
+    <div class="wrap" style="text-align:center">
+      <div class="lab eyebrow">One country, four very different rooms</div>
+      <h2 class="section-title">The region decides <em>the venue, and the story.</em></h2>
+      <p class="lede" style="max-width:640px;margin:0 auto 18px">Banff and Lake Louise for scale, Jasper for quiet, Tofino for the coast, Niagara-on-the-Lake for wine country within reach of Toronto. Choose the region first, then tell us the group and the outcome.</p>
+      <a class="btn" href="/destinations/">Explore the regions</a>
     </div>
   </section>
 """,
@@ -1078,7 +1165,7 @@ MICE = dict(
         ("What happens if weather or wildfire smoke disrupts the programme?",
          "<p>We write a fallback venue and a fallback sequence into every programme before you travel, so a disruption changes the plan rather than the outcome. Wildfire season runs July to September, and it is planned around rather than hoped away.</p>"),
         ("Do you support hybrid sessions for remote attendees?",
-         "<p>Yes. AV support is arranged for hybrid sessions and tested before the group arrives. We will tell you plainly what the venue can and cannot do rather than promising a seamless link we have not verified.</p>"),
+         "<p>Yes. AV support is arranged for hybrid sessions and tested before the group arrives. We will tell you plainly what the venue can and cannot do rather than promising a link we have not verified.</p>"),
     ],
     extra_nodes=lambda sg: [sg.node_trip(
         "Canada Corporate Retreat and MICE Programmes",
