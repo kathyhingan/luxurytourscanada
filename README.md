@@ -315,6 +315,31 @@ Rebuild after editing content: `python3 docs/build_all.py` then
     mobile drawer toggles aria-expanded false to true to false. Remaining
     rewrites: the corporate and MICE page, the last one.
 
+25. DONE 2026-11-11: the corporate and MICE experience page rebuilt on the LTP
+    interior architecture (facts strip, intro split, 6-card highlights
+    carousel, 4-card region strip cross-linking Banff-Yoho, Jasper, Tofino and
+    Niagara-on-the-Lake, six planning cards plus the included and
+    not-included lists, design band, cross-link, CTA band), 1,478 words (was
+    about 700), best-for strip added (was absent), FAQ and trip schema kept,
+    keyword ownership unchanged ("Canada Corporate Retreat Luxury" in title
+    and H1). One new harvest: exp-mice-portrait.jpg (Pexels 7108269,
+    800x1000) for the intro split; the other 9 mice photos on disk were
+    reused plus the shared exp-constant.jpg design band shot. PUSHED AND LIVE
+    2026-11-11 under the standing push-all order: Pages build verified
+    "built", live-verified on the custom domain (200, 12 sections, 6
+    hc-cards, 4 exp-cards, real /exec form action, zero placeholders),
+    sitemap lastmod bumped to the live date and confirmed live. Gates: audit
+    exit 0 on 20 pages, zero em/en dashes, zero forbidden words, all 10
+    referenced jpg files serve 200 image/jpeg (3 warm-reload lazy below-fold
+    reads were the known cold-cache false-negative; HTTP probes clean), zero
+    overflow at 390/1440, carousel drag delta exactly 336 leftward at 1440
+    and movement proven at 390 via MouseEvents, FAQ one-open verified with a
+    settle gap (details[open], first item defaults open), hero CTA above the
+    fold (572 at 390, 689 at 1440), body 17px at 390 and 19px at 1440, mobile
+    drawer toggles aria-expanded false to true to false. This completes the
+    interior LTP-pattern rewrite series: all five experience pages and six
+    destination pages now carry it.
+
 ## Brand rules enforced on every page
 
 All CTAs to /#begin. No prices. No hotel recommendation sections. No em or en
