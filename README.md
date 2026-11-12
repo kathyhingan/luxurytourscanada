@@ -28,16 +28,22 @@ alert path ran, LTP `Leads` tab untouched.
 index.html                  homepage + quote form at /#begin
 destinations/               hub + Tofino, Salt Spring, Jasper, Banff & Yoho, PEC, Niagara-on-the-Lake
 experiences/                hub + private tours, honeymoons & proposals, families, retirees, corporate & MICE
-journal/                    hub + 4 posts (2 live seeds, 2 November drafts staged locally)
+journal/                    hub + 4 posts (all live; the two November posts serve
+                            with the "Publishing November 2026" date_line until
+                            Kathy approves the real dates, README item 9)
 about/                      brand story, how we work
 assets/site.css, site.js    shared design system and behaviours
-images/                     171 labelled SVG stand-ins (real photos replace them)
+images/                     172 real photos (Pexels jpgs) referenced by the
+                            pages, plus 171 retired SVG stand-ins on disk that
+                            no page references
 favicon.svg                 custom stylised leaf (NOT the official 11-point leaf)
 docs/                       generator, content modules, form backend, manifest
 ```
 
-Rebuild after editing content: `python3 docs/build_all.py` then
-`python3 docs/make_assets.py`. Pages are generated from docs/content_*.py.
+Rebuild after editing content: `python3 docs/build_all.py`. Pages are
+generated from docs/content_*.py. make_assets.py is RETIRED (Kathy order
+2026-10-27): never rebuild the .svg stand-ins; every image slot uses a real
+Pexels jpg (harvest recipe in docs/image-credits.md).
 
 ## Verification run (2026-10-21)
 
